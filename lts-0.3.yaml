@@ -5015,7 +5015,8 @@ packages:
         old-locale: true
         bytestring-in-base: false
         network-uri: false
-      build-benchmarks: true
+      # Manually site to false, due to dependency on too new a hasql-postgres
+      build-benchmarks: false
       tests: do-not-build
       haddocks: expect-failure
       maintainer: Nikita Volkov <nikita.y.volkov@mail.ru>

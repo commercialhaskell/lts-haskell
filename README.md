@@ -18,7 +18,7 @@ release is available on stackage.org following the URL scheme:
 Similarly, if you would like the newest point release of a release series, just
 provide the major version in the URL:
 
-    http://www.stackage.org/lts/<major>.<minor>
+    http://www.stackage.org/lts/<major>
 
 Finally, to access the most recent LTS Haskell release, use the URL:
 

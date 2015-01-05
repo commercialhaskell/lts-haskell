@@ -1,6 +1,6 @@
 ## LTS Haskell: Version your Ecosystem
 
-LTS Haskell is a curated set of packages which includes non-breaking point
+LTS (Long Term Support) Haskell is a curated set of packages which includes non-breaking point
 releases. It is a companion to Stackage Nightly: whereas Stackage Nightly
 releases include potentially breaking changes with each new release, LTS
 Haskell maintains major version stability for a longer period of time.

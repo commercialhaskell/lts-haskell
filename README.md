@@ -31,3 +31,42 @@ package set, we strongly encourage other means of distribution, such as Linux
 package managers. If you are interested in putting together such a release,
 please feel free to contact us (via issue tracker, or the [Stackage mailing
 list](https://groups.google.com/d/forum/stackage)).
+
+### How it works
+
+LTS Haskell builds on top of the versioning guidelines of Haskell's [Package
+Versioning
+Policy](https://www.haskell.org/haskellwiki/Package_versioning_policy), where
+authors indicate a breaking changing by bumping either the first second numbers
+in the version number, and indicate point releases and bug fixes by changing
+any of the other numbers.
+
+With LTS Haskell, we start with a new major release, let's say 7.0. 7.0 has
+selected a set of packages and their version numbers. When it comes time to
+release 7.1, we select all packages with matching *major version numbers*,
+which indicates that they have a backwards-compatible API. We then run a normal
+build/test process to ensure that everything works as expected, and then
+release 7.1.
+
+By following the pattern, you can target the 7.X series of releases and have a
+high degree of confidence that you will continue to get bug fixes and feature
+enhancements, without needing to change your code to match upstream API
+changes.
+
+All of this is done using the Stackage code base; you can [see the description
+of the code](https://github.com/fpco/stackage/#lts) for more details.
+
+### Possible breakage
+
+It is still possible to have breaking when upgrading to a new point release.
+Some examples are:
+
+* A package author may make a mistake and introduce a bug, change semantics, or
+  break the API of his/her code.
+* If you import modules unqualified and without explicit import lists, a newly
+  exposed identifier may conflict with an existing identifier.
+* A new module name may clash with an existing module name.
+
+These are all standard caveats that apply when following PVP vesioning. The
+point here is that, while LTS Haskell greatly reduces the amount of breakage
+that may occur, you still need to check your code before upgrading.

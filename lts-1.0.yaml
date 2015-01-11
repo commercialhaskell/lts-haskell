@@ -46771,7 +46771,7 @@ packages:
       build-benchmarks: true
       tests: expect-success
       haddocks: expect-success
-      version-range: -any
+      version-range: "< 1.3.0.10 || > 1.3.0.10"
     version: '1.3.0.9'
     github-pings: []
     description:

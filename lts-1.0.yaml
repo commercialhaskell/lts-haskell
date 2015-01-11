@@ -11510,7 +11510,7 @@ packages:
       tests: expect-success
       haddocks: expect-success
       maintainer: Silk <code@silk.co>
-      version-range: -any
+      version-range: "< 0.2.10.5"
     version: '0.2.10.3'
     github-pings:
     - bergmark
@@ -12536,7 +12536,7 @@ packages:
       tests: expect-success
       haddocks: expect-success
       maintainer: Silk <code@silk.co>
-      version-range: -any
+      version-range: "< 0.1.0.5"
     version: '0.1.0.4'
     github-pings:
     - bergmark
@@ -14168,7 +14168,7 @@ packages:
       build-benchmarks: true
       tests: expect-success
       haddocks: expect-success
-      version-range: -any
+      version-range: "< 0.4.4"
     version: '0.4.3'
     github-pings:
     - freizl
@@ -58843,7 +58843,7 @@ packages:
       tests: expect-success
       haddocks: expect-success
       maintainer: Andrew Farmer <afarmer@ittc.ku.edu>
-      version-range: -any
+      version-range: "< 0.9.1"
     version: '0.9.0'
     github-pings:
     - scotty-web
@@ -60370,7 +60370,7 @@ packages:
       tests: expect-success
       haddocks: expect-success
       maintainer: Silk <code@silk.co>
-      version-range: -any
+      version-range: "< 0.1.17.15"
     version: '0.1.17.14'
     github-pings:
     - bergmark

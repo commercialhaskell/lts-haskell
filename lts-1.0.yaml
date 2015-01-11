@@ -17261,6 +17261,7 @@ packages:
         old-locale: true
         bytestring-in-base: false
         network-uri: true
+        instanceinbase: false
       build-benchmarks: true
       tests: expect-success
       haddocks: expect-success

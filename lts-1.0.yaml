@@ -18730,6 +18730,7 @@ packages:
         old-locale: true
         bytestring-in-base: false
         network-uri: true
+        integer-simple: false
       build-benchmarks: true
       tests: expect-failure
       haddocks: expect-success

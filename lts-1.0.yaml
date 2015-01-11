@@ -14986,7 +14986,7 @@ packages:
         bytestring-in-base: false
         network-uri: true
       build-benchmarks: true
-      tests: expect-success
+      tests: expect-failure
       haddocks: expect-success
       maintainer: FP Complete michael@fpcomplete.com @snoyberg
       version-range: -any

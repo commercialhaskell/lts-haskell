@@ -87,7 +87,7 @@ packages:
     - yesod-newsfeed
     - yesod-text-markdown
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -225,7 +225,7 @@ packages:
     - Spock-digestive
     - Spock-worker
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -382,7 +382,7 @@ packages:
   rest-client:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -502,7 +502,7 @@ packages:
     - yesod-bin
     - yesod-core
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -676,7 +676,7 @@ packages:
     users:
     - stm-containers
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -724,7 +724,7 @@ packages:
     - webdriver
     - yesod-auth
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -903,7 +903,7 @@ packages:
     - vector-instances
     - wl-pprint-extras
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -981,7 +981,7 @@ packages:
     - bound
     - log-domain
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -1046,7 +1046,7 @@ packages:
     users:
     - diagrams
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -1198,7 +1198,7 @@ packages:
     - rest-core
     - rest-types
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -1272,7 +1272,7 @@ packages:
     - hoogle
     - shake-language-c
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -1419,7 +1419,7 @@ packages:
   foreign-store:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -1452,7 +1452,7 @@ packages:
     users:
     - vector-space
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -1487,7 +1487,7 @@ packages:
     - hledger
     - process-conduit
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -1522,7 +1522,7 @@ packages:
     users:
     - scrobble
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -1702,7 +1702,7 @@ packages:
     - diagrams-postscript
     - diagrams-svg
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -1886,7 +1886,7 @@ packages:
     - yesod-core
     - yesod-test
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -1974,7 +1974,7 @@ packages:
   hdevtools:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -2046,7 +2046,7 @@ packages:
   scrobble:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -2126,7 +2126,7 @@ packages:
   groundhog-th:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -2199,7 +2199,7 @@ packages:
     - distributed-process-supervisor
     - distributed-process-task
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -2241,7 +2241,7 @@ packages:
     users:
     - hOpenPGP
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -2309,7 +2309,7 @@ packages:
     users:
     - http-conduit
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -2367,7 +2367,7 @@ packages:
     - keter
     - yesod-bin
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -2507,7 +2507,7 @@ packages:
     users:
     - Chart-diagrams
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -2599,7 +2599,7 @@ packages:
     - classy-prelude-conduit
     - conduit-combinators
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -2761,7 +2761,7 @@ packages:
     - storable-endian
     - wai-logger
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -2796,7 +2796,7 @@ packages:
     - diagrams-core
     - dual-tree
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -2828,7 +2828,7 @@ packages:
     - QuickCheck
     - hspec-core
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -2874,7 +2874,7 @@ packages:
     users:
     - YampaSynth
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -2925,7 +2925,7 @@ packages:
     - snaplet-fay
     - web-fpco
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -3141,7 +3141,7 @@ packages:
     - yesod-core
     - zeromq4-haskell
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -3197,7 +3197,7 @@ packages:
   git-embed:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -3247,7 +3247,7 @@ packages:
     - wai-websockets
     - yesod-websockets
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -3341,7 +3341,7 @@ packages:
   eq:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -3379,7 +3379,7 @@ packages:
     - haddock-api
     - pandoc
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -3435,7 +3435,7 @@ packages:
   sphinx:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -3499,7 +3499,7 @@ packages:
   YampaSynth:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -3554,7 +3554,7 @@ packages:
     users:
     - osdkeys
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -3600,7 +3600,7 @@ packages:
     users:
     - Chart-diagrams
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -3697,7 +3697,7 @@ packages:
   yesod-bin:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -3905,7 +3905,7 @@ packages:
     users:
     - bzlib-conduit
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -4056,7 +4056,7 @@ packages:
     - websockets
     - wl-pprint-extras
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -4109,7 +4109,7 @@ packages:
     - lens
     - machines
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -4194,7 +4194,7 @@ packages:
   xenstore:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -4257,7 +4257,7 @@ packages:
     - wai-extra
     - warp
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -4337,7 +4337,7 @@ packages:
     - xenstore
     - yesod-core
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -4388,7 +4388,7 @@ packages:
   yesod-auth-deskcom:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -4492,7 +4492,7 @@ packages:
   bits:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -4555,7 +4555,7 @@ packages:
     - webdriver
     - zip-archive
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -4670,7 +4670,7 @@ packages:
     users:
     - ad
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -4715,7 +4715,7 @@ packages:
     users:
     - monoid-extras
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -4745,7 +4745,7 @@ packages:
   time-lens:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -4785,7 +4785,7 @@ packages:
     users:
     - hint
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -4836,7 +4836,7 @@ packages:
     - rest-stringmap
     - rest-types
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -4952,7 +4952,7 @@ packages:
     users:
     - vhd
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -4988,7 +4988,7 @@ packages:
     users:
     - haskell-names
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -5042,7 +5042,7 @@ packages:
     - yesod-bin
     - yesod-core
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -5169,7 +5169,7 @@ packages:
   io-memoize:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -5206,7 +5206,7 @@ packages:
   hasql:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -5296,7 +5296,7 @@ packages:
     - binary-conduit
     - quickcheck-assertions
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -5347,7 +5347,7 @@ packages:
   web-fpco:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -5401,7 +5401,7 @@ packages:
     users:
     - fpco-api
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -5436,7 +5436,7 @@ packages:
     users:
     - incremental-parser
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -5518,7 +5518,7 @@ packages:
   BoundedChan:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -5555,7 +5555,7 @@ packages:
     users:
     - idna
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -5603,7 +5603,7 @@ packages:
     users:
     - ghc-mod
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -5689,7 +5689,7 @@ packages:
     - markdown
     - yesod-text-markdown
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -5788,7 +5788,7 @@ packages:
     - diagrams-cairo
     - gtk
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -5874,7 +5874,7 @@ packages:
   check-email:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -5913,7 +5913,7 @@ packages:
   missing-foreign:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -5950,7 +5950,7 @@ packages:
     - diagrams-haddock
     - diagrams-svg
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -5997,7 +5997,7 @@ packages:
     users:
     - lucid
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -6097,7 +6097,7 @@ packages:
     users:
     - language-ecmascript
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -6132,7 +6132,7 @@ packages:
     - yesod-auth
     - yesod-form
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -6202,7 +6202,7 @@ packages:
   heaps:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -6249,7 +6249,7 @@ packages:
     - HTF
     - pretty-show
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -6283,7 +6283,7 @@ packages:
     - snap-core
     - snap-server
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -6334,7 +6334,7 @@ packages:
     - monad-journal
     - rest-core
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -6414,7 +6414,7 @@ packages:
     - hledger
     - hledger-lib
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -6600,7 +6600,7 @@ packages:
     - mysql-simple
     - tasty-quickcheck
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -6640,7 +6640,7 @@ packages:
     - base-compat
     - errorcall-eq-instance
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -6690,7 +6690,7 @@ packages:
     - diagrams-svg
     - pandoc
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -6768,7 +6768,7 @@ packages:
   yesod-fay:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -6878,7 +6878,7 @@ packages:
     users:
     - connection
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -6926,7 +6926,7 @@ packages:
     - containers-unicode-symbols
     - terminal-progress-bar
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -6970,7 +6970,7 @@ packages:
     users:
     - scotty
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -7016,7 +7016,7 @@ packages:
     - c2hs
     - cabal-src
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -7122,7 +7122,7 @@ packages:
   text-binary:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -7165,7 +7165,7 @@ packages:
     - snap
     - yesod-core
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -7286,7 +7286,7 @@ packages:
     - vector-algorithms
     - yesod-core
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -7363,7 +7363,7 @@ packages:
     - GLUT
     - hPDB-examples
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -7486,7 +7486,7 @@ packages:
     users:
     - Spock-worker
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -7567,7 +7567,7 @@ packages:
   yesod-websockets:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -7632,7 +7632,7 @@ packages:
     users:
     - hlibgit2
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -7730,7 +7730,7 @@ packages:
     users:
     - statistics
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -7841,7 +7841,7 @@ packages:
     - arbtt
     - pdfinfo
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -7893,7 +7893,7 @@ packages:
     - hOpenPGP
     - stm-conduit
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -7961,7 +7961,7 @@ packages:
     users:
     - ghc-mod
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -8154,7 +8154,7 @@ packages:
     users:
     - hOpenPGP
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -8192,7 +8192,7 @@ packages:
     - lens
     - linear
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -8229,7 +8229,7 @@ packages:
     users:
     - holy-project
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -8322,7 +8322,7 @@ packages:
     - regex-applicative
     - scientific
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -8370,7 +8370,7 @@ packages:
   cases:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -8416,7 +8416,7 @@ packages:
     - yesod-static
     - yesod-test
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -8568,7 +8568,7 @@ packages:
     - hspec-core
     - hspec-meta
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -8606,7 +8606,7 @@ packages:
     - rest-happstack
     - web-fpco
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -8809,7 +8809,7 @@ packages:
     - slave-thread
     - stm-containers
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -8842,7 +8842,7 @@ packages:
     users:
     - elm-compiler
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -8885,7 +8885,7 @@ packages:
   compressed:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -8961,7 +8961,7 @@ packages:
     - diagrams-core
     - diagrams-lib
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -9018,7 +9018,7 @@ packages:
     - distributed-process-task
     - reducers
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -9072,7 +9072,7 @@ packages:
     users:
     - repa-io
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -9112,7 +9112,7 @@ packages:
     - fsnotify
     - tasty-golden
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -9195,7 +9195,7 @@ packages:
     - yesod-test
     - yesod-websockets
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -9262,7 +9262,7 @@ packages:
   Chart-diagrams:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -9363,7 +9363,7 @@ packages:
     users:
     - testing-feat
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -9406,7 +9406,7 @@ packages:
     - optparse-applicative
     - test-framework
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -9531,7 +9531,7 @@ packages:
     - websockets
     - wl-pprint-extras
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -9607,7 +9607,7 @@ packages:
     users:
     - test-framework
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -9638,7 +9638,7 @@ packages:
     users:
     - bound
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -9740,7 +9740,7 @@ packages:
     users:
     - vhd
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -9850,7 +9850,7 @@ packages:
     users:
     - publicsuffixlist
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -9893,7 +9893,7 @@ packages:
   cabal-src:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -10017,7 +10017,7 @@ packages:
     - process-conduit
     - shell-conduit
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -10058,7 +10058,7 @@ packages:
     - smallcheck
     - snap
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -10096,7 +10096,7 @@ packages:
     - elm-compiler
     - elm-package
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -10288,7 +10288,7 @@ packages:
     - Spock-worker
     - graph-core
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -10483,7 +10483,7 @@ packages:
     - lifted-async
     - stringprep
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -10526,7 +10526,7 @@ packages:
   snaplet-fay:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -10627,7 +10627,7 @@ packages:
     - yesod-core
     - yesod-test
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -10704,7 +10704,7 @@ packages:
     users:
     - hspec-wai-json
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -10771,7 +10771,7 @@ packages:
     - diagrams-svg
     - dual-tree
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -10827,7 +10827,7 @@ packages:
   here:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -10879,7 +10879,7 @@ packages:
     - quickpull
     - rainbow-tests
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -10959,7 +10959,7 @@ packages:
     - test-framework-quickcheck2
     - timezone-olson
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -10989,7 +10989,7 @@ packages:
   wl-pprint-terminfo:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -11055,7 +11055,7 @@ packages:
     - unix-time
     - wai-logger
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -11129,7 +11129,7 @@ packages:
     - diagrams-lib
     - force-layout
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -11168,7 +11168,7 @@ packages:
   hxt-relaxng:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -11239,7 +11239,7 @@ packages:
   groundhog-mysql:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -11317,7 +11317,7 @@ packages:
     - cryptocipher
     - tls
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -11392,7 +11392,7 @@ packages:
     - mysql-simple
     - persistent-mysql
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -11435,7 +11435,7 @@ packages:
     - haskell-names
     - time-lens
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -11475,7 +11475,7 @@ packages:
     users:
     - holy-project
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -11639,7 +11639,7 @@ packages:
   rest-happstack:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -11700,7 +11700,7 @@ packages:
     - tls
     - tls-debug
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -11805,7 +11805,7 @@ packages:
     - pandoc
     - websockets
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -11852,7 +11852,7 @@ packages:
     users:
     - Chart-diagrams
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -11951,7 +11951,7 @@ packages:
     - random-shuffle
     - statistics-linreg
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -11997,7 +11997,7 @@ packages:
     users:
     - hPDB-examples
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -12064,7 +12064,7 @@ packages:
     - hlint
     - shake
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -12150,7 +12150,7 @@ packages:
     - x509
     - x509-validation
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -12235,7 +12235,7 @@ packages:
     - kdt
     - random-source
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -12278,7 +12278,7 @@ packages:
     - json-schema
     - rest-types
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -12345,7 +12345,7 @@ packages:
   heredoc:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -12381,7 +12381,7 @@ packages:
     users:
     - incremental-parser
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -12438,7 +12438,7 @@ packages:
     users:
     - distributed-process-execution
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -12605,7 +12605,7 @@ packages:
     - cipher-camellia
     - cryptocipher
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -12680,7 +12680,7 @@ packages:
   rest-wai:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -12785,7 +12785,7 @@ packages:
     - texmath
     - yesod-bin
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -12864,7 +12864,7 @@ packages:
     - threads
     - transformers-base
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -12920,7 +12920,7 @@ packages:
     - yesod-sitemap
     - yesod-test
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -13043,7 +13043,7 @@ packages:
     - exception-transformers
     - rest-client
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -13101,7 +13101,7 @@ packages:
     users:
     - iproute
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -13139,7 +13139,7 @@ packages:
     users:
     - histogram-fill
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -13219,7 +13219,7 @@ packages:
   persistent-mongoDB:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -13321,7 +13321,7 @@ packages:
     - clientsession
     - skein
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -13392,7 +13392,7 @@ packages:
     - hPDB
     - hPDB-examples
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -13453,7 +13453,7 @@ packages:
     - yesod-text-markdown
     - yesod-websockets
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -13736,7 +13736,7 @@ packages:
     users:
     - hledger
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -13966,7 +13966,7 @@ packages:
     users:
     - basic-prelude
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -14010,7 +14010,7 @@ packages:
     users:
     - rest-gen
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -14118,7 +14118,7 @@ packages:
     - elm-compiler
     - haskell-names
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -14200,7 +14200,7 @@ packages:
     - x509-validation
     - yesod-bin
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -14236,7 +14236,7 @@ packages:
     - singletons
     - tasty-golden
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -14334,7 +14334,7 @@ packages:
     - hoauth2
     - yesod-auth-oauth2
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -14423,7 +14423,7 @@ packages:
     users:
     - keter
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -14676,7 +14676,7 @@ packages:
     - DAV
     - xml-hamlet
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -14750,7 +14750,7 @@ packages:
     users:
     - hdaemonize
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -14788,7 +14788,7 @@ packages:
     users:
     - distributed-process-task
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -14973,7 +14973,7 @@ packages:
     - yesod-newsfeed
     - yesod-test
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -15072,7 +15072,7 @@ packages:
     - streams
     - vector-instances
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -15161,7 +15161,7 @@ packages:
     users:
     - stackage
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -15352,7 +15352,7 @@ packages:
   smtLib:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -15396,7 +15396,7 @@ packages:
   multimap:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -15432,7 +15432,7 @@ packages:
   fay-uri:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -15465,7 +15465,7 @@ packages:
     users:
     - sqlite-simple
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -15560,7 +15560,7 @@ packages:
     users:
     - ghc-mod
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -15615,7 +15615,7 @@ packages:
     users:
     - yesod-fay
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -15648,7 +15648,7 @@ packages:
     users:
     - yesod-auth-fb
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -15717,7 +15717,7 @@ packages:
     users:
     - ad
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -15838,7 +15838,7 @@ packages:
     users:
     - hit
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -15971,7 +15971,7 @@ packages:
     users:
     - language-ecmascript
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -16025,7 +16025,7 @@ packages:
     - html-conduit
     - tagstream-conduit
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -16128,7 +16128,7 @@ packages:
     - BlogLiterately
     - BlogLiterately-diagrams
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -16282,7 +16282,7 @@ packages:
     - distributed-process-supervisor
     - distributed-process-task
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -16423,7 +16423,7 @@ packages:
   udbus:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -16525,7 +16525,7 @@ packages:
     - yesod-bin
     - yesod-static
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -16598,7 +16598,7 @@ packages:
     - reducers
     - vector-instances
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -16671,7 +16671,7 @@ packages:
   bumper:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -16732,7 +16732,7 @@ packages:
   amqp:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -16844,7 +16844,7 @@ packages:
     - language-ecmascript
     - pandoc
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -16888,7 +16888,7 @@ packages:
     - elm-package
     - pandoc-citeproc
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -16971,7 +16971,7 @@ packages:
     - yesod-test
     - yesod-text-markdown
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -17144,7 +17144,7 @@ packages:
     - HTF
     - xmlgen
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -17239,7 +17239,7 @@ packages:
     - snap
     - snaplet-fay
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -17325,7 +17325,7 @@ packages:
     users:
     - diagrams-haddock
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -17462,7 +17462,7 @@ packages:
     users:
     - hmatrix
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -17504,7 +17504,7 @@ packages:
     - nettle
     - tls
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -17548,7 +17548,7 @@ packages:
   FenwickTree:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -17592,7 +17592,7 @@ packages:
     users:
     - djinn-ghc
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -17642,7 +17642,7 @@ packages:
     - persistent-postgresql
     - postgresql-simple
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -17682,7 +17682,7 @@ packages:
     users:
     - monad-par
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -17733,7 +17733,7 @@ packages:
     users:
     - timezone-olson
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -17769,7 +17769,7 @@ packages:
     users:
     - aws
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -18063,7 +18063,7 @@ packages:
     - options
     - shell-conduit
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -18196,7 +18196,7 @@ packages:
     - yesod-core
     - yesod-static
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -18379,7 +18379,7 @@ packages:
     - yesod-test
     - zlib-bindings
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -18462,7 +18462,7 @@ packages:
     - cryptocipher
     - tls
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -18530,7 +18530,7 @@ packages:
     users:
     - BlogLiterately-diagrams
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -18663,7 +18663,7 @@ packages:
     users:
     - messagepack-rpc
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -18946,7 +18946,7 @@ packages:
     - yesod-text-markdown
     - zip-archive
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -19078,7 +19078,7 @@ packages:
   frisby:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -19132,7 +19132,7 @@ packages:
     - uuid
     - yesod-auth-oauth2
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -19230,7 +19230,7 @@ packages:
     - snap-core
     - snap-server
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -19280,7 +19280,7 @@ packages:
     - hspec-core
     - hspec-discover
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -19366,7 +19366,7 @@ packages:
     users:
     - SVGFonts
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -19405,7 +19405,7 @@ packages:
   quickpull:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -19470,7 +19470,7 @@ packages:
     users:
     - yesod-auth-hashdb
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -19555,7 +19555,7 @@ packages:
     - x509-system
     - x509-validation
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -19626,7 +19626,7 @@ packages:
     users:
     - io-manager
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -19680,7 +19680,7 @@ packages:
     - thyme
     - vector-space-points
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -19731,7 +19731,7 @@ packages:
     users:
     - system-filepath
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -19776,7 +19776,7 @@ packages:
     - linear
     - streams
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -19876,7 +19876,7 @@ packages:
     - rest-gen
     - shake-language-c
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -19941,7 +19941,7 @@ packages:
     users:
     - network-transport-tcp
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -20000,7 +20000,7 @@ packages:
     users:
     - indents
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -20036,7 +20036,7 @@ packages:
     - crypto-pubkey
     - tasty-kat
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags: {}
       build-benchmarks: true
       tests: expect-failure
@@ -20087,7 +20087,7 @@ packages:
     users:
     - pandoc-citeproc
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -20123,7 +20123,7 @@ packages:
     - classy-prelude
     - system-canonicalpath
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -20201,7 +20201,7 @@ packages:
     users:
     - monoid-subclasses
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -20233,7 +20233,7 @@ packages:
     users:
     - binary-list
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -20296,7 +20296,7 @@ packages:
     users:
     - process-conduit
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -20387,7 +20387,7 @@ packages:
     - ghc-mod
     - io-choice
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -20454,7 +20454,7 @@ packages:
   comonad-transformers:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -20489,7 +20489,7 @@ packages:
   composition:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -20520,7 +20520,7 @@ packages:
     - libnotify
     - pango
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -20593,7 +20593,7 @@ packages:
     - hspec-expectations
     - markdown-unlit
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -20653,7 +20653,7 @@ packages:
     - project-template
     - yesod-bin
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -20752,7 +20752,7 @@ packages:
     - HaXml
     - haxr
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -20867,7 +20867,7 @@ packages:
     users:
     - language-glsl
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -20903,7 +20903,7 @@ packages:
     users:
     - heist
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -20973,7 +20973,7 @@ packages:
   mime-mail-ses:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -21067,7 +21067,7 @@ packages:
     - haskell-names
     - haskell-packages
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -21106,7 +21106,7 @@ packages:
   alex:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -21160,7 +21160,7 @@ packages:
     users:
     - arbtt
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -21222,7 +21222,7 @@ packages:
     users:
     - random-source
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -21275,7 +21275,7 @@ packages:
     - x509-store
     - x509-validation
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -21320,7 +21320,7 @@ packages:
     users:
     - HaTeX
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -21436,7 +21436,7 @@ packages:
     - yesod-auth
     - yesod-persistent
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -21539,7 +21539,7 @@ packages:
     users:
     - scrobble
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -21587,7 +21587,7 @@ packages:
     users:
     - diagrams-haddock
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -21636,7 +21636,7 @@ packages:
     users:
     - amqp
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -21672,7 +21672,7 @@ packages:
     - yaml
     - yesod-gitrepo
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -21743,7 +21743,7 @@ packages:
     users:
     - pandoc
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -21789,7 +21789,7 @@ packages:
     - double-conversion
     - text-format
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -21853,7 +21853,7 @@ packages:
     users:
     - haskell-src-meta
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -21931,7 +21931,7 @@ packages:
     - th-extras
     - uniplate
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -21994,7 +21994,7 @@ packages:
   hPDB-examples:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -22141,7 +22141,7 @@ packages:
     - semigroupoids
     - streams
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -22204,7 +22204,7 @@ packages:
     users:
     - hledger
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -22260,7 +22260,7 @@ packages:
     users:
     - bank-holidays-england
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -22316,7 +22316,7 @@ packages:
     - distributed-process-execution
     - distributed-process-supervisor
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -22473,7 +22473,7 @@ packages:
     - postgresql-simple
     - sqlite-simple
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -22578,7 +22578,7 @@ packages:
     - yesod-fay
     - yesod-static
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -22652,7 +22652,7 @@ packages:
     users:
     - prefix-units
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -22713,7 +22713,7 @@ packages:
   bytestring-trie:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -22754,7 +22754,7 @@ packages:
   biophd:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -22816,7 +22816,7 @@ packages:
     - log-domain
     - tasty-ant-xml
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -22870,7 +22870,7 @@ packages:
     users:
     - certificate
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -22926,7 +22926,7 @@ packages:
     users:
     - Spock-digestive
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -23018,7 +23018,7 @@ packages:
     users:
     - kdt
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -23097,7 +23097,7 @@ packages:
     - hspec-wai
     - yesod-test
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -23206,7 +23206,7 @@ packages:
   runmemo:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -23247,7 +23247,7 @@ packages:
     users:
     - hOpenPGP
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -23300,7 +23300,7 @@ packages:
     - rest-client
     - rest-core
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -23341,7 +23341,7 @@ packages:
   yesod-gitrepo:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -23414,7 +23414,7 @@ packages:
     users:
     - ersatz
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -23524,7 +23524,7 @@ packages:
     - binary-list
     - phantom-state
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -23574,7 +23574,7 @@ packages:
     users:
     - ghc-mod
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -23614,7 +23614,7 @@ packages:
   DAV:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -23749,7 +23749,7 @@ packages:
     - diagrams-haddock
     - stylish-haskell
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -23788,7 +23788,7 @@ packages:
     users:
     - scrobble
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -23825,7 +23825,7 @@ packages:
     - conduit
     - pointed
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -23915,7 +23915,7 @@ packages:
     - diagrams-builder
     - hint
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -24012,7 +24012,7 @@ packages:
     - slave-thread
     - stm-containers
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -24061,7 +24061,7 @@ packages:
     users:
     - silently
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -24106,7 +24106,7 @@ packages:
     - stm-conduit
     - yesod-fay
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -24137,7 +24137,7 @@ packages:
   yackage:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -24259,7 +24259,7 @@ packages:
     users:
     - yesod-static
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -24351,7 +24351,7 @@ packages:
     - concurrent-extra
     - tasty
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -24387,7 +24387,7 @@ packages:
     - crypto-random-api
     - websockets
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -24429,7 +24429,7 @@ packages:
     - wl-pprint-extras
     - wl-pprint-terminfo
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -24505,7 +24505,7 @@ packages:
     - elm-compiler
     - language-glsl
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -24633,7 +24633,7 @@ packages:
     - yesod-test
     - yesod-websockets
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -24674,7 +24674,7 @@ packages:
     users:
     - alarmclock
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -24732,7 +24732,7 @@ packages:
     - pool-conduit
     - yesod-persistent
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -24792,7 +24792,7 @@ packages:
     users:
     - wai-extra
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -24850,7 +24850,7 @@ packages:
     - tls-debug
     - warp-tls
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -25040,7 +25040,7 @@ packages:
     - yesod-core
     - yesod-static
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -25083,7 +25083,7 @@ packages:
     users:
     - monad-par
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -25196,7 +25196,7 @@ packages:
     - vhd
     - websockets
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -25245,7 +25245,7 @@ packages:
     - keter
     - network-conduit-tls
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -25385,7 +25385,7 @@ packages:
     - xmlgen
     - yesod-core
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -25550,7 +25550,7 @@ packages:
     - warp
     - yesod-core
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -25584,7 +25584,7 @@ packages:
     users:
     - yesod-eventsource
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -25613,7 +25613,7 @@ packages:
   semigroupoid-extras:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -25648,7 +25648,7 @@ packages:
   rev-state:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -25688,7 +25688,7 @@ packages:
     - HaTeX
     - matrix
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -25759,7 +25759,7 @@ packages:
   gd:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -25797,7 +25797,7 @@ packages:
     users:
     - elm-compiler
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -25841,7 +25841,7 @@ packages:
     users:
     - tasty
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -25927,7 +25927,7 @@ packages:
     - x509-store
     - x509-validation
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -25970,7 +25970,7 @@ packages:
   Spock-digestive:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -26037,7 +26037,7 @@ packages:
     - crypto-cipher-tests
     - nettle
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -26122,7 +26122,7 @@ packages:
   biopsl:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -26184,7 +26184,7 @@ packages:
     - nsis
     - rest-gen
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -26250,7 +26250,7 @@ packages:
     users:
     - rainbow-tests
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -26295,7 +26295,7 @@ packages:
     - groundhog-sqlite
     - sqlite-simple
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -26359,7 +26359,7 @@ packages:
     - gtk
     - pango
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -26418,7 +26418,7 @@ packages:
   persistent-postgresql:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -26506,7 +26506,7 @@ packages:
   yesod-text-markdown:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -26578,7 +26578,7 @@ packages:
     - yesod-auth-deskcom
     - yesod-fb
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -26637,7 +26637,7 @@ packages:
     users:
     - hPDB-examples
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -26754,7 +26754,7 @@ packages:
   stm-stats:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -26864,7 +26864,7 @@ packages:
     - yesod-core
     - yesod-test
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -26927,7 +26927,7 @@ packages:
     users:
     - data-default
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -26996,7 +26996,7 @@ packages:
     - yesod-websockets
     - zeromq4-haskell
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -27049,7 +27049,7 @@ packages:
   slave-thread:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -27109,7 +27109,7 @@ packages:
     - word8
     - yesod-core
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -27161,7 +27161,7 @@ packages:
     users:
     - hit
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -27199,7 +27199,7 @@ packages:
     users:
     - slave-thread
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -27234,7 +27234,7 @@ packages:
     - scrobble
     - yesod-fay
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -27287,7 +27287,7 @@ packages:
     - wai-websockets
     - yesod-websockets
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -27440,7 +27440,7 @@ packages:
     - yesod-core
     - yesod-gitrepo
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -27511,7 +27511,7 @@ packages:
     users:
     - BlogLiterately-diagrams
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -27590,7 +27590,7 @@ packages:
     - x509-system
     - x509-validation
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -27718,7 +27718,7 @@ packages:
     - yesod-bin
     - yesod-core
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -27804,7 +27804,7 @@ packages:
     - html-conduit
     - yesod-test
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -27895,7 +27895,7 @@ packages:
   action-permutations:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -27930,7 +27930,7 @@ packages:
     - http-conduit
     - network-conduit-tls
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -28014,7 +28014,7 @@ packages:
   groupoids:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -28051,7 +28051,7 @@ packages:
     - Spock
     - reroute
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -28160,7 +28160,7 @@ packages:
     - rank1dynamic
     - singletons
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -28231,7 +28231,7 @@ packages:
     - wai-logger
     - warp
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -28351,7 +28351,7 @@ packages:
     - mono-traversable
     - snap
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -28402,7 +28402,7 @@ packages:
     - system-fileio
     - system-filepath
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -28465,7 +28465,7 @@ packages:
     users:
     - unordered-containers
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -28509,7 +28509,7 @@ packages:
     users:
     - hOpenPGP
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -28621,7 +28621,7 @@ packages:
     - yesod-static
     - yesod-websockets
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -28744,7 +28744,7 @@ packages:
     - classy-prelude-yesod
     - stackage
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -28827,7 +28827,7 @@ packages:
   lens-family-th:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -28865,7 +28865,7 @@ packages:
   profunctor-extras:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -28900,7 +28900,7 @@ packages:
   monad-coroutine:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -28984,7 +28984,7 @@ packages:
     - yesod-sitemap
     - yesod-static
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -29040,7 +29040,7 @@ packages:
     - tls-debug
     - x509-validation
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -29153,7 +29153,7 @@ packages:
     users:
     - HandsomeSoup
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -29242,7 +29242,7 @@ packages:
     - classy-prelude
     - mono-traversable
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -29343,7 +29343,7 @@ packages:
     - yesod
     - zeromq4-haskell
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -29404,7 +29404,7 @@ packages:
   hoogle:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -29603,7 +29603,7 @@ packages:
   interpolatedstring-perl6:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -29651,7 +29651,7 @@ packages:
   containers-unicode-symbols:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -29700,7 +29700,7 @@ packages:
     users:
     - fpco-api
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -29743,7 +29743,7 @@ packages:
   integration:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -29780,7 +29780,7 @@ packages:
     users:
     - HandsomeSoup
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -29815,7 +29815,7 @@ packages:
     users:
     - ghc-mod
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -29873,7 +29873,7 @@ packages:
     - hPDB
     - hPDB-examples
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -29916,7 +29916,7 @@ packages:
   arrow-list:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -29962,7 +29962,7 @@ packages:
   quandl-api:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -30156,7 +30156,7 @@ packages:
     - yesod-test
     - zip-archive
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -30194,7 +30194,7 @@ packages:
   groundhog-sqlite:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -30267,7 +30267,7 @@ packages:
     users:
     - th-orphans
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -30323,7 +30323,7 @@ packages:
     - hledger-lib
     - tabular
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -30364,7 +30364,7 @@ packages:
     - crypto-pubkey
     - tls
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -30459,7 +30459,7 @@ packages:
     - messagepack
     - monad-par
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -30511,7 +30511,7 @@ packages:
     users:
     - webdriver
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -30546,7 +30546,7 @@ packages:
     - highlighting-kate
     - pandoc
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -30635,7 +30635,7 @@ packages:
   yesod-sitemap:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -30700,7 +30700,7 @@ packages:
     users:
     - hoauth2
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -30757,7 +30757,7 @@ packages:
     - reroute
     - yesod-core
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -30819,7 +30819,7 @@ packages:
     - scientific
     - tasty-smallcheck
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -30871,7 +30871,7 @@ packages:
     - chell
     - hit
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -30905,7 +30905,7 @@ packages:
   speculation:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -30954,7 +30954,7 @@ packages:
     users:
     - stm-conduit
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -31076,7 +31076,7 @@ packages:
   hasql-postgres:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -31198,7 +31198,7 @@ packages:
     users:
     - elm-build-lib
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -31248,7 +31248,7 @@ packages:
     - snap-core
     - snap-server
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -31295,7 +31295,7 @@ packages:
     users:
     - data-default
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -31331,7 +31331,7 @@ packages:
     users:
     - HandsomeSoup
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -31386,7 +31386,7 @@ packages:
     users:
     - kdt
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -31424,7 +31424,7 @@ packages:
     users:
     - rest-gen
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -31497,7 +31497,7 @@ packages:
     - yesod-core
     - yesod-static
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -31645,7 +31645,7 @@ packages:
     users:
     - BlastHTTP
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -31693,7 +31693,7 @@ packages:
   compdata:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -31824,7 +31824,7 @@ packages:
     - compensated
     - random-fu
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -31931,7 +31931,7 @@ packages:
     - pandoc-citeproc
     - texmath
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -31993,7 +31993,7 @@ packages:
     - random-fu
     - statistics-linreg
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -32032,7 +32032,7 @@ packages:
   tardis:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -32070,7 +32070,7 @@ packages:
   pure-io:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -32120,7 +32120,7 @@ packages:
     - yesod
     - yesod-core
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -32191,7 +32191,7 @@ packages:
   repa-devil:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -32238,7 +32238,7 @@ packages:
     - wai-app-static
     - warp
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -32303,7 +32303,7 @@ packages:
   arbtt:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -32448,7 +32448,7 @@ packages:
     users:
     - imagesize-conduit
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -32511,7 +32511,7 @@ packages:
     - simple-sendfile
     - warp
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -32591,7 +32591,7 @@ packages:
     users:
     - text
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -32628,7 +32628,7 @@ packages:
     - hPDB
     - vhd
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -32666,7 +32666,7 @@ packages:
     - diagrams
     - diagrams-haddock
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -32786,7 +32786,7 @@ packages:
   kure:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -32844,7 +32844,7 @@ packages:
     - postgresql-binary
     - stm-containers
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -32890,7 +32890,7 @@ packages:
     - test-framework
     - texmath
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -32937,7 +32937,7 @@ packages:
     - distributed-process-supervisor
     - distributed-process-task
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -33033,7 +33033,7 @@ packages:
     - hastache
     - holy-project
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -33136,7 +33136,7 @@ packages:
   fixed-list:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -33172,7 +33172,7 @@ packages:
     - random-fu
     - statistics
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -33207,7 +33207,7 @@ packages:
     - distributed-process-supervisor
     - distributed-process-task
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -33300,7 +33300,7 @@ packages:
   zlib-lens:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -33378,7 +33378,7 @@ packages:
     - tasty-quickcheck
     - tasty-smallcheck
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -33410,7 +33410,7 @@ packages:
   lhs2tex:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -33461,7 +33461,7 @@ packages:
   fb-persistent:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -33514,7 +33514,7 @@ packages:
     users:
     - happstack-server
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -33565,7 +33565,7 @@ packages:
     - rest-types
     - xmlgen
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -33740,7 +33740,7 @@ packages:
     - distributed-process-task
     - network-transport-tcp
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -33790,7 +33790,7 @@ packages:
     users:
     - ghcid
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -33828,7 +33828,7 @@ packages:
     - hasql-postgres
     - postgresql-binary
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -33927,7 +33927,7 @@ packages:
     - yesod-auth-fb
     - yesod-fb
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -34056,7 +34056,7 @@ packages:
     users:
     - type-list
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -34157,7 +34157,7 @@ packages:
   logfloat:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -34196,7 +34196,7 @@ packages:
     users:
     - osdkeys
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -34272,7 +34272,7 @@ packages:
     users:
     - shake
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -34310,7 +34310,7 @@ packages:
     users:
     - classy-prelude-yesod
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -34395,7 +34395,7 @@ packages:
     - stylish-haskell
     - test-framework-th
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -34503,7 +34503,7 @@ packages:
     users:
     - statistics
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -34548,7 +34548,7 @@ packages:
     users:
     - diagrams-lib
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -34614,7 +34614,7 @@ packages:
     users:
     - tuple
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -34645,7 +34645,7 @@ packages:
     users:
     - diagrams-lib
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -34711,7 +34711,7 @@ packages:
     - markdown-unlit
     - stringbuilder
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -34761,7 +34761,7 @@ packages:
     - yesod-persistent
     - yesod-text-markdown
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -34851,7 +34851,7 @@ packages:
     users:
     - c2hs
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -34959,7 +34959,7 @@ packages:
     - linear
     - log-domain
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -35000,7 +35000,7 @@ packages:
     - persistent
     - silently
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -35051,7 +35051,7 @@ packages:
     users:
     - language-javascript
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -35095,7 +35095,7 @@ packages:
     - snap-server
     - zlib-enum
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -35149,7 +35149,7 @@ packages:
     - snap
     - web-fpco
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -35257,7 +35257,7 @@ packages:
     - x509-system
     - x509-validation
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -35359,7 +35359,7 @@ packages:
     users:
     - classy-prelude-yesod
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -35508,7 +35508,7 @@ packages:
   hostname-validate:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -35547,7 +35547,7 @@ packages:
   classy-prelude-yesod:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -35622,7 +35622,7 @@ packages:
     - reducers
     - vector-instances
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -35683,7 +35683,7 @@ packages:
     - heist
     - snap
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -35811,7 +35811,7 @@ packages:
     - yesod-static
     - yesod-test
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -35861,7 +35861,7 @@ packages:
   gravatar:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -35928,7 +35928,7 @@ packages:
     - test-framework
     - wai-extra
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -35967,7 +35967,7 @@ packages:
     users:
     - parsers
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -36092,7 +36092,7 @@ packages:
     - safecopy
     - snap
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -36400,7 +36400,7 @@ packages:
     - random-fu
     - statistics
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -36489,7 +36489,7 @@ packages:
     - parsers
     - safecopy
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -36562,7 +36562,7 @@ packages:
     - reroute
     - scotty
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -36604,7 +36604,7 @@ packages:
   pdfinfo:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -36657,7 +36657,7 @@ packages:
     users:
     - data-memocombinators
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -36691,7 +36691,7 @@ packages:
     - doctest
     - haddock-library
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -36757,7 +36757,7 @@ packages:
     users:
     - threads
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -36826,7 +36826,7 @@ packages:
     users:
     - binary-conduit
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -36900,7 +36900,7 @@ packages:
     users:
     - rest-types
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -36949,7 +36949,7 @@ packages:
     - loop
     - matrix
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -37011,7 +37011,7 @@ packages:
     - cassava
     - criterion
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -37133,7 +37133,7 @@ packages:
     - hjsmin
     - language-javascript
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -37241,7 +37241,7 @@ packages:
     - rest-client
     - rest-core
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -37295,7 +37295,7 @@ packages:
     users:
     - http-client
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -37366,7 +37366,7 @@ packages:
   monad-products:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -37402,7 +37402,7 @@ packages:
   JuicyPixels-repa:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -37450,7 +37450,7 @@ packages:
     users:
     - vector-space
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -37486,7 +37486,7 @@ packages:
     - hlibgit2
     - lzma-conduit
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -37517,7 +37517,7 @@ packages:
   monadic-arrays:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -37562,7 +37562,7 @@ packages:
   data-accessor-mtl:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -37602,7 +37602,7 @@ packages:
     users:
     - ixset
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -37651,7 +37651,7 @@ packages:
   distributed-process-simplelocalnet:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -37727,7 +37727,7 @@ packages:
     - connection
     - tls-debug
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -37801,7 +37801,7 @@ packages:
     - pandoc
     - pandoc-types
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -37864,7 +37864,7 @@ packages:
     - log-domain
     - safecopy
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -37959,7 +37959,7 @@ packages:
     users:
     - random-fu
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -38010,7 +38010,7 @@ packages:
     - pandoc
     - pandoc-citeproc
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -38334,7 +38334,7 @@ packages:
   biosff:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -38395,7 +38395,7 @@ packages:
   seqloc:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -38475,7 +38475,7 @@ packages:
   pipes-parse:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -38518,7 +38518,7 @@ packages:
     - HaXml
     - cpphs
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -38573,7 +38573,7 @@ packages:
   tls-debug:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -38658,7 +38658,7 @@ packages:
     - hint
     - yesod-bin
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -38690,7 +38690,7 @@ packages:
     users:
     - postgresql-binary
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -38726,7 +38726,7 @@ packages:
   nsis:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -38782,7 +38782,7 @@ packages:
     - yackage
     - yesod-bin
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -38836,7 +38836,7 @@ packages:
     - hledger
     - hledger-lib
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -38884,7 +38884,7 @@ packages:
     - yesod-sitemap
     - yesod-test
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -38924,7 +38924,7 @@ packages:
     - BlogLiterately
     - pandoc-citeproc
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -39111,7 +39111,7 @@ packages:
     - lens
     - lucid
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -39169,7 +39169,7 @@ packages:
   wl-pprint-text:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -39206,7 +39206,7 @@ packages:
     users:
     - ace
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -39302,7 +39302,7 @@ packages:
     - blastxml
     - seqloc
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -39345,7 +39345,7 @@ packages:
     - json-autotype
     - wordpass
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -39388,7 +39388,7 @@ packages:
   wordpass:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -39477,7 +39477,7 @@ packages:
     - pipes-concurrency
     - pipes-parse
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -39558,7 +39558,7 @@ packages:
     users:
     - fb
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -39610,7 +39610,7 @@ packages:
     users:
     - biocore
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -39662,7 +39662,7 @@ packages:
     - yesod-test
     - yesod-text-markdown
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -39813,7 +39813,7 @@ packages:
     - hspec-wai-json
     - scotty
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -39901,7 +39901,7 @@ packages:
     users:
     - hyphenation
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -39965,7 +39965,7 @@ packages:
     users:
     - Rasterific
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -40029,7 +40029,7 @@ packages:
   streams:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -40121,7 +40121,7 @@ packages:
     - xss-sanitize
     - yesod-fay
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -40163,7 +40163,7 @@ packages:
     users:
     - linear-accelerate
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -40248,7 +40248,7 @@ packages:
   pool-conduit:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -40295,7 +40295,7 @@ packages:
   linear-accelerate:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -40340,7 +40340,7 @@ packages:
     users:
     - pipes-concurrency
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -40396,7 +40396,7 @@ packages:
     - hasql-postgres
     - mongoDB
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -40447,7 +40447,7 @@ packages:
   timezone-olson:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -40503,7 +40503,7 @@ packages:
     - classy-prelude
     - conduit-combinators
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -40574,7 +40574,7 @@ packages:
   hweblib:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -40661,7 +40661,7 @@ packages:
     users:
     - monad-coroutine
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -40704,7 +40704,7 @@ packages:
   system-canonicalpath:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -40753,7 +40753,7 @@ packages:
   hebrew-time:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -40812,7 +40812,7 @@ packages:
     users:
     - distributed-process-simplelocalnet
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -40848,7 +40848,7 @@ packages:
     users:
     - json-autotype
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -40894,7 +40894,7 @@ packages:
     - vhd
     - yesod-auth-deskcom
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -40966,7 +40966,7 @@ packages:
   type-list:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -41001,7 +41001,7 @@ packages:
   interpolate:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -41066,7 +41066,7 @@ packages:
   formatting:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -41125,7 +41125,7 @@ packages:
     users:
     - MissingH
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -41180,7 +41180,7 @@ packages:
     - opaleye
     - product-profunctors
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -41234,7 +41234,7 @@ packages:
   numeric-extras:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -41267,7 +41267,7 @@ packages:
     users:
     - arbtt
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -41314,7 +41314,7 @@ packages:
     - stringprep
     - text-icu
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -41413,7 +41413,7 @@ packages:
     - happstack-server
     - rest-gen
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -41483,7 +41483,7 @@ packages:
   repa-algorithms:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -41532,7 +41532,7 @@ packages:
     users:
     - fpco-api
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -41779,7 +41779,7 @@ packages:
     - hledger-lib
     - keter
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -41858,7 +41858,7 @@ packages:
   graphs:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -41918,7 +41918,7 @@ packages:
     users:
     - diagrams-contrib
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -41974,7 +41974,7 @@ packages:
     users:
     - idna
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -42039,7 +42039,7 @@ packages:
   attoparsec-expr:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -42077,7 +42077,7 @@ packages:
     users:
     - BlogLiterately
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -42109,7 +42109,7 @@ packages:
     - messagepack
     - messagepack-rpc
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -42187,7 +42187,7 @@ packages:
   bloodhound:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -42267,7 +42267,7 @@ packages:
     - snaplet-fay
     - web-fpco
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -42414,7 +42414,7 @@ packages:
     - markdown
     - yesod-form
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -42490,7 +42490,7 @@ packages:
     users:
     - parsers
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -42553,7 +42553,7 @@ packages:
     - zlib-bindings
     - zlib-enum
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -42611,7 +42611,7 @@ packages:
     - fay
     - language-ecmascript
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -42732,7 +42732,7 @@ packages:
     - Spock
     - wai
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -42779,7 +42779,7 @@ packages:
   hdaemonize:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -42832,7 +42832,7 @@ packages:
     users:
     - reroute
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -42913,7 +42913,7 @@ packages:
     - hOpenPGP
     - nettle
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -43007,7 +43007,7 @@ packages:
     - http-conduit
     - keter
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -43071,7 +43071,7 @@ packages:
   parseargs:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -43109,7 +43109,7 @@ packages:
   QuasiText:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -43163,7 +43163,7 @@ packages:
     - distributed-process-task
     - network-transport-tcp
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -43229,7 +43229,7 @@ packages:
     - snap
     - webdriver
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -43276,7 +43276,7 @@ packages:
     users:
     - data-default
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -43318,7 +43318,7 @@ packages:
     - distributed-static
     - rank1dynamic
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -43381,7 +43381,7 @@ packages:
     users:
     - fsnotify
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -43424,7 +43424,7 @@ packages:
   fay-builder:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -43499,7 +43499,7 @@ packages:
     - hOpenPGP
     - nettle
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -43550,7 +43550,7 @@ packages:
     - pandoc
     - stackage
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -43626,7 +43626,7 @@ packages:
     - product-profunctors
     - semigroupoids
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -43678,7 +43678,7 @@ packages:
     - regular-xmlpickler
     - rest-types
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -43729,7 +43729,7 @@ packages:
     - BlogLiterately-diagrams
     - diagrams-haddock
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -43819,7 +43819,7 @@ packages:
     users:
     - persistent-mongoDB
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -43921,7 +43921,7 @@ packages:
     users:
     - OpenGL
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -43960,7 +43960,7 @@ packages:
   persistent-mysql:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -44044,7 +44044,7 @@ packages:
   c2hs:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -44140,7 +44140,7 @@ packages:
     users:
     - singletons
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -44208,7 +44208,7 @@ packages:
     - wai-app-static
     - yesod-static
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -44255,7 +44255,7 @@ packages:
     - quickcheck-assertions
     - statistics
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -44288,7 +44288,7 @@ packages:
     users:
     - mandrill
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -44324,7 +44324,7 @@ packages:
     users:
     - happstack-server
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -44366,7 +44366,7 @@ packages:
     users:
     - wizards
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -44407,7 +44407,7 @@ packages:
   json-autotype:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -44527,7 +44527,7 @@ packages:
     users:
     - thyme
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -44568,7 +44568,7 @@ packages:
     - wai-app-static
     - yesod-static
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -44630,7 +44630,7 @@ packages:
     - warp-tls
     - yesod-auth-deskcom
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -44695,7 +44695,7 @@ packages:
     - cipher-blowfish
     - cryptocipher
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -44771,7 +44771,7 @@ packages:
     users:
     - concurrent-supply
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -44821,7 +44821,7 @@ packages:
     users:
     - fpco-api
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -44873,7 +44873,7 @@ packages:
     users:
     - courier
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -44974,7 +44974,7 @@ packages:
   dimensional:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -45022,7 +45022,7 @@ packages:
     - rest-core
     - rest-snap
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -45075,7 +45075,7 @@ packages:
     - atto-lisp
     - present
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -45154,7 +45154,7 @@ packages:
   biofasta:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -45198,7 +45198,7 @@ packages:
     - regex-tdfa
     - regex-tdfa-rc
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -45249,7 +45249,7 @@ packages:
     - yesod-auth
     - yesod-auth-oauth2
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -45355,7 +45355,7 @@ packages:
     - persistent-postgresql
     - postgresql-simple
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -45495,7 +45495,7 @@ packages:
   pretty-class:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -45532,7 +45532,7 @@ packages:
     users:
     - fuzzcheck
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -45670,7 +45670,7 @@ packages:
   MusicBrainz:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -45770,7 +45770,7 @@ packages:
     - compdata
     - th-reify-many
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -45820,7 +45820,7 @@ packages:
     - test-framework
     - test-framework-th
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -45871,7 +45871,7 @@ packages:
   fgl:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -45942,7 +45942,7 @@ packages:
     users:
     - diagrams-contrib
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -46017,7 +46017,7 @@ packages:
     users:
     - histogram-fill
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -46057,7 +46057,7 @@ packages:
     users:
     - esqueleto
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -46164,7 +46164,7 @@ packages:
     - linear
     - linear-accelerate
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -46339,7 +46339,7 @@ packages:
     - zlib-bindings
     - zlib-lens
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -46376,7 +46376,7 @@ packages:
   biofastq:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -46437,7 +46437,7 @@ packages:
     - x509
     - zeromq4-haskell
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -46496,7 +46496,7 @@ packages:
     users:
     - YampaSynth
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -46575,7 +46575,7 @@ packages:
     - yesod-auth-oauth2
     - yesod-form
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -46632,7 +46632,7 @@ packages:
     users:
     - fay
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -46882,7 +46882,7 @@ packages:
     - yesod-core
     - zip-archive
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -46938,7 +46938,7 @@ packages:
   convertible:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -47006,7 +47006,7 @@ packages:
   compensated:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -47118,7 +47118,7 @@ packages:
     users:
     - mono-traversable
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -47176,7 +47176,7 @@ packages:
     users:
     - wai-logger
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -47223,7 +47223,7 @@ packages:
   shell-conduit:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -47349,7 +47349,7 @@ packages:
     - stylish-haskell
     - yackage
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -47408,7 +47408,7 @@ packages:
     users:
     - immortal
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -47475,7 +47475,7 @@ packages:
     users:
     - unordered-containers
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -47544,7 +47544,7 @@ packages:
     users:
     - wordpass
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -47655,7 +47655,7 @@ packages:
     - hledger
     - tabular
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -47687,7 +47687,7 @@ packages:
     users:
     - csv-conduit
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -47839,7 +47839,7 @@ packages:
     users:
     - uuid
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -47870,7 +47870,7 @@ packages:
   bake:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -47989,7 +47989,7 @@ packages:
     users:
     - thyme
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -48143,7 +48143,7 @@ packages:
     users:
     - hledger
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -48193,7 +48193,7 @@ packages:
     - classy-prelude-conduit
     - classy-prelude-yesod
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -48332,7 +48332,7 @@ packages:
   certificate:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -48419,7 +48419,7 @@ packages:
     users:
     - shake
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -48460,7 +48460,7 @@ packages:
     - groundhog-sqlite
     - groundhog-th
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -48549,7 +48549,7 @@ packages:
     - resourcet
     - slave-thread
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -48588,7 +48588,7 @@ packages:
     - bson
     - sphinx
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -48623,7 +48623,7 @@ packages:
     users:
     - shake-language-c
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -48710,7 +48710,7 @@ packages:
     - snap
     - yesod-auth-hashdb
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -48773,7 +48773,7 @@ packages:
     - tls
     - yesod-auth-deskcom
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -48823,7 +48823,7 @@ packages:
     users:
     - cassava
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -48862,7 +48862,7 @@ packages:
     users:
     - rvar
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -48897,7 +48897,7 @@ packages:
     users:
     - mandrill
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -49021,7 +49021,7 @@ packages:
   repa-io:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -49081,7 +49081,7 @@ packages:
     users:
     - x509
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -49132,7 +49132,7 @@ packages:
   elm-build-lib:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -49190,7 +49190,7 @@ packages:
     - happstack-server
     - threads
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -49250,7 +49250,7 @@ packages:
     - fay
     - haskell-names
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -49389,7 +49389,7 @@ packages:
   libgit:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -49437,7 +49437,7 @@ packages:
     - statistics
     - statistics-linreg
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -49592,7 +49592,7 @@ packages:
     - shelly
     - stm-conduit
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -49679,7 +49679,7 @@ packages:
   happy:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -49790,7 +49790,7 @@ packages:
     - warp
     - yesod-static
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -49890,7 +49890,7 @@ packages:
     - hxt-relaxng
     - hxt-unicode
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -49944,7 +49944,7 @@ packages:
     - tasty-quickcheck
     - zeromq4-haskell
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -49980,7 +49980,7 @@ packages:
   approximate:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -50102,7 +50102,7 @@ packages:
   freenect:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -50142,7 +50142,7 @@ packages:
     - bytestring-progress
     - terminal-progress-bar
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -50204,7 +50204,7 @@ packages:
     users:
     - data-default
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -50243,7 +50243,7 @@ packages:
   BlastHTTP:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -50316,7 +50316,7 @@ packages:
     users:
     - hPDB-examples
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -50350,7 +50350,7 @@ packages:
   yesod-eventsource:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -50433,7 +50433,7 @@ packages:
     - yesod-newsfeed
     - yesod-test
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -50533,7 +50533,7 @@ packages:
     - diagrams-lib
     - vector-space
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -50570,7 +50570,7 @@ packages:
     - fay
     - haskell-names
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -50663,7 +50663,7 @@ packages:
     - hPDB
     - hPDB-examples
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -50719,7 +50719,7 @@ packages:
     - hse-cpp
     - language-java
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -50806,7 +50806,7 @@ packages:
     - webdriver
     - yesod-core
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -50845,7 +50845,7 @@ packages:
   numbers:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -50899,7 +50899,7 @@ packages:
     users:
     - warp
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -50972,7 +50972,7 @@ packages:
     - mime-mail-ses
     - yesod-auth
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -51050,7 +51050,7 @@ packages:
     - statistics
     - vector-algorithms
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -51128,7 +51128,7 @@ packages:
     - flexible-defaults
     - random-source
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -51168,7 +51168,7 @@ packages:
     users:
     - zip-archive
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -51206,7 +51206,7 @@ packages:
     users:
     - libnotify
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -51483,7 +51483,7 @@ packages:
     users:
     - fpco-api
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -51520,7 +51520,7 @@ packages:
     - Chart
     - Chart-diagrams
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -51567,7 +51567,7 @@ packages:
     - network-transport-tcp
     - network-transport-tests
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -51624,7 +51624,7 @@ packages:
     - diagrams-postscript
     - diagrams-svg
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -51708,7 +51708,7 @@ packages:
     users:
     - chell
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -51776,7 +51776,7 @@ packages:
     - yesod-form
     - yesod-static
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -51814,7 +51814,7 @@ packages:
     - postgresql-binary
     - stm-containers
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -51852,7 +51852,7 @@ packages:
     - stm-conduit
     - terminal-progress-bar
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -51903,7 +51903,7 @@ packages:
     - pandoc
     - warp
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -51984,7 +51984,7 @@ packages:
     - hledger-lib
     - pretty-show
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -52045,7 +52045,7 @@ packages:
   parallel-io:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -52096,7 +52096,7 @@ packages:
     - hspec-core
     - hspec-meta
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -52137,7 +52137,7 @@ packages:
     - mongoDB
     - persistent-mongoDB
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -52236,7 +52236,7 @@ packages:
     - yesod
     - yesod-core
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -52336,7 +52336,7 @@ packages:
     users:
     - runmemo
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -52376,7 +52376,7 @@ packages:
   crypto-random-api:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -52421,7 +52421,7 @@ packages:
     - wl-pprint-extras
     - wl-pprint-terminfo
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -52465,7 +52465,7 @@ packages:
     - sqlite-simple
     - yesod-auth
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -52507,7 +52507,7 @@ packages:
     users:
     - regexpr
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -52549,7 +52549,7 @@ packages:
     - yesod-bin
     - yesod-static
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -52667,7 +52667,7 @@ packages:
     - yesod-static
     - yesod-test
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -52795,7 +52795,7 @@ packages:
     - yesod-static
     - yesod-test
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -52974,7 +52974,7 @@ packages:
   yesod-auth-fb:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -53070,7 +53070,7 @@ packages:
     - diagrams-lib
     - diagrams-svg
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -53109,7 +53109,7 @@ packages:
     users:
     - highlighting-kate
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -53161,7 +53161,7 @@ packages:
     users:
     - regex-applicative
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -53229,7 +53229,7 @@ packages:
     - hashable
     - siphash
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -53300,7 +53300,7 @@ packages:
     - webdriver
     - yesod-gitrepo
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -53363,7 +53363,7 @@ packages:
     - wai-app-static
     - yesod-bin
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -53425,7 +53425,7 @@ packages:
     users:
     - snap
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -53565,7 +53565,7 @@ packages:
     - xss-sanitize
     - yesod-static
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -53685,7 +53685,7 @@ packages:
     - yesod-auth
     - yesod-core
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -53721,7 +53721,7 @@ packages:
     users:
     - snap-core
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -53798,7 +53798,7 @@ packages:
     - x509
     - zeromq4-haskell
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -53879,7 +53879,7 @@ packages:
   monad-st:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -53917,7 +53917,7 @@ packages:
     - tasty-th
     - test-framework-th
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -53957,7 +53957,7 @@ packages:
     users:
     - HTF
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -54016,7 +54016,7 @@ packages:
     - monad-parallel
     - webdriver
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -54067,7 +54067,7 @@ packages:
     - rest-core
     - snap
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -54116,7 +54116,7 @@ packages:
     - formatting
     - hPDB-examples
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -54182,7 +54182,7 @@ packages:
   present:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -54244,7 +54244,7 @@ packages:
     users:
     - hOpenPGP
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -54485,7 +54485,7 @@ packages:
   haddock-api:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -54564,7 +54564,7 @@ packages:
     - rvar
     - wordpass
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -54641,7 +54641,7 @@ packages:
     users:
     - opaleye
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -54766,7 +54766,7 @@ packages:
     - BlogLiterately
     - hlint
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -54818,7 +54818,7 @@ packages:
   fay-jquery:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -54856,7 +54856,7 @@ packages:
     - hspec-wai-json
     - yaml
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -54927,7 +54927,7 @@ packages:
   statistics-linreg:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -54983,7 +54983,7 @@ packages:
   gl:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -55809,7 +55809,7 @@ packages:
     - GLUT
     - OpenGL
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -56074,7 +56074,7 @@ packages:
     - webdriver
     - yaml
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -56182,7 +56182,7 @@ packages:
   bioace:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -56230,7 +56230,7 @@ packages:
     users:
     - conduit-extra
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -56269,7 +56269,7 @@ packages:
     users:
     - hledger-lib
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -56326,7 +56326,7 @@ packages:
   bytestring-lexing:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -56371,7 +56371,7 @@ packages:
   wai-middleware-static:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -56436,7 +56436,7 @@ packages:
     users:
     - BlogLiterately
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -56531,7 +56531,7 @@ packages:
     users:
     - snap-core
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -56580,7 +56580,7 @@ packages:
     users:
     - csv-conduit
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -56614,7 +56614,7 @@ packages:
   generics-sop:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -56668,7 +56668,7 @@ packages:
     - thyme
     - vector-th-unbox
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -56719,7 +56719,7 @@ packages:
     - bound
     - free
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -56758,7 +56758,7 @@ packages:
     - x509-store
     - x509-validation
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -56974,7 +56974,7 @@ packages:
     - zeromq4-haskell
     - zlib-bindings
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -57047,7 +57047,7 @@ packages:
     - hspec
     - hspec2
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -57093,7 +57093,7 @@ packages:
   hybrid-vectors:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -57144,7 +57144,7 @@ packages:
     - hslua
     - pandoc
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -57186,7 +57186,7 @@ packages:
     users:
     - hmatrix-gsl
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -57265,7 +57265,7 @@ packages:
     users:
     - slave-thread
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -57328,7 +57328,7 @@ packages:
   elm-package:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -57482,7 +57482,7 @@ packages:
     users:
     - language-java
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -57597,7 +57597,7 @@ packages:
     - yesod-bin
     - yesod-fb
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -57749,7 +57749,7 @@ packages:
     users:
     - zeromq4-haskell
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -57831,7 +57831,7 @@ packages:
     users:
     - gl
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -57868,7 +57868,7 @@ packages:
     - interpolate
     - interpolatedstring-perl6
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -57929,7 +57929,7 @@ packages:
     - pandoc-citeproc
     - xss-sanitize
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -58005,7 +58005,7 @@ packages:
     - yesod-gitrepo
     - yesod-static
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -58070,7 +58070,7 @@ packages:
     users:
     - file-location
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -58140,7 +58140,7 @@ packages:
     - rest-snap
     - rest-wai
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -58297,7 +58297,7 @@ packages:
   diagrams:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -58345,7 +58345,7 @@ packages:
     - hasql
     - hasql-postgres
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -58410,7 +58410,7 @@ packages:
     users:
     - webdriver
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -58571,7 +58571,7 @@ packages:
   lca:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -58615,7 +58615,7 @@ packages:
     - yesod
     - yesod-core
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -58699,7 +58699,7 @@ packages:
   hmatrix-gsl:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -58761,7 +58761,7 @@ packages:
   broadcast-chan:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -58795,7 +58795,7 @@ packages:
     - th-lift
     - th-orphans
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -58838,7 +58838,7 @@ packages:
     users:
     - fay-jquery
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -58883,7 +58883,7 @@ packages:
     - distributed-process-supervisor
     - distributed-process-task
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -58932,7 +58932,7 @@ packages:
     users:
     - pandoc-citeproc
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -58978,7 +58978,7 @@ packages:
     - keter
     - yesod-bin
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -59063,7 +59063,7 @@ packages:
     users:
     - hOpenPGP
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -59120,7 +59120,7 @@ packages:
     users:
     - dimensional
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -59199,7 +59199,7 @@ packages:
     - yesod-persistent
     - yesod-static
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -59277,7 +59277,7 @@ packages:
     users:
     - hxt
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -59316,7 +59316,7 @@ packages:
     users:
     - compdata
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -59354,7 +59354,7 @@ packages:
   machines:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -59453,7 +59453,7 @@ packages:
     - snaplet-fay
     - yesod-fay
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -59610,7 +59610,7 @@ packages:
     - monad-par
     - monad-par-extras
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -59650,7 +59650,7 @@ packages:
     - fay-text
     - fay-uri
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -59709,7 +59709,7 @@ packages:
     users:
     - scotty
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -59828,7 +59828,7 @@ packages:
     - repa-devil
     - repa-io
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -59952,7 +59952,7 @@ packages:
     - yesod-static
     - yesod-test
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -60035,7 +60035,7 @@ packages:
     - rest-client
     - rest-core
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -60114,7 +60114,7 @@ packages:
     users:
     - random-source
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -60158,7 +60158,7 @@ packages:
   Rasterific:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -60231,7 +60231,7 @@ packages:
     - rest-client
     - rest-stringmap
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -60277,7 +60277,7 @@ packages:
     users:
     - diagrams-contrib
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -60309,7 +60309,7 @@ packages:
     users:
     - gl
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -60341,7 +60341,7 @@ packages:
   rainbow-tests:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -60404,7 +60404,7 @@ packages:
     - persistent-sqlite
     - yesod-persistent
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -60506,7 +60506,7 @@ packages:
     users:
     - criterion
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -60561,7 +60561,7 @@ packages:
     - wai-websockets
     - yesod-static
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -60817,7 +60817,7 @@ packages:
     - yesod-form
     - yesod-text-markdown
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -60953,7 +60953,7 @@ packages:
     - distributed-process-client-server
     - distributed-process-task
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -61038,7 +61038,7 @@ packages:
     users:
     - rest-core
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -61081,7 +61081,7 @@ packages:
     users:
     - siphash
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -61116,7 +61116,7 @@ packages:
   messagepack-rpc:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -61172,7 +61172,7 @@ packages:
   groundhog-postgresql:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -61257,7 +61257,7 @@ packages:
   rest-snap:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -61323,7 +61323,7 @@ packages:
     users:
     - diagrams-cairo
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -61366,7 +61366,7 @@ packages:
     users:
     - compressed
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -61465,7 +61465,7 @@ packages:
     - rest-gen
     - rest-happstack
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -61632,7 +61632,7 @@ packages:
     - mono-traversable
     - stackage
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -61760,7 +61760,7 @@ packages:
     users:
     - lzma-conduit
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -61863,7 +61863,7 @@ packages:
     - vector-algorithms
     - yesod-core
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -61911,7 +61911,7 @@ packages:
   sodium:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -61955,7 +61955,7 @@ packages:
     users:
     - bioace
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -61995,7 +61995,7 @@ packages:
     users:
     - gtk
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -62081,7 +62081,7 @@ packages:
     users:
     - haskell-names
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -62120,7 +62120,7 @@ packages:
   gtk2hs-buildtools:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -62194,7 +62194,7 @@ packages:
   cabal-install:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -62332,7 +62332,7 @@ packages:
     users:
     - stylish-haskell
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -62470,7 +62470,7 @@ packages:
     - yesod-auth
     - yesod-core
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -62514,7 +62514,7 @@ packages:
     - yesod
     - yesod-bin
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -62654,7 +62654,7 @@ packages:
     - pointed
     - yesod-bin
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -62704,7 +62704,7 @@ packages:
     - thyme
     - zlib-lens
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -62865,7 +62865,7 @@ packages:
     - yaml
     - yesod-core
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -62958,7 +62958,7 @@ packages:
     - hxt-regex-xmlschema
     - hxt-relaxng
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -63043,7 +63043,7 @@ packages:
     - compensated
     - log-domain
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -63136,7 +63136,7 @@ packages:
   monadcryptorandom:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -63189,7 +63189,7 @@ packages:
     users:
     - compdata
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -63330,7 +63330,7 @@ packages:
     - yaml
     - yesod-core
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -63382,7 +63382,7 @@ packages:
     - classy-prelude-yesod
     - yesod-fay
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -63598,7 +63598,7 @@ packages:
     - groundhog-mysql
     - persistent-mysql
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -63674,7 +63674,7 @@ packages:
   neat-interpolation:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -63723,7 +63723,7 @@ packages:
     - yesod-auth-hashdb
     - yesod-auth-oauth2
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -63915,7 +63915,7 @@ packages:
     users:
     - scientific
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -63982,7 +63982,7 @@ packages:
   ghcid:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -64074,7 +64074,7 @@ packages:
     users:
     - mono-traversable
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -64115,7 +64115,7 @@ packages:
     - pandoc
     - texmath
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -64227,7 +64227,7 @@ packages:
   yesod-auth-oauth2:
     users: []
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -64343,7 +64343,7 @@ packages:
     - yesod-auth-hashdb
     - yesod-static
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -64442,7 +64442,7 @@ packages:
     users:
     - fay
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true
@@ -64503,7 +64503,7 @@ packages:
     users:
     - lens
     constraints:
-      library-profiling: false
+      library-profiling: true
       flags:
         test-hlint: false
         splitbase: true

@@ -67,6 +67,6 @@ Some examples are:
   exposed identifier may conflict with an existing identifier.
 * A new module name may clash with an existing module name.
 
-These are all standard caveats that apply when following PVP vesioning. The
+These are all standard caveats that apply when following PVP versioning. The
 point here is that, while LTS Haskell greatly reduces the amount of breakage
 that may occur, you still need to check your code before upgrading.

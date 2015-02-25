@@ -56,6 +56,20 @@ changes.
 All of this is done using the Stackage code base; you can [see the description
 of the code](https://github.com/fpco/stackage/#lts) for more details.
 
+### Fast global install for default cabal-install on Linux
+
+For Linux user, If you install cabal-install by default.
+
+The Cabal default path will be $HOME/.cabal.
+
+This is a quick global install for default cabal-install for linux users.
+
+Unix should working as well.
+
+```bash
+curl -sS http://www.stackage.org/snapshot/lts-1.7/cabal.config\?global\=true >> $HOME/.cabal/config
+```
+
 ### Possible breakage
 
 It is still possible to have breaking when upgrading to a new point release.

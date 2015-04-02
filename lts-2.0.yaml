@@ -34048,7 +34048,7 @@ packages:
       tests: expect-failure
       haddocks: expect-failure
       maintainer: Stackage upper bounds
-      version-range: <0.0.15
+      version-range: <0.1
     version: '0.0.13'
     github-pings:
     - wereHamster

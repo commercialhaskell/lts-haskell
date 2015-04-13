@@ -36383,7 +36383,7 @@ packages:
       tests: expect-success
       haddocks: expect-success
       maintainer: Michael Snoyman michael@snoyman.com @snoyberg
-      version-range: ==0.3.2.2
+      version-range: ==0.3.2.2 || >= 0.3.2.6
     version: '0.3.2.2'
     github-pings:
     - RaphaelJ

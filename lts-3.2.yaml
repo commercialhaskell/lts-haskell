@@ -35985,7 +35985,7 @@ packages:
       tests: expect-success
       haddocks: expect-success
       maintainer: Mitchell Rosen <mitchellwrosen@gmail.com
-      version-range: <1.1.1
+      version-range: <1.2
     version: '1.1'
     github-pings:
     - mitchellwrosen

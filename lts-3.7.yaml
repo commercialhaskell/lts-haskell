@@ -89683,7 +89683,7 @@ packages:
       build-benchmarks: true
       skip-build: false
       tests: expect-success
-      haddocks: expect-success
+      haddocks: expect-failure
       maintainer: Ian Duncan <ian@iankduncan.com> @iand675
       version-range: ! '>=0.6.0 && <0.7'
     version: '0.6.0'

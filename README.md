@@ -37,7 +37,7 @@ list](https://groups.google.com/d/forum/stackage)).
 LTS Haskell builds on top of the versioning guidelines of Haskell's [Package
 Versioning
 Policy](https://www.haskell.org/haskellwiki/Package_versioning_policy), where
-authors indicate a breaking changing by bumping either the first second numbers
+authors indicate a breaking changing by bumping either the first or second numbers
 in the version number, and indicate point releases and bug fixes by changing
 any of the other numbers.
 

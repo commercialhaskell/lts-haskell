@@ -45771,7 +45771,7 @@ packages:
       build-benchmarks: true
       skip-build: false
       tests: expect-success
-      haddocks: expect-success
+      haddocks: expect-failure
       maintainer: Michael Snoyman michael@snoyman.com @snoyberg
       version-range: ! '>=2.6.1 && <2.7'
     version: '2.6.1'

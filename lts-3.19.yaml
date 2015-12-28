@@ -6045,7 +6045,7 @@ packages:
       build-benchmarks: true
       skip-build: false
       tests: expect-success
-      haddocks: expect-success
+      haddocks: expect-failure
       version-range: ! '>=1.2.1.0 && <1.3'
     version: '1.2.1.0'
     github-pings: []
@@ -27424,7 +27424,7 @@ packages:
       build-benchmarks: true
       skip-build: false
       tests: expect-success
-      haddocks: expect-success
+      haddocks: expect-failure
       version-range: ! '>=0.2.1.0 && <0.3'
     version: '0.2.1.0'
     github-pings:
@@ -42287,7 +42287,7 @@ packages:
       build-benchmarks: true
       skip-build: false
       tests: expect-success
-      haddocks: expect-success
+      haddocks: expect-failure
       version-range: ==0.4.*
     version: '0.4'
     github-pings:
@@ -75278,7 +75278,7 @@ packages:
       build-benchmarks: true
       skip-build: false
       tests: do-not-build
-      haddocks: expect-success
+      haddocks: expect-failure
       version-range: ! '>=0.3.2.1 && <0.4'
     version: '0.3.2.1'
     github-pings:
@@ -82400,7 +82400,7 @@ packages:
       build-benchmarks: true
       skip-build: false
       tests: expect-failure
-      haddocks: expect-success
+      haddocks: expect-failure
       version-range: ! '>=0.6.9 && <0.7'
     version: '0.6.9'
     github-pings:

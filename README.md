@@ -1,12 +1,13 @@
 ## LTS Haskell: Version your Ecosystem
 
-LTS (Long Term Support) Haskell is a curated set of packages which includes non-breaking point
-releases. It is a companion to Stackage Nightly: whereas Stackage Nightly
-releases include potentially breaking changes with each new release, LTS
-Haskell maintains major version stability for a longer period of time.
+LTS (Long Term Support) Haskell is a curated set of packages, a more stable companion to Stackage Nightly.
+
+* Minor version increments (e.g., 5.1 to 5.2) to LTS are produced weekly, typically on Sunday, containing only API compatible changes to existing packages and additional packages.
+* Major version increments (e.g. 5.20 to 6.0) to LTS are produced every 3 to 6 months containing API changes, additional packages, and occasional package removals. (Note that, in the future, a more rigorous release schedule will likely be added.)
+* In contrast, Stackage Nightly releases are produced nightly containing API changes and package changes.
 
 Both Stackage Nightly and LTS Haskell are available from [the Stackage
-homepage](http://www.stackage.org). More information is available in our
+homepage](https://www.stackage.org). More information is available in our
 [initial blog
 post](https://www.fpcomplete.com/blog/2014/12/backporting-bug-fixes).
 
@@ -56,6 +57,11 @@ changes.
 All of this is done using the Stackage code base; you can [see the description
 of the code](https://github.com/fpco/stackage/#lts) for more details.
 
+### Usage via Stack
+
+The [Stack build tool](http://haskellstack.com) includes built-in support for
+LTS Haskell, and will prefer using LTS releases whenever possible.
+
 ### Fast global install for default cabal-install on Linux
 
 For Linux user, If you install cabal-install by default.
@@ -84,3 +90,12 @@ Some examples are:
 These are all standard caveats that apply when following PVP versioning. The
 point here is that, while LTS Haskell greatly reduces the amount of breakage
 that may occur, you still need to check your code before upgrading.
+
+### Intentional breaking changes
+
+In some rare circumstances, a breaking API change may be included within an LTS
+major version series. This will be at the Stackage curators' discretion, but
+will be reserved for cases such as major bugs and security fixes. If a major
+version bump in a package is necessary, and the API change impact is deemed to
+be minor enough, it is possible for major version changes to be slipped in
+midstream.

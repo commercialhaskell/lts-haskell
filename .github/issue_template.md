@@ -1,0 +1,2 @@
+- [ ] specified the Stackage LTS version in the summary
+- [ ] run `stack --resolver lts-X build --haddock --test --bench --no-run-benchmarks`

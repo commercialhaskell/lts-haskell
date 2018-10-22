@@ -6,4 +6,4 @@ Checklist for adding a package:
       cd $package-$version
       stack init --resolver lts-$lts
       stack build --haddock --test --bench --no-run-benchmarks
-- [ ] You're using the latest version of Stack. Please try running `stack upgrade` and rerunning your commands. If it still fails, please include the output of `stack --version` in this issue.
+- [ ] You're using the latest version of Stack. (Otherwise please try running `stack upgrade` and re-running your commands. If that fails, please include the output of `stack --version` in this issue.)

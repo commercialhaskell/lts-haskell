@@ -14,12 +14,12 @@ post](https://www.fpcomplete.com/blog/2014/12/backporting-bug-fixes).
 This repository contains the build plans for all LTS Haskell releases. Each
 release is available on stackage.org following the URL scheme:
 
-    http://www.stackage.org/lts/<major>.<minor>
+    http://www.stackage.org/lts-<major>.<minor>
 
 Similarly, if you would like the newest point release of a release series, just
 provide the major version in the URL:
 
-    http://www.stackage.org/lts/<major>
+    http://www.stackage.org/lts-<major>
 
 Finally, to access the most recent LTS Haskell release, use the URL:
 

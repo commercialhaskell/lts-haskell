@@ -6,4 +6,9 @@ Checklist for adding a package:
       cd $package-$version
       stack init --resolver lts
       stack --resolver lts build --haddock --test --bench --no-run-benchmarks
+
+or using the [verify-package script](https://github.com/commercialhaskell/stackage/blob/master/verify-package):
+
+      verify-package $package lts
+
 - [ ] You're using the latest version of Stack. (Otherwise please try running `stack upgrade` and re-running your commands. If that fails, please include the output of `stack --version` in this issue.)

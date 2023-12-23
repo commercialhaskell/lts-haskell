@@ -8339,6 +8339,10 @@ skipped-tests:
     - tasty-expected-failure # via tasty-hedgehog
     - vector # doctest
     - vector-binary-instances
+    - horizontal-rule # HMock
+    - phatsort # HMock
+    - redact # HMock
+
 
     # TODO
     - rpmbuild-order

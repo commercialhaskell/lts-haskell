@@ -5142,7 +5142,7 @@ packages:
         - unidecode ^>= 0.1.0.4
 
     "Chris Smith <cdsmith@gmail.com>":
-        - HMock ^>= 0.5.1.2
+        - HMock < 0 # dep cycle, was ^>= 0.5.1.2
         - explainable-predicates ^>= 0.1.2.4
 
     "Tim Emiola <tim.emiola@gmail.com> @adetokunbo":

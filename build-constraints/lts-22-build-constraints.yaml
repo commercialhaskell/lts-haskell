@@ -5141,7 +5141,7 @@ packages:
         - unidecode ^>= 0.1.0.4
 
     "Chris Smith <cdsmith@gmail.com>":
-        - HMock < 0 # dep cycle, was ^>= 0.5.1.2
+        - HMock
         - explainable-predicates ^>= 0.1.2.4
 
     "Tim Emiola <tim.emiola@gmail.com> @adetokunbo":
@@ -8268,6 +8268,7 @@ skipped-tests:
 
     # @thielema
     - glpk-headers
+    - utility-ht
 
     # Uses Cabal's "library internal" stanza feature
     - s3-signer

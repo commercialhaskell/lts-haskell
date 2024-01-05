@@ -6,11 +6,16 @@ set -euxo pipefail
 
 cd `dirname $0`
 
+if [ $# -ne 2 ]; then
+    echo "Usage: $0 MAJOR MINOR"
+    exit 1
+fi
+
 MAJOR=$1
 MINOR=$2
 LTS="lts-$MAJOR.$MINOR"
 
-echo "$MAJOR $MINOR $LTS"
+echo "$LTS"
 
 export GHCVER=$(sed -n "s/^ghc-version: \"\(.*\)\"/\1/p" "lts-$MAJOR-build-constraints.yaml")
 

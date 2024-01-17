@@ -4756,7 +4756,7 @@ packages:
         - solana-staking-csvs ^>= 0.1.2.0
         - cointracking-imports ^>= 0.1.0.2
         - binance-exports ^>= 0.1.2.0
-        - gemini-exports ^>= 0.1.0.0
+        - gemini-exports < 0.1.0.1
 
     "David Baynard <haskell@baynard.dev> @dbaynard":
         - time-qq

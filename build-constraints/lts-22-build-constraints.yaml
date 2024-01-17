@@ -1443,7 +1443,7 @@ packages:
         - tasty-hunit ^>= 0.10.1
         - tasty-quickcheck ^>= 0.10.2
         - tasty-smallcheck ^>= 0.8.2
-        - tasty-html ^>= 0.4.2.1
+        - tasty-html < 0.4.2.2
         - time-lens ^>= 0.4.0.2
         - timezone-olson ^>= 0.2.1
         - timezone-series ^>= 0.1.13

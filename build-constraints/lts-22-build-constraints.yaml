@@ -8980,6 +8980,7 @@ expected-test-failures:
     - turtle
     - type-level-kv-list
     - tzdata # 0.2.20230322.0 - https://github.com/ysangkok/haskell-tzdata/issues/3
+    - unicode-data # 0.4.0.1 - https://github.com/composewell/unicode-data/issues/118
     - unicode-show
     - universe-some
     - universum

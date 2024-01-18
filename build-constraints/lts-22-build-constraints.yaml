@@ -8766,6 +8766,7 @@ expected-test-failures:
     - bitcoin-api-extra
     - bloodhound # ElasticSearch
     - cabal-install
+    - call-alloy # 0.4.1 - https://github.com/marcellussiegburg/call-alloy/issues/14
     - cayley-client
     - consul-haskell
     - cql-io # Cassandra

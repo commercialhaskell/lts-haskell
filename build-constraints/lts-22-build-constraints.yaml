@@ -4649,7 +4649,7 @@ packages:
     "Georg Rudoy <0xd34df00d@gmail.com> @0xd34df00d":
         - binary-generic-combinators ^>= 0.4.4.0
         - can-i-haz ^>= 0.3.1.1
-        - enum-subset-generate ^>= 0.1.0.1
+        - enum-subset-generate ^>= 0.1.0.1 && < 0.1.0.2
 
     "Trevis Elser <trevis@silencedpoet.com> @telser":
         - sendfile ^>= 0.7.11.5

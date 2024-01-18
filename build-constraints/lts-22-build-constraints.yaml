@@ -8803,6 +8803,7 @@ expected-test-failures:
     - hedis
     - hexml-lens # Access to web.archive.org is unreliable.
     - hie-bios # cabal, stack, ghc; see https://github.com/commercialhaskell/stackage/issues/5025
+    - hledger-web # test: setupTerm: Couldn't look up terminfo entry "unknown"
     - hjsmin # Test-runner expects a cabal-style 'dist-newstyle' directory
     - hocilib # oracle
     - http-api-data-qq # Access to httpbin.org is unreliable (at the moment 504 Gateway Time-out).

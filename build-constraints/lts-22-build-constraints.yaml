@@ -2821,7 +2821,7 @@ packages:
         - type-equality ^>= 1
 
     "Kirill Zaborsky <qrilka@gmail.com> @qrilka":
-        - xlsx ^>= 1.1.1 && < 1.1.2
+        - xlsx ^>= 1.1.1
 
     "Matt Parsons <parsonsmatt@gmail.com> @parsonsmatt":
         - annotated-exception ^>= 0.2.0.5

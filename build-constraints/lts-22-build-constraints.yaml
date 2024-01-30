@@ -971,7 +971,7 @@ packages:
     "Jasper Van der Jeugt @jaspervdj":
         - blaze-html ^>= 0.9.1.2
         - blaze-markup ^>= 0.8.3.0
-        - stylish-haskell ^>= 0.14.5.0
+        - stylish-haskell <0.14.6.0
         - profiteur
         - psqueues ^>= 0.2.8.0
         - websockets ^>= 0.12.7.3

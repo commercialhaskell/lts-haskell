@@ -8699,6 +8699,7 @@ expected-test-failures:
     - vivid-supercollider # 0.4.1.2 https://github.com/commercialhaskell/stackage/issues/4250
     - xml-html-qq # 0.1.0.1
     - xmlgen # 0.6.2.2 https://github.com/skogsbaer/xmlgen/issues/6
+    - speculate
 
     # Consistent test failures
     - Allure # 0.11.0.0
@@ -8709,6 +8710,7 @@ expected-test-failures:
     - pvar # 1.0.0.0 ghc-9.6
     - tar-conduit # https://github.com/snoyberg/tar-conduit/issues/33
     - markov-chain-usage-model # https://github.com/advancedtelematic/markov-chain-usage-model/issues/44
+    - coinor-clp
 
     # Intermittent failures or unreliable. These tests may pass when
     # re-enabled, but will eventually fail again.

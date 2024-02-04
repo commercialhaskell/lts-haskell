@@ -659,7 +659,7 @@ packages:
         - ramus ^>= 0.1.2
         - require
         - tintin
-        -lambda-haskell-runtime
+        - aws-lambda-haskell-runtime
 
     "Simon Jakobi <simon.jakobi@gmail.com> @sjakobi":
         - threepenny-gui ^>= 0.9.4.0
@@ -1236,10 +1236,10 @@ packages:
 
     "Freckle Engineering <freckle-engineering@renaissance.com> @pbrisbin @mjgpy3 @stevenxl":
         - Blammo ^>= 1.1.2.1
-        -sns-verify ^>= 0.0.0.3
-        -xray-client ^>= 0.1.0.2
-        -xray-client-persistent ^>= 0.1.0.5
-        -xray-client-wai ^>= 0.1.0.2
+        - aws-sns-verify ^>= 0.0.0.3
+        - aws-xray-client ^>= 0.1.0.2
+        - aws-xray-client-persistent ^>= 0.1.0.5
+        - aws-xray-client-wai ^>= 0.1.0.2
         - bcp47 ^>= 0.2.0.6
         - bcp47-orphans ^>= 0.1.0.6
         - faktory ^>= 1.1.2.5

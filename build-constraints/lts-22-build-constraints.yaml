@@ -3010,7 +3010,7 @@ packages:
         - logging-facade-syslog ^>= 1
         - MonadPrompt ^>= 1.0.0.5
         - nix-paths ^>= 1.0.1
-        - parsec-class ^>= 1.0.0.0 && < 1.0.1.0
+        - parsec-class ^>= 1.0.0.0
         - prim-uniq ^>= 0.2
         - random-fu ^>= 0.3.0.1
         - random-source
@@ -8150,6 +8150,9 @@ package-flags:
       optparse-applicative_ge_0_18: true
     redact:
       optparse-applicative_ge_0_18: true
+
+    parsec-class:
+      parsec_error_has_exception_instance: false
 # end of package-flags
 
 # Special configure options for individual packages

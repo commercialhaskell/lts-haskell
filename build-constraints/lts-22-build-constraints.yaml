@@ -659,7 +659,7 @@ packages:
         - ramus ^>= 0.1.2
         - require
         - tintin
-        - aws-lambda-haskell-runtime
+        -lambda-haskell-runtime
 
     "Simon Jakobi <simon.jakobi@gmail.com> @sjakobi":
         - threepenny-gui ^>= 0.9.4.0
@@ -1236,10 +1236,10 @@ packages:
 
     "Freckle Engineering <freckle-engineering@renaissance.com> @pbrisbin @mjgpy3 @stevenxl":
         - Blammo ^>= 1.1.2.1
-        - aws-sns-verify ^>= 0.0.0.3
-        - aws-xray-client ^>= 0.1.0.2
-        - aws-xray-client-persistent ^>= 0.1.0.5
-        - aws-xray-client-wai ^>= 0.1.0.2
+        -sns-verify ^>= 0.0.0.3
+        -xray-client ^>= 0.1.0.2
+        -xray-client-persistent ^>= 0.1.0.5
+        -xray-client-wai ^>= 0.1.0.2
         - bcp47 ^>= 0.2.0.6
         - bcp47-orphans ^>= 0.1.0.6
         - faktory ^>= 1.1.2.5
@@ -3010,7 +3010,7 @@ packages:
         - logging-facade-syslog ^>= 1
         - MonadPrompt ^>= 1.0.0.5
         - nix-paths ^>= 1.0.1
-        - parsec-class ^>= 1.0.0.0
+        - parsec-class ^>= 1.0.0.0 && < 1.0.1.0
         - prim-uniq ^>= 0.2
         - random-fu ^>= 0.3.0.1
         - random-source
@@ -5334,7 +5334,7 @@ packages:
         - attoparsec ^>= 0.14.4
         - attoparsec-aeson ^>= 2.1.0.0
         - auto-update ^>= 0.1.6
-        - aws ^>= 0.24.1
+        - aws ^>= 0.24.1 && < 0.24.2
         - aws-lambda-haskell-runtime-wai
         - base-noprelude
         - base64-bytestring ^>= 1.2.1.0

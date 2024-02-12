@@ -5603,7 +5603,7 @@ packages:
         - mwc-random ^>= 0.15.0.2
         - names-th ^>= 0.3.0.1
         - nanospec ^>= 0.2.2
-        - nettle ^>= 0.3.0
+        - nettle == 0.3.0 # 0.3.1 depends on Cabal-syntax 3.4 which stackage doesn't support.
         - network ^>= 3.1.4.0
         - network-bsd ^>= 2.8.1.0
         - network-byte-order ^>= 0.1.7

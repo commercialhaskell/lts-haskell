@@ -5289,6 +5289,10 @@ packages:
     "Zac Slade <krakrjak@gmail.com> @krakrjak":
         - fits-parse ^>= 0.3.6
 
+    "Julian Ospald <hasufell@posteo.de> @hasufell":
+        - os-string >= 2.0.2
+        - file-io >= 0.1.1
+
     "Grandfathered dependencies":
         - BiobaseNewick ^>= 0.0.0.2
         - Boolean ^>= 0.2.4

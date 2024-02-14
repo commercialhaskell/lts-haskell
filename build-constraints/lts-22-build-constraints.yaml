@@ -5772,7 +5772,7 @@ packages:
         - time-locale-compat ^>= 0.1.1.5
         - time-parsers ^>= 0.2
         - timeit ^>= 2.0
-        - tls-session-manager ^>= 0.0.4
+        - tls-session-manager ^>= 0.0.4 && < 0.0.5
         - token-bucket ^>= 0.1.0.1
         - tonatona
         - torrent ^>= 10000.1.3

@@ -4588,7 +4588,7 @@ packages:
         - composition-prelude ^>= 3.0.0.2
         - toml-reader-parse ^>= 0.1.1.1
         - atomic-counter ^>= 0.1.2.1
-        - directory-ospath-streaming ^>= 0.1.0.1
+        - directory-ospath-streaming ^>= 0.1.0.1 && < 0.1.0.2
 
     "Eugene Smolanka <esmolanka@gmail.com> @esmolanka":
         - sexp-grammar ^>= 2.3.4.2

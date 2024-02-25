@@ -3330,7 +3330,7 @@ packages:
         - doclayout ^>= 0.4.0.1
         - doctemplates ^>= 0.11
         - emojis ^>= 0.1.3
-        - pandoc ^>= 3.1.11
+        - pandoc < 3.1.12
         - pandoc-cli ^>= 3.1.11
         - pandoc-server ^>= 0.1.0.4
         - citeproc ^>= 0.8.1
@@ -4075,7 +4075,7 @@ packages:
         - lpeg ^>= 1.0.4
         - lua ^>= 2.3.1
         - lua-arbitrary ^>= 1.0.1.1
-        - pandoc-lua-engine ^>= 0.2.1.2
+        - pandoc-lua-engine < 0.2.1.3
         - pandoc-lua-marshal ^>= 0.2.2
         - tasty-hslua ^>= 1.1.0
         - tasty-lua ^>= 1.1.0

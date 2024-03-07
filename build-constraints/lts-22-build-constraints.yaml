@@ -533,7 +533,7 @@ packages:
         - battleship-combinatorics ^>= 0.0.1
         - bibtex ^>= 0.1.0.7
         - board-games ^>= 0.4
-        - boomwhacker ^>= 0.0.1
+        - boomwhacker >= 0.0.1 && < 0.0.2 # HPDF 1.6.*
         - buffer-pipe ^>= 0.0
         - cabal-flatpak
         - cabal-sort ^>= 0.1.2
@@ -1677,7 +1677,7 @@ packages:
         - domain-optics ^>= 0.1.0.4
         - focus ^>= 1.0.3.2
         - hasql ^>= 1.6.3.4
-        - hasql-optparse-applicative ^>= 0.7.1.1
+        - hasql-optparse-applicative >= 0.7.1.1 && < 0.7.2 # hasql-pool 0.10.*
         - hasql-pool ^>= 0.10.0.1
         - hasql-th ^>= 0.4.0.19
         - hasql-transaction ^>= 1.0.1.2

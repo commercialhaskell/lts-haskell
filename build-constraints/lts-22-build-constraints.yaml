@@ -127,7 +127,7 @@ packages:
         - test-framework ^>= 0.8.2.0
         - c2hs ^>= 0.28.8
         - cabal-doctest ^>= 1.0.9
-        - hackage-security ^>= 0.6.2.3
+        - hackage-security < 0.6.2.5 # https://github.com/commercialhaskell/stackage/issues/7357
         - haskell-lexer ^>= 1.1.1
         - lifted-async ^>= 0.10.2.5
         - polyparse ^>= 1.13
@@ -518,6 +518,7 @@ packages:
 
     "Vanessa McHale <vmchale@gmail.com> @vmchale":
         - bz2 ^>= 1.0.1.0
+        - bzip2-clib ^>= 1.0.8 # needed by bz2
 
     "Henning Thielemann <stackage@henning-thielemann.de> @thielema":
         - accelerate-arithmetic
@@ -3343,8 +3344,8 @@ packages:
         - skylighting-format-blaze-html ^>= 0.1.1.1
         - skylighting-format-context ^>= 0.1.0.2
         - skylighting-format-latex ^>= 0.1
-        - typst ^>= 0.5
-        - typst-symbols ^>= 0.1.5
+        - typst < 0.5.0.2
+        - typst-symbols < 0.1.6
 
     "Karun Ramakrishnan <karun012@gmail.com> @karun012":
         - doctest-discover ^>= 0.2.0.0
@@ -3373,7 +3374,7 @@ packages:
 
     "Mikhail Glushenkov <mikhail.glushenkov@gmail.com> @23Skidoo":
         # - Cabal # take the one that ships with GHC
-        - cabal-install ^>= 3.10.2.1
+        - cabal-install < 3.10.3 # we build against 'Cabal' shipped with GHC; as of 9.8.2 that's Cabal-3.10.2
         - pointful
 
     "Lennart Kolmodin <kolmodin@gmail.com> @kolmodin":
@@ -5369,7 +5370,7 @@ packages:
         - bytestring-builder ^>= 0.10.8.2.0
         - bzlib ^>= 0.5.1.0
         - ca-province-codes ^>= 1.0.0.0
-        - cabal-install-solver ^>= 3.10.2.1
+        - cabal-install-solver < 3.10.3 # 3.10.3 requires `cabal-install-3.10.3`
         - call-stack ^>= 0.4.0
         - casing ^>= 0.1.4.1
         - cassava-megaparsec ^>= 2.0.4
@@ -5566,6 +5567,7 @@ packages:
         - leb128-cereal ^>= 1.2
         - libBF ^>= 0.6.7
         - libyaml ^>= 0.1.2
+        - libyaml-clib ^>= 0.2.5
         - lifted-base ^>= 0.2.3.12
         - loch-th ^>= 0.2.2
         - lockfree-queue ^>= 0.2.4

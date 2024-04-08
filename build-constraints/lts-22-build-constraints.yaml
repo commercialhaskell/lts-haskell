@@ -3345,7 +3345,7 @@ packages:
         - skylighting-format-context ^>= 0.1.0.2
         - skylighting-format-latex ^>= 0.1
         - typst < 0.5.0.2
-        - typst-symbols
+        - typst-symbols ^>= 0.1.6
 
     "Karun Ramakrishnan <karun012@gmail.com> @karun012":
         - doctest-discover ^>= 0.2.0.0

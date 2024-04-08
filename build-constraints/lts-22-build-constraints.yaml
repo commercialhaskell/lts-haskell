@@ -3322,7 +3322,7 @@ packages:
     "John MacFarlane <jgm@berkeley.edu> @jgm":
         - hsb2hs
         - cmark ^>= 0.6.1
-        - texmath ^>= 0.12.8.6
+        - texmath < 0.12.8.8
         - highlighting-kate < 0
         - skylighting ^>= 0.14.1
         - skylighting-core ^>= 0.14.1

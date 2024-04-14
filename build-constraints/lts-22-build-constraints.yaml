@@ -8709,6 +8709,7 @@ expected-test-failures:
     - xml-html-qq # 0.1.0.1
     - xmlgen # 0.6.2.2 https://github.com/skogsbaer/xmlgen/issues/6
     - speculate
+    - errata # 0.4.0.2 against hspec-golden 0.2.2.0
 
     # Consistent test failures
     - Allure # 0.11.0.0

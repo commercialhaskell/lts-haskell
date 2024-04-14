@@ -8893,6 +8893,7 @@ expected-test-failures:
     - web3 # requires running server
     - webdriver-angular # webdriver server
     - websockets
+    - wreq
 
     # Missing test files in sdist
     #

@@ -3374,7 +3374,7 @@ packages:
 
     "Mikhail Glushenkov <mikhail.glushenkov@gmail.com> @23Skidoo":
         # - Cabal # take the one that ships with GHC
-        - cabal-install < 3.10.3 # we build against 'Cabal' shipped with GHC; as of 9.8.2 that's Cabal-3.10.2
+        - cabal-install
         - pointful
 
     "Lennart Kolmodin <kolmodin@gmail.com> @kolmodin":

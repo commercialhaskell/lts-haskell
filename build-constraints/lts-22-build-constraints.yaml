@@ -5580,6 +5580,7 @@ packages:
         - kansas-comet ^>= 0.4.2
         - kleene ^>= 0.1
         - knob ^>= 0.2.2
+        - kvitable
         - language-haskell-extract
         - largeword ^>= 1.2.5
         - lattices ^>= 2.2

@@ -141,7 +141,7 @@ packages:
 
 
     "Diogo Biazus <diogo@biazus.ca>":
-        - hasql-notifications ^>= 0.2.0.6
+        - hasql-notifications ^>= 0.2.0.6 && < 0.2.3
 
     "David James <dj112358@outlook.com> @davjam":
         - MapWith
@@ -352,7 +352,7 @@ packages:
         - learn-physics ^>= 0.6.6
         - SpatialMath ^>= 0.2.7.1
         - Vis ^>= 0.7.7.0
-        - LPFP ^>= 1.1.1
+        - LPFP ^>= 1.1.1 && < 1.1.4
         - LPFP-core ^>= 1.1.1
 
     "Phil de Joux <phil.dejoux@blockscope.com> @philderbeast":
@@ -1842,7 +1842,7 @@ packages:
         - koji ^>= 0.0.2
         - koji-tool ^>= 1.1.1
         - pagure ^>= 0.1.1
-        - pagure-cli ^>= 0.2.1
+        - pagure-cli ^>= 0.2.1 && < 0.2.2
         - pdc ^>= 0.1.1
         - pkgtreediff ^>= 0.6.0
         - rhbzquery < 0
@@ -5520,7 +5520,7 @@ packages:
         - haskell-src-exts-simple ^>= 1.23.0.0
         - haskell-tools-builtin-refactorings
         - haskoin-store-data ^>= 1.2.2
-        - hasql-dynamic-statements ^>= 0.3.1.2
+        - hasql-dynamic-statements ^>= 0.3.1.2 && < 0.3.1.6
         - hasql-implicits ^>= 0.1.1
         - haxl
         - heap ^>= 1.0.4
@@ -5596,6 +5596,7 @@ packages:
         - logging-facade ^>= 0.3.1
         - lrucache ^>= 1.2.0.1
         - lukko ^>= 0.1.1.3
+        - lumberjack
         - lz4 ^>= 0.2.3.1
         - lzma ^>= 0.0.1.0
         - lzma-clib ^>= 5.2.2
@@ -5760,7 +5761,8 @@ packages:
         - system-filepath ^>= 0.4.14
         - tabular ^>= 0.2.2.8
         - tar ^>= 0.5.1.1 && <0.6 # https://github.com/commercialhaskell/stackage/issues/7202
-        - tasty-lua ^>= 1.1.0
+        - tasty-checklist
+        - tasty-sugar
         - tasty-th ^>= 0.1.7
         - tdigest ^>= 0.3
         - telegram-bot-api
@@ -5810,6 +5812,8 @@ packages:
         - unbounded-delays ^>= 0.1.1.1
         - unfoldable
         - unicode-collation ^>= 0.1.3.5
+        - units
+        - units-defs
         - universe ^>= 1.2.2
         - universe-base ^>= 1.1.3.1
         - universe-dependent-sum ^>= 1.3
@@ -8383,6 +8387,7 @@ skipped-tests:
     - bits-extra # tried bits-extra-0.0.2.3, but its *test-suite* requires hedgehog >=0.5.3 && < 1.3 and the snapshot contains hedgehog-1.4
     - bits-extra # tried bits-extra-0.0.2.3, but its *test-suite* requires hspec >=2.4 && < 2.11 and the snapshot contains hspec-2.11.7
     - blake2 # tried blake2-0.3.0.1, but its *test-suite* requires hlint ^>=3.5 and the snapshot contains hlint-3.6.1
+    - blas-hs # tried blas-hs-0.1.1.0, but its *test-suite* requires base < 4.13
     - bloodhound # tried bloodhound-0.21.0.0, but its *test-suite* requires the disabled package: quickcheck-properties
     - boolean-normal-forms # tried boolean-normal-forms-0.0.1.1, but its *test-suite* requires QuickCheck >=2.10 && < 2.14 and the snapshot contains QuickCheck-2.14.3
     - brittany # tried brittany-0.14.0.2, but its *test-suite* requires hspec ^>=2.8.3 and the snapshot contains hspec-2.11.7
@@ -8390,6 +8395,7 @@ skipped-tests:
     - cabal-install # tried cabal-install-3.10.2.1, but its *test-suite* requires the disabled package: Cabal-QuickCheck
     - cabal-install # tried cabal-install-3.10.2.1, but its *test-suite* requires the disabled package: Cabal-described
     - cabal-install # tried cabal-install-3.10.2.1, but its *test-suite* requires the disabled package: Cabal-tree-diff
+    - cacophony # tried cacophony-0.10.1, but its *test-suite* requires base16-bytestring < 1
     - cassava-conduit # tried cassava-conduit-0.6.5, but its *test-suite* requires QuickCheck >=2.12 && < 2.13 and the snapshot contains QuickCheck-2.14.3
     - cayley-client # tried cayley-client-0.4.19.2, but its *test-suite* requires aeson >=0.8.0.2 && < 1.6 || >=2.0 && < 2.1 and the snapshot contains aeson-2.1.2.1
     - chatwork # tried chatwork-0.1.3.5, but its *test-suite* requires hspec >=2.4.1 && < 2.6 and the snapshot contains hspec-2.11.7
@@ -8400,9 +8406,11 @@ skipped-tests:
     - colour # tried colour-2.3.6, but its *test-suite* requires random >=1.0 && < 1.2 and the snapshot contains random-1.2.1.1
     - construct # tried construct-0.3.1.2, but its *test-suite* requires markdown-unlit >=0.5 && < 0.6 and the snapshot contains markdown-unlit-0.6.0
     - crc32c # tried crc32c-0.1.0, but its *test-suite* requires bytestring >=0.10.8.2 && < 0.11 and the snapshot contains bytestring-0.11.5.2
+    - crypton-x509 # 1.7.6 https://github.com/kazu-yamamoto/crypton-certificate/issues/1
     - csg # tried csg-0.1.0.6, but its *test-suite* requires doctest < 0.17 and the snapshot contains doctest-0.22.2
     - csg # tried csg-0.1.0.6, but its *test-suite* requires tasty < 1.3 and the snapshot contains tasty-1.4.3
     - darcs # tried darcs-2.16.5, but its *test-suite* requires leancheck >=0.9 && < 0.10 and the snapshot contains leancheck-1.0.0
+    - deriveJsonNoPrefix # needs aeson <2
     - dhall-lsp-server # tried dhall-lsp-server-1.1.3, but its *test-suite* requires hspec >=2.7 && < 2.11 and the snapshot contains hspec-2.11.7
     - dhall-lsp-server # tried dhall-lsp-server-1.1.3, but its *test-suite* requires lsp-test >=0.13.0.0 && < 0.15 and the snapshot contains lsp-test-0.16.0.1
     - dhall-lsp-server # tried dhall-lsp-server-1.1.3, but its *test-suite* requires lsp-types >=1.2.0.0 && < 1.5 and the snapshot contains lsp-types-2.1.0.0
@@ -8630,6 +8638,8 @@ skipped-tests:
     - tar # tried tar-0.5.1.1, but its *test-suite* requires the disabled package: bytestring-handle
     - tasty-discover # tried tasty-discover-5.0.0, but its *test-suite* requires hspec >=2.7 && < 2.11 and the snapshot contains hspec-2.11.7
     - tasty-discover # tried tasty-discover-5.0.0, but its *test-suite* requires hspec-core >=2.7.10 && < 2.11 and the snapshot contains hspec-core-2.11.7
+    - tasty-checklist # doctest
+    - tasty-sugar # hedgehog
     - temporary-resourcet # tried temporary-resourcet-0.1.0.1, but its *test-suite* requires tasty >=1.0 && < 1.2 and the snapshot contains tasty-1.4.3
     - test-framework # tried test-framework-0.8.2.0, but its *test-suite* requires the disabled package: libxml
     - type-errors # tried type-errors-0.2.0.2, but its *test-suite* requires doctest >=0.16.0.1 && < 0.22 and the snapshot contains doctest-0.22.2
@@ -8657,6 +8667,7 @@ skipped-tests:
     - web3-solidity # tried web3-solidity-1.0.0.0, but its *test-suite* requires hspec-discover >=2.4.4 && < 2.8 and the snapshot contains hspec-discover-2.11.7
     - wild-bind-x11 # tried wild-bind-x11-0.2.0.15, but its *test-suite* requires time >=1.5.0 && < 1.12 and the snapshot contains time-1.12.2
     - yesod-static-angular # tried yesod-static-angular-0.1.8, but its *test-suite* requires yesod-test >=1.2 && < 1.6 and the snapshot contains yesod-test-1.6.16
+    - zenc # hedgehog and hspec
     - zm # tried zm-0.3.2, but its *test-suite* requires doctest >=0.11.1 && < 0.14 and the snapshot contains doctest-0.22.2
     - zm # tried zm-0.3.2, but its *test-suite* requires tasty >=0.11 && < 0.13 and the snapshot contains tasty-1.4.3
     - zm # tried zm-0.3.2, but its *test-suite* requires tasty-quickcheck >=0.8.1 && < 0.9.2 and the snapshot contains tasty-quickcheck-0.10.2
@@ -8696,8 +8707,6 @@ expected-test-failures:
     - conduit-aeson # https://github.com/commercialhaskell/stackage/issues/6469
     - conduit-connection # 0.1.0.5
     - cryptohash # 0.11.9 Stack builds test and benchmarks in one pass so benchmark could prevent tests from getting built
-    - crypton-x509 # 1.7.6 https://github.com/kazu-yamamoto/crypton-certificate/issues/1
-    - deriveJsonNoPrefix # 0.1.0.1 compile fail against aeson 2
     - do-notation # 0.1.0.2
     - flay # 0.4
     - generic-lens # https://github.com/commercialhaskell/stackage/issues/6377

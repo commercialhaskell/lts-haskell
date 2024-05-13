@@ -5547,6 +5547,7 @@ packages:
         - hspec-smallcheck ^>= 0.5.3
         - html ^>= 1.0.1.2
         - html-entities ^>= 1.1.4.6
+        - html-parse
         - http-client-restricted ^>= 0.1.0
         - http-client-tls ^>= 0.3.6.3
         - http-date ^>= 0.0.11

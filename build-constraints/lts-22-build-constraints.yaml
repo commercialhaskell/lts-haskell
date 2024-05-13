@@ -1872,6 +1872,27 @@ packages:
         - binary-shared ^>= 0.8.3
         - xdg-userdirs ^>= 0.1.0.2
 
+        # copilot
+        - bitwise
+        - bv-sized
+        - config-value
+        - copilot
+        - copilot-c99
+        - copilot-core
+        - copilot-interpreter
+        - copilot-language
+        - copilot-libraries
+        - copilot-prettyprinter
+        - copilot-theorem
+        - language-c99
+        - language-c99-simple
+        - language-c99-util
+        - panic
+        - parameterized-utils
+        - s-cargot
+        - what4
+        - zenc
+
     "Renzo Carbonara <renzocarbonara@gmail.com> @k0001":
         - df1 ^>= 0.4.2
         - di ^>= 1.3

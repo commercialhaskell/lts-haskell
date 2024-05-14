@@ -9043,6 +9043,7 @@ expected-test-failures:
     - vivid-osc
     - wai-extra # https://github.com/yesodweb/wai/issues/886
     - wakame
+    - what4 # https://github.com/GaloisInc/what4/issues/262
     - world-peace
     - xml-picklers # https://github.com/Philonous/xml-picklers/issues/5
     - xmlbf

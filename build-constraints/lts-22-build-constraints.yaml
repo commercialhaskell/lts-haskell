@@ -349,10 +349,10 @@ packages:
 
     "Scott N. Walck <walck@lvc.edu> @walck":
         - cyclotomic ^>= 1.1.2
-        - learn-physics ^>= 0.6.6
+        - learn-physics ^>= 0.6.6 && < 0 # https://github.com/walck/learn-physics/issues/3
         - SpatialMath ^>= 0.2.7.1
         - Vis ^>= 0.7.7.0
-        - LPFP ^>= 1.1.1 && < 1.1.4
+        - LPFP ^>= 1.1.1 && < 1.1.4 && < 0 # similar to learn-physics
         - LPFP-core ^>= 1.1.1
 
     "Phil de Joux <phil.dejoux@blockscope.com> @philderbeast":

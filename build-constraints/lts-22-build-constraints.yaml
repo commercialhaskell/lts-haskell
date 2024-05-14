@@ -8067,6 +8067,10 @@ packages:
 
         # https://github.com/commercialhaskell/stackage/issues/7178
         - cassava-megaparsec ^>= 2.0.4 && <2.1
+
+        # primitive-0.8
+        - integer-conversion < 0.1.1
+        - scientific < 0.3.8
     # end of Stackage upper bounds
 # end of packages
 

@@ -8071,6 +8071,9 @@ packages:
         # primitive-0.8
         - integer-conversion < 0.1.1
         - scientific < 0.3.8
+
+        # for its tasty testsuite
+        - time-compat < 1.9.7
     # end of Stackage upper bounds
 # end of packages
 

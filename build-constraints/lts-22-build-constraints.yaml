@@ -8994,6 +8994,7 @@ expected-test-failures:
     - morpheus-graphql-app
     - mwc-random
     - nettle # https://github.com/stbuehler/haskell-nettle/issues/10
+    - network-messagepack-rpc-websocket # 0.1.1.1 https://github.com/iijlab/direct-hs/issues/102
     - nri-observability # https://github.com/commercialhaskell/stackage/issues/6179
     - nri-prelude # https://github.com/commercialhaskell/stackage/issues/6179
     - ochintin-daicho

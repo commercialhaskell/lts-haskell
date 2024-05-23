@@ -1768,8 +1768,8 @@ packages:
         - servant ^>= 0.20.1
         - servant-blaze ^>= 0.9.1
         - servant-cassava
-        - servant-client ^>= 0.20
-        - servant-client-core ^>= 0.20
+        - servant-client ^>= 0.20 && (< 0.20.1 || > 0.20.1)
+        - servant-client-core ^>= 0.20 && (< 0.20.1 || > 0.20.1)
         - servant-conduit ^>= 0.16
         - servant-docs ^>= 0.13
         - servant-foreign ^>= 0.16
@@ -3354,7 +3354,7 @@ packages:
         - emojis ^>= 0.1.3
         - pandoc < 3.1.12
         - pandoc-cli < 3.1.12
-        - pandoc-server ^>= 0.1.0.4
+        - pandoc-server ^>= 0.1.0.4 && < 0.1.0.6
         - citeproc ^>= 0.8.1
         - commonmark ^>= 0.2.4.1
         - commonmark-extensions ^>= 0.2.5.1
@@ -4604,7 +4604,7 @@ packages:
 
     "Sergey Vinokurov <serg.foo@gmail.com> @sergv":
         - bencoding < 0
-        - emacs-module ^>= 0.2.1
+        - emacs-module ^>= 0.2.1 && < 0.2.1.1
         - tasty-ant-xml ^>= 1.1.9
         - prettyprinter-combinators ^>= 0.1.2
         - composition-prelude ^>= 3.0.0.2
@@ -5612,7 +5612,7 @@ packages:
         - mersenne-random ^>= 1.0.0.1
         - mersenne-random-pure64 ^>= 0.2.2.0
         - mfsolve ^>= 0.3.2.2
-        - microstache ^>= 1.0.2.3
+        - microstache ^>= 1.0.2.3 && < 1.0.3
         - minisat-solver ^>= 0.1
         - missing-foreign ^>= 0.1.1
         - mmap ^>= 0.5.9
@@ -5681,7 +5681,7 @@ packages:
         - protobuf ^>= 0.2.1.3 && (<0.2.1.4 || >0.2.1.4) # deprecated version
         - ptr ^>= 0.16.8.5
         - pureMD5 ^>= 2.1.4
-        - quickcheck-instances ^>= 0.3.30
+        - quickcheck-instances ^>= 0.3.30 && < 0.3.31
         - quickcheck-io ^>= 0.2.0
         - quickcheck-simple ^>= 0.1.1.1
         - quickcheck-unicode ^>= 1.0.1.0
@@ -5824,12 +5824,12 @@ packages:
         - universe-instances-extended ^>= 1.1.3
         - universe-instances-trans
         - universe-reverse-instances ^>= 1.1.1
-        - universe-some ^>= 1.2.1
+        - universe-some ^>= 1.2.1 && < 1.2.2
         - unix-time ^>= 0.4.11
         - url ^>= 2.1.3
         - utf8-light ^>= 0.4.4.0
         - utf8-string ^>= 1.0.2
-        - uuid-types ^>= 1.0.5.1
+        - uuid-types ^>= 1.0.5.1 && < 1.0.6
         - validationt < 0
         - vault ^>= 0.3.1.5
         - vec ^>= 0.5

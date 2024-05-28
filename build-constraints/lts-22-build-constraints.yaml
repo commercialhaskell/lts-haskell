@@ -312,9 +312,11 @@ packages:
         - hschema-prettyprinter
         - hschema-quickcheck
 
-    "Preetham Gujjula <preetham.gujjula@gmail.com> @pgujjula":
-        - modular ^>= 0.1.0.8
+    "Preetham Gujjula <libraries@mail.preetham.io> @pgujjula":
+        - apply-merge ^>= 0.1.1.0
+        - falsify ^>= 0.2.0
         - list-predicate ^>= 0.1.0.1
+        - modular ^>= 0.1.0.8
         - primecount ^>= 0.1.0.1
 
     "Guillaume Bouchard <guillaum.bouchard@gmail.com> @guibou":

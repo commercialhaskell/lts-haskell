@@ -8545,6 +8545,7 @@ skipped-tests:
     - irc-dcc # tried irc-dcc-2.0.1, but its *test-suite* requires tasty >=0.11.0.2 && < 1.2 and the snapshot contains tasty-1.4.3
     - irc-dcc # tried irc-dcc-2.0.1, but its *test-suite* requires tasty-hspec >=1.1.2 && < 1.2 and the snapshot contains tasty-hspec-1.2.0.4
     - json-rpc-client # tried json-rpc-client-0.2.5.0, but its *test-suite* requires QuickCheck >=2.4.2 && < 2.14 and the snapshot contains QuickCheck-2.14.3
+    - koji-tool
     - libjwt-typed # tried libjwt-typed-0.2, but its *test-suite* requires hspec >=2.7 && < 2.8 and the snapshot contains hspec-2.11.7
     - libjwt-typed # tried libjwt-typed-0.2, but its *test-suite* requires hspec-core >=2.7 && < 2.8 and the snapshot contains hspec-core-2.11.7
     - linear-accelerate # tried linear-accelerate-0.7.0.0, but its *test-suite* requires doctest >=0.11.1 && < 0.17 and the snapshot contains doctest-0.22.2

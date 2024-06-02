@@ -3154,7 +3154,7 @@ packages:
         - scanner ^>= 0.3.1
 
     "Stanislav Chernichkin <schernichkin@gmail.com> @schernichkin":
-        - partial-isomorphisms ^>= 0.2.3.0
+        - partial-isomorphisms ^>= 0.2.3.0 && 0.2.4.0
 
     "Christoph Breitkopf <chbreitkopf@gmail.com> @bokesan":
         - IntervalMap ^>= 0.6.2.1

@@ -5171,7 +5171,7 @@ packages:
 
     "Tim Emiola <tim.emiola@gmail.com> @adetokunbo":
         - benri-hspec ^>= 0.1.0.1
-        - attoparsec-framer ^>= 0.1.0.1
+        - attoparsec-framer < 0.1.0.5
         - hspec-tmp-proc ^>= 0.5.2.0
         - keyed-vals ^>= 0.2.2.0
         - keyed-vals-hspec-tests ^>= 0.2.2.0

@@ -4676,8 +4676,10 @@ packages:
         - enum-subset-generate ^>= 0.1.0.1 && < 0.1.0.2
 
     "Trevis Elser <trevis@silencedpoet.com> @telser":
-        - sendfile ^>= 0.7.11.5
         - non-empty-text
+        - sendfile ^>= 0.7.11.5
+        - tomland
+        - validation-selective
 
     "Kristen Kozak <grayjay@wordroute.com> @grayjay":
         - json-rpc-server

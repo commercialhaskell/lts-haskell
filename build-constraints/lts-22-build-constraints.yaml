@@ -172,7 +172,7 @@ packages:
         - yesod-middleware-csp ^>= 1.2.0
         - persistent-lens ^>= 1.0.0
         - mail-pool
-        - keter ^>= 2.1.2
+        - keter ^>= 2.1.2 && < 2.1.6
         - zxcvbn-hs ^>= 0.3.6
 
     "Marcin Rzeźnicki <marcin.rzeznicki@gmail.com> @marcin-rzeznicki":

@@ -1016,7 +1016,7 @@ packages:
 
     "Antoine Latter @aslatter":
         - byteorder ^>= 1.0.4
-        - uuid ^>= 1.3.15
+        - uuid ^>= 1.3.15 && < 1.3.16
 
     "Philipp Middendorf <pmidden@secure.mailbox.org> @pmiddend":
         - clock ^>= 0.8.4
@@ -3064,7 +3064,7 @@ packages:
         - stateWriter ^>= 0.4.0
         - filecache
         - pcre-utils ^>= 0.1.9
-        - strict-base-types ^>= 0.8
+        - strict-base-types ^>= 0.8 && < 0.8.1
         - withdependencies ^>= 0.3.0
         - hruby ^>= 0.5.1.0
         - language-puppet
@@ -5503,7 +5503,7 @@ packages:
         - fuzzcheck ^>= 0.1.1
         - generic-arbitrary ^>= 1.0.1
         - generically ^>= 0.1.1
-        - generics-sop-lens ^>= 0.2.0.1
+        - generics-sop-lens ^>= 0.2.0.1 && < 0.2.1
         - ghc-byteorder ^>= 4.11.0.0.10
         - ghc-compact ^>= 0.1.0.0
         - ghc-events ^>= 0.19.0.1
@@ -5571,7 +5571,7 @@ packages:
         - incremental ^>= 0.3.1
         - indexed ^>= 0.1.3
         - infer-license ^>= 0.2.0
-        - insert-ordered-containers ^>= 0.2.5.3
+        - insert-ordered-containers ^>= 0.2.5.3 && < 0.2.6
         - inspection-testing ^>= 0.5.0.2
         - integer-conversion ^>= 0.1.0.1
         - integer-logarithms ^>= 1.0.3.1
@@ -5693,7 +5693,7 @@ packages:
         - ral == 0.2.1 # req'd by boring
         - random ^>= 1.2.1.1
         - random-shuffle ^>= 0.0.4
-        - range-set-list ^>= 0.1.3.1
+        - range-set-list ^>= 0.1.3.1 && < 0.1.4
         - rank1dynamic ^>= 0.4.1
         - ratio-int ^>= 0.1.2
         - raw-strings-qq ^>= 1.1
@@ -5724,7 +5724,7 @@ packages:
         - serialise ^>= 0.2.6.1
         - servant-client-core ^>= 0.20
         - servant-multipart-client ^>= 0.12.2
-        - servant-swagger-ui ^>= 0.3.5.5.0.0
+        - servant-swagger-ui ^>= 0.3.5.5.0.0 && < 0.3.5.5.0.1
         - servant-swagger-ui-core ^>= 0.3.5
         - servant-swagger-ui-redoc ^>= 0.3.4.1.22.3
         - servant-yaml
@@ -5754,8 +5754,8 @@ packages:
         - storable-complex ^>= 0.2.3.0
         - streaming-cassava
         - streaming-wai ^>= 0.1.1
-        - strict ^>= 0.5
-        - strict-lens ^>= 0.4.0.3
+        - strict ^>= 0.5 && < 0.5.1
+        - strict-lens ^>= 0.4.0.3 && < 0.4.1
         - strict-list ^>= 0.1.7.4
         - string-qq ^>= 0.0.5
         - string-variants

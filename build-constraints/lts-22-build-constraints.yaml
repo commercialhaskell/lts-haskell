@@ -268,6 +268,9 @@ packages:
         - unagi-chan ^>= 0.4.1.4
         - type-errors ^>= 0.2.0.2
 
+    "Illia Shkroba <is@pjwstk.edu.pl> @illia-shkroba":
+        - pfile
+
     "Matej Niznik <matten@tuta.io> @TheMatten":
         - loopbreaker
 

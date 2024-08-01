@@ -5401,7 +5401,8 @@ packages:
         - bytestring-builder ^>= 0.10.8.2.0
         - bzlib ^>= 0.5.1.0
         - ca-province-codes ^>= 1.0.0.0
-        - cabal-install-solver < 3.10.3 # 3.10.3 requires `cabal-install-3.10.3`
+        - cabal-install ^>= 3.10
+        - cabal-install-solver ^>= 3.10
         - call-stack ^>= 0.4.0
         - casing ^>= 0.1.4.1
         - cassava-megaparsec ^>= 2.0.4

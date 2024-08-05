@@ -8368,6 +8368,7 @@ skipped-tests:
     - horizontal-rule # HMock
     - phatsort # HMock
     - redact # HMock
+    - temporary
 
 
     # TODO

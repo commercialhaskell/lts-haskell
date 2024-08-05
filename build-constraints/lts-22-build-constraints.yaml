@@ -1187,7 +1187,7 @@ packages:
         - hspec-wai-json ^>= 0.11.0
         - aeson-qq ^>= 0.8.4
         - interpolate ^>= 0.2.1
-        - doctest ^>= 0.22.2
+        - doctest == 0.22.6
         - base-compat ^>= 0.13.1
 
     "Mario Blazevic <blamario@protonmail.com> @blamario":

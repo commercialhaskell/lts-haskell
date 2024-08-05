@@ -5673,6 +5673,7 @@ packages:
         - peggy
         - pipes-bytestring ^>= 2.1.7
         - pipes-group ^>= 1.0.12
+        - pipes-zlib ^>= 0.4.4.2
         - placeholders ^>= 0.1
         - poll ^>= 0.0.0.2
         - portable-lines ^>= 0.1

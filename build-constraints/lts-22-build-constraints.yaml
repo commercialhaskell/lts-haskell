@@ -1640,7 +1640,7 @@ packages:
 
     "Matvey Aksenov <matvey.aksenov@gmail.com> @supki":
         - terminal-size ^>= 0.3.4
-        - envparse ^>= 0.5.0
+        - envparse ^>= 0.5.0 && < 0.5.2
 
     "Luis G. Torres <lgtorres42@gmail.com> @giogadi":
         - kdt ^>= 0.2.5
@@ -8972,6 +8972,7 @@ expected-test-failures:
     - persistent # https://github.com/commercialhaskell/stackage/issues/6037
     - reanimate-svg # https://github.com/commercialhaskell/stackage/issues/5688
     - wai-saml2 # https://github.com/mbg/wai-saml2/issues/44
+    - sequence-formats
 
     # Testcase failures, or other runtime failures.
     # These can be real testsuite bugs, or maybe limitations in test cases or the test setup.
@@ -9039,6 +9040,7 @@ expected-test-failures:
     - rose-trees
     - safe-coloured-text-gen # https://github.com/commercialhaskell/stackage/issues/7359
     - safe-decimal
+    - shakespeare
     - simple-affine-space
     - simple-vec3 # https://github.com/commercialhaskell/stackage/pull/5410
     - singletons-base

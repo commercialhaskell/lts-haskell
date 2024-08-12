@@ -8086,6 +8086,9 @@ packages:
 
         # for its tasty testsuite
         - time-compat < 1.9.7
+
+        # https://github.com/commercialhaskell/stackage/issues/7503
+        - path < 0.9.6
     # end of Stackage upper bounds
 # end of packages
 

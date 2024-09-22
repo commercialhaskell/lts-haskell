@@ -5776,7 +5776,7 @@ packages:
         - tabular ^>= 0.2.2.8
         - tar ^>= 0.5.1.1 && <0.6 # https://github.com/commercialhaskell/stackage/issues/7202
         - tasty-checklist
-        - tasty-sugar
+        - tasty-sugar < 2.2.2
         - tasty-th ^>= 0.1.7
         - tdigest ^>= 0.3
         - telegram-bot-api

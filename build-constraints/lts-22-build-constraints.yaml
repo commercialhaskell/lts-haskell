@@ -3737,8 +3737,8 @@ packages:
         - collect-errors ^>= 0.1.5.0
         - mixed-types-num ^>= 0.5.12
         - cdar-mBound ^>= 0.1.0.4
-        - aern2-mp ^>= 0.2.15.1
-        - aern2-real ^>= 0.2.15
+        - aern2-mp ^>= 0.2.15.1 && < 0.2.16
+        - aern2-real ^>= 0.2.15 && < 0.2.16
 
     "Bartosz Nitka <niteria@gmail.com> @niteria":
         - oeis

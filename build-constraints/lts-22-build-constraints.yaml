@@ -5167,7 +5167,7 @@ packages:
 
     "Francesco Ariis <fa-ml@ariis.it> @ffaf1":
         - ansi-terminal-game ^>= 1.9.2.0
-        - lentil ^>= 1.5.6.0
+        - lentil ^>= 1.5.6.0 && < 1.5.7
         - linebreak ^>= 1.1.0.4
         - timers-tick ^>= 0.5.0.4
         - unidecode ^>= 0.1.0.4

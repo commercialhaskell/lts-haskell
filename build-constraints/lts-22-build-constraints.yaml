@@ -3103,7 +3103,7 @@ packages:
         - req-conduit ^>= 1.0.1
         - stache ^>= 2.3.4
         - tagged-identity ^>= 0.1.4
-        - text-metrics ^>= 0.3.2
+        - text-metrics == 0.3.2
         - wave ^>= 0.2.1
         - zip ^>= 2.0.0
 

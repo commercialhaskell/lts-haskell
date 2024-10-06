@@ -1758,7 +1758,7 @@ packages:
         - ghcjs-perch ^>= 0.3.3.3
 
     "Tom Ellis <tom-stackage@jaguarpaw.co.uk> @tomjaguarpaw":
-        - opaleye ^>= 0.10.2.0
+        - opaleye ^>= 0.10.2.0 && < 0.10.4
         - product-profunctors ^>= 0.11.1.1
         - strict-wrapper ^>= 0.0.0.0
 

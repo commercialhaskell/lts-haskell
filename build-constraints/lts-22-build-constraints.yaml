@@ -4401,7 +4401,7 @@ packages:
         - sydtest-discover ^>= 0.0.0.4
         - sydtest-hedgehog ^>= 0.4.0.0
         - sydtest-hedis ^>= 0.0.0.0
-        - sydtest-hspec ^>= 0.4.0.2
+        - sydtest-hspec == 0.4.0.2
         - sydtest-mongo ^>= 0.0.0.0
         - sydtest-persistent ^>= 0.0.0.2
         - sydtest-persistent-postgresql

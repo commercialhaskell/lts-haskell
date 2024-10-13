@@ -4439,7 +4439,7 @@ packages:
     "Andrzej Rybczak <andrzej@rybczak.net> @arybczak":
         - effectful ^>= 2.3.0.0
         - effectful-core ^>= 2.3.0.1
-        - effectful-plugin ^>= 1.1.0.2
+        - effectful-plugin == 1.1.0.3
         - effectful-th == 1.0.0.1
 
     "Stevan Andjelkovic <stevan.andjelkovic@here.com> @stevana":

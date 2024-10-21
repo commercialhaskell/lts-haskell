@@ -5272,7 +5272,7 @@ packages:
         - ansi-terminal ^>= 1.0
         - ansi-terminal-types ^>= 0.11.5
         - companion ^>= 0.1.0
-        - stack ^>= 2.13.1 && (<9.9.9 || >9.9.9)
+        - stack ^>= 2.15.7
         - static-bytes ^>= 0.1.0
 
     "Torsten Schmits <stackage@schmits.me> @tek":

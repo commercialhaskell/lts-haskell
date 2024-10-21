@@ -1,9 +1,11 @@
 ## LTS Haskell: Version your Ecosystem
 
+[ [Instructions for adding a package to current LTS](https://github.com/commercialhaskell/stackage/blob/master/MAINTAINERS.md#adding-a-package-to-an-lts-snapshot) ]
+
 LTS (Long Term Support) Haskell is a curated set of packages, a more stable companion to Stackage Nightly.
 
-* Minor version increments (e.g., 5.1 to 5.2) to LTS are produced weekly, typically on Sunday, containing only API compatible changes to existing packages and additional packages.
-* Major version increments (e.g. 5.20 to 6.0) to LTS are produced every 3 to 6 months containing API changes, additional packages, and occasional package removals. (Note that, in the future, a more rigorous release schedule will likely be added.)
+* Minor version increments (e.g., 20.1 to 20.2) to LTS are produced weekly, typically on Sunday, containing only API compatible changes to existing packages and additional packages.
+* Major version increments (e.g. 20.20 to 21.0) to LTS are produced every 3 to 6 months containing API changes, additional packages, and occasional package removals. (Note that, in the future, a more rigorous release schedule will likely be added.)
 * In contrast, Stackage Nightly releases are produced nightly containing API changes and package changes.
 
 Both Stackage Nightly and LTS Haskell are available from [the Stackage

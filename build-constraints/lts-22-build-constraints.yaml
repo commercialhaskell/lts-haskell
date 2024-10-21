@@ -1837,8 +1837,7 @@ packages:
         - cached-json-file ^>= 0.1.1
         - copr-api ^>= 0.2.0
         - dl-fedora ^>= 1.0
-        - fedora-dists ^>= 2.1.1
-        - fedora-haskell-tools ^>= 1.1
+        - fedora-releases ^>= 0.1
         - HaXml ^>= 1.25.13
         - hkgr ^>= 0.4.3.2
         - http-directory ^>= 0.1.10

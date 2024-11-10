@@ -1204,7 +1204,7 @@ packages:
         - statestack ^>= 0.3.1.1
         - diagrams ^>= 1.4.1
         - diagrams-builder ^>= 0.8.0.6
-        - diagrams-cairo ^>= 1.4.2.1
+        - diagrams-cairo ^>= 1.4.2.1 && < 1.4.3
         - diagrams-canvas ^>= 1.4.1.2 && < 1.4.2
         - diagrams-contrib ^>= 1.4.5.1 && < 1.4.6
         - diagrams-core ^>= 1.5.1.1

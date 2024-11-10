@@ -3191,7 +3191,7 @@ packages:
         - sqids ^>= 0.2.0.0
 
     "Will Sewell <me@willsewell.com> @willsewell":
-        - benchpress ^>= 0.2.2.23
+        - benchpress ^>= 0.2.2.23 && < 0.2.2.24
         - pusher-http-haskell ^>= 2.1.0.17
 
     "Yorick Laupa yo.eight@gmail.com @YoEight":

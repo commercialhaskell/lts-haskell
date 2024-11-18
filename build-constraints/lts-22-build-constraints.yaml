@@ -2459,9 +2459,9 @@ packages:
         - ratel-wai ^>= 2.0.0.5
         - rattletrap ^>= 12.1.2
         - salve ^>= 2.0.0.4
-        - strive ^>= 6.0.0.10
+        - strive ^>= 6.0.0.10 && < 6.0.0.13 # data-default 0.8
         - witch ^>= 1.2.0.3
-        - wuss ^>= 2.0.1.5
+        - wuss ^>= 2.0.1.5 && < 2.0.2.1  # data-default 0.8
 
         - bmp ^>= 1.2.6.3 # @benl23x5
         - gpolyline ^>= 0.1.0.1 # @fegu
@@ -8380,6 +8380,9 @@ skipped-tests:
 
     # Revision to package caused it to require bounds and break
     - htoml  # https://github.com/commercialhaskell/stackage/issues/6239
+
+    # LTS test-suite deps on test-framework
+    - pfile
 
     # See "Large scale enabling/disabling of packages" in CURATORS.md for how to manage this section.
     #

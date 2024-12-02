@@ -1698,7 +1698,7 @@ packages:
         - postgresql-binary ^>= 0.13.1.2
         - postgresql-syntax ^>= 0.4.1.1
         - primitive-extras ^>= 0.10.1.10
-        - ptr-poker ^>= 0.1.2.14
+        - ptr-poker == 0.1.2.14
         - rebase ^>= 1.20.2
         - rerebase ^>= 1.20.2
         - slave-thread ^>= 1.1.0.3
@@ -1706,7 +1706,7 @@ packages:
         - stm-hamt ^>= 1.2.0.14
         - template-haskell-compat-v0208 ^>= 0.1.9.3
         - text-builder ^>= 0.6.7.2
-        - text-builder-dev ^>= 0.3.4.2
+        - text-builder-dev == 0.3.4.2
         - th-lego ^>= 0.3.0.3
         - vector-builder ^>= 0.3.8.5
         - vector-extras ^>= 0.2.8.1

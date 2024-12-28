@@ -3321,10 +3321,10 @@ packages:
         - doclayout ^>= 0.5
         - doctemplates ^>= 0.11.0.1
         - emojis ^>= 0.1.4.1
-        - pandoc ^>= 3.6 #& < 3.6.1
+        - pandoc ^>= 3.6 && < 3.6.1
         - pandoc-cli ^>= 3.6
         - pandoc-server ^>= 0.1.0.10
-        - citeproc ^>= 0.8.1.1 #& < 0.8.1.2
+        - citeproc ^>= 0.8.1.1 && < 0.8.1.2
         - commonmark ^>= 0.2.6.1
         - commonmark-extensions ^>= 0.2.5.6
         - commonmark-pandoc ^>= 0.2.2.3

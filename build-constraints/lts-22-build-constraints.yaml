@@ -4743,11 +4743,10 @@ packages:
         - kazura-queue ^>= 0.1.0.4
 
     "Eric Torreborre <etorreborre@yahoo.com> @etorreborre":
-        - registry
-        - registry-aeson
-        - registry-hedgehog
-        - registry-hedgehog-aeson
-        - registry-options
+        - registry ^>= 0.6.3.0
+        - registry-aeson ^>= 0.3.1.0
+        - registry-hedgehog ^>= 0.8.2.0
+        - registry-hedgehog-aeson ^>= 0.3.1.0
 
     "Ryota Kameoka <kameoka.ryota@gmail.com> @ryota-ka":
         - duration ^>= 0.2.0.0

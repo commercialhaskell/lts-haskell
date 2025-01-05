@@ -5738,7 +5738,7 @@ packages:
         - sundown ^>= 0.6
         - syb ^>= 0.7.2.4
         - tabular ^>= 0.2.2.8
-        - tar ^>= 0.6.3.0
+        - tar ^>= 0.6.3.0 && < 0.6.4
         - tasty-th ^>= 0.1.7
         - tdigest ^>= 0.3.1
         - telegram-bot-api ^>= 7.4.4

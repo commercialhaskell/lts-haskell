@@ -9090,6 +9090,7 @@ expected-test-failures:
     - yesod-paginator
 
     # Misc. Please check if there is a better section before adding more packages here.
+    - http-io-streams # https://github.com/commercialhaskell/stackage/issues/7644
     - ghcid # Weird conflicts with sandboxingistributed/distributed-process-supervisor/issues/1
     - hw-kafka-client # missing exe https://github.com/commercialhaskell/stackage/pull/5542
     - pandoc # https://github.com/jgm/pandoc/issues/5582

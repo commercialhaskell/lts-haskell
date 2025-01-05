@@ -3572,27 +3572,27 @@ packages:
         - gi-atk ^>= 2.0.28
         - gi-cairo ^>= 1.0.30
         - gi-dbusmenu ^>= 0.4.14
-        - gi-dbusmenugtk3 ^>= 0.4.15
-        - gi-gdk ^>= 3.0.29 && >=3 && <4 # https://github.com/commercialhaskell/stackage/issues/6317
+        - gi-dbusmenugtk3 == 0.4.15
+        - gi-gdk == 3.0.29
         - gi-gdkpixbuf ^>= 2.0.32
-        - gi-gdkx11 ^>= 3.0.16 && >=3 && <4 # https://github.com/commercialhaskell/stackage/issues/6317
+        - gi-gdkx11 == 3.0.16
         - gi-gio ^>= 2.0.35
         - gi-glib ^>= 2.0.30
         - gi-gobject ^>= 2.0.31
         - gi-graphene ^>= 1.0.8
         - gi-gsk < 0
-        - gi-gtk ^>= 3.0.43 && >=3 && <4 # https://github.com/commercialhaskell/stackage/issues/6317
+        - gi-gtk == 3.0.43
         - gi-gtk-hs ^>= 0.3.17
         - gi-gmodule ^>= 2.0.6
         - gi-pango ^>= 1.0.30
         - gi-xlib ^>= 2.0.14
         - gi-harfbuzz ^>= 0.0.10
-        - gi-gtksource ^>= 3.0.29 && <5.0.0 # https://github.com/commercialhaskell/stackage/issues/7013
+        - gi-gtksource == 3.0.29
         - gi-javascriptcore < 0 # 4.0.28 compile fail - Typelib file for namespace 'JavaScriptCore', version '4.0' not found (0)
-        - gi-vte ^>= 2.91.33
+        - gi-vte == 2.91.33
         - gi-webkit2 < 0
         - gi-freetype2 ^>= 2.0.5
-        - gi-soup ^>= 2.4.29 && <3.0.2 # https://github.com/commercialhaskell/stackage/issues/6929
+        - gi-soup == 2.4.29
 
     "Brandon Simmons <brandon.m.simmons@gmail.com> @jberryman":
         - directory-tree ^>= 0.12.1

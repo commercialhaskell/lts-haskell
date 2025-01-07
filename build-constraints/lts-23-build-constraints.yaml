@@ -4880,11 +4880,11 @@ packages:
 
     "Hiromi Ishii <konn.jinro@gmail.com> @konn":
         - equational-reasoning ^>= 0.7.0.3
-        - ghc-typelits-presburger < 0 # ghc-9.8.4 https://github.com/konn/ghc-typelits-presburger/issues/30
-        - singletons-presburger < 0
-        - type-natural < 0
+        - ghc-typelits-presburger ^>= 0.7.4.1
+        - singletons-presburger ^>= 0.7.4.0
+        - type-natural ^>= 1.3.0.2
         - subcategories ^>= 0.2.1.1
-        - sized < 0
+        - sized ^>= 1.1.0.2
 
     "Frank Doepper <stackage@woffs.de> @woffs":
         - amqp-utils < 0

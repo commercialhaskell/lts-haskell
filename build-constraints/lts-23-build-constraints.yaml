@@ -8946,6 +8946,7 @@ expected-test-failures:
     - reanimate-svg # https://github.com/commercialhaskell/stackage/issues/5688
     - rzk
     - sequence-formats # https://github.com/commercialhaskell/stackage/issues/7501
+    - unordered-containers
 
     # Testcase failures, or other runtime failures.
     # These can be real testsuite bugs, or maybe limitations in test cases or the test setup.

@@ -8939,6 +8939,7 @@ expected-test-failures:
     - crypto-pubkey # https://github.com/vincenthz/hs-crypto-pubkey/issues/23
     - doctest-discover # https://github.com/karun012/doctest-discover/issues/33
     - enum-text # https://github.com/cdornan/enum-text/issues/3
+    - GenericPretty
     - ghc-events # https://github.com/haskell/ghc-events/issues/70
     - gitlab-haskell # https://github.com/commercialhaskell/stackage/issues/6088
     - hspec-junit-formatter # https://github.com/freckle/hspec-junit-formatter/issues/14

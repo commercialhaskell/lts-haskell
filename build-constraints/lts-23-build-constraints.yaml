@@ -1673,7 +1673,7 @@ packages:
         - hasql-optparse-applicative ^>= 0.8.0.1
         - hasql-pool ^>= 1.2.0.3
         - hasql-th ^>= 0.4.0.22
-        - hasql-transaction ^>= 1.1.1.2
+        - hasql-transaction < 1.1.1.3
         - headed-megaparsec ^>= 0.2.1.3
         - isomorphism-class ^>= 0.3
         - jsonifier ^>= 0.2.1.3
@@ -3317,8 +3317,8 @@ packages:
         - hsb2hs < 0
         - cmark ^>= 0.6.1
         - texmath ^>= 0.12.8.12
-        - skylighting ^>= 0.14.4
-        - skylighting-core ^>= 0.14.4
+        - skylighting < 0.14.6
+        - skylighting-core < 0.14.6
         - pandoc-types ^>= 1.23.1
         - zip-archive ^>= 0.4.3.2
         - doclayout ^>= 0.5
@@ -5199,7 +5199,7 @@ packages:
     "Fabricio Olivetti de Franca <fabricio.olivetti@gmail.com> @folivetti":
         - hegg ^>= 0.5.0.0 # dep of pandoc-symreg
         - pandoc-symreg < 0
-        - srtree ^>= 2.0.0.2
+        - srtree < 2.0.0.3
 
     "Eugen Wissner <belka@caraus.de> @belka-ew":
         - graphql ^>= 1.5.0.0

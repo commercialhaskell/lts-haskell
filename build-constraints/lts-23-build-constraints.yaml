@@ -3574,14 +3574,19 @@ packages:
         - gi-dbusmenu ^>= 0.4.14
         - gi-dbusmenugtk3 == 0.4.15
         - gi-gdk == 3.0.29
+        - gi-gdk3 ^>= 3.0
+        - gi-gdk4 ^>= 4.0
         - gi-gdkpixbuf ^>= 2.0.32
         - gi-gdkx11 == 3.0.16
+        - gi-gdkx114 ^>= 4.0
         - gi-gio ^>= 2.0.35
         - gi-glib ^>= 2.0.30
         - gi-gobject ^>= 2.0.31
         - gi-graphene ^>= 1.0.8
-        - gi-gsk < 0
+        - gi-gsk
         - gi-gtk == 3.0.43
+        - gi-gtk3 ^>= 3.0
+        - gi-gtk4 ^>= 4.0
         - gi-gtk-hs ^>= 0.3.17
         - gi-gmodule ^>= 2.0.6
         - gi-pango ^>= 1.0.30
@@ -6747,7 +6752,6 @@ packages:
         - ghc-compact < 0 # tried ghc-compact-0.1.0.0, but its *library* requires ghc-prim >=0.5.3 && < 0.11 and the snapshot contains ghc-prim-0.11.0
         - ghc-prof < 0 # tried ghc-prof-1.4.1.12, but its *library* requires base >=4.6 && < 4.18 and the snapshot contains base-4.19.2.0
         - ghc-syb-utils < 0 # tried ghc-syb-utils-0.3.0.0, but its *library* requires ghc >=7.10 && < 8.6 and the snapshot contains ghc-9.8.4
-        - gi-gsk < 0 # tried gi-gsk-4.0.8, but its *library* requires gi-gdk >=4.0 && < 4.1 and the snapshot contains gi-gdk-3.0.29
         - gi-webkit2 < 0 # tried gi-webkit2-4.0.31, but its *library* requires the disabled package: gi-javascriptcore
         - ginger < 0 # tried ginger-0.10.5.2, but its *library* requires bytestring >=0.10.8.2 && < 0.12 and the snapshot contains bytestring-0.12.1.0
         - ginger < 0 # tried ginger-0.10.5.2, but its *library* requires text >=1.2.3.1 && < 2.1 and the snapshot contains text-2.1.1

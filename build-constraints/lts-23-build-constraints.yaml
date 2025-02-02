@@ -4067,7 +4067,7 @@ packages:
         - gridtables ^>= 0.1.0.0
 
     "Judah Jacobson <judah.jacobson@gmail.com> @judah":
-        - proto-lens-protobuf-types ^>= 0.7.2.1
+        - proto-lens-protobuf-types ^>= 0.7.2.1 && < 0.7.2.2
         - proto-lens-protoc ^>= 0.8.0.1
         - proto-lens-runtime ^>= 0.7.0.6
         - proto-lens-setup ^>= 0.4.0.8

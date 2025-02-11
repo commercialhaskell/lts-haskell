@@ -1375,7 +1375,7 @@ packages:
         - turtle ^>= 1.6.2
         - foldl ^>= 1.4.17
         - bench < 0
-        - dhall < 0
+        - dhall
         - dhall-bash < 0
         - dhall-json < 0
         - dhall-lsp-server < 0
@@ -6640,7 +6640,6 @@ packages:
         - dawg-ord < 0 # tried dawg-ord-0.5.1.2, but its *library* requires mtl >=2.1 && < 2.3 and the snapshot contains mtl-2.3.1
         - dawg-ord < 0 # tried dawg-ord-0.5.1.2, but its *library* requires transformers >=0.3 && < 0.6 and the snapshot contains transformers-0.6.1.0
         - dawg-ord < 0 # tried dawg-ord-0.5.1.2, but its *library* requires vector >=0.10 && < 0.13 and the snapshot contains vector-0.13.2.0
-        - dhall < 0 # tried dhall-1.42.1, but its *library* requires Diff >=0.2 && < 0.5 and the snapshot contains Diff-0.5
         - dhall-bash < 0 # tried dhall-bash-1.0.41, but its *library* requires bytestring < 0.12 and the snapshot contains bytestring-0.12.1.0
         - dhall-bash < 0 # tried dhall-bash-1.0.41, but its *library* requires text >=0.2 && < 2.1 and the snapshot contains text-2.1.1
         - dhall-json < 0 # tried dhall-json-1.7.12, but its *library* requires aeson >=1.4.6.0 && < 2.2 and the snapshot contains aeson-2.2.3.0

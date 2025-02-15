@@ -797,7 +797,6 @@ packages:
         - bench-show ^>= 0.3.2
         - monad-recorder < 0
         - packcheck ^>= 0.7.0
-        - streamly == 0.10.1
         - streamly-core ^>= 0.2.2
         - unicode-transforms ^>= 0.4.0.1
         - xls < 0
@@ -806,7 +805,6 @@ packages:
         - RoundingFiasco ^>= 0.1.0.0
 
     "Ranjeet Ranjan <rnjt.ranjan@gmail.com> @rnjtranjan":
-        - streamly-process ^>= 0.3.1
         - streamly-examples < 0
 
     "Pranay Sashank <pranaysashank@gmail.com> @pranaysashank":

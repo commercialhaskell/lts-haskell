@@ -797,7 +797,7 @@ packages:
         - bench-show ^>= 0.3.2
         - monad-recorder < 0
         - packcheck ^>= 0.7.0
-        - streamly ^>= 0.10.0 && <0.10.1
+        - streamly == 0.10.1
         - streamly-core ^>= 0.2.2
         - unicode-transforms ^>= 0.4.0.1
         - xls < 0
@@ -8672,6 +8672,7 @@ skipped-tests:
     - streamt # executable not found
     - sandwich-contexts # assumes nix is present
     - srtree # https://github.com/commercialhaskell/stackage/issues/7574
+    - dhall # https://github.com/commercialhaskell/lts-haskell/pull/393
 
 # end of skipped-tests
 

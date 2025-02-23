@@ -8050,6 +8050,12 @@ packages:
         # https://github.com/commercialhaskell/stackage/issues/7594
         - tagged ^>= 0.8.8 && <0.8.9
 
+        # https://github.com/commercialhaskell/stackage/issues/7694
+        - microlens < 0.4.14
+        - microlens-ghc < 0.4.15.0
+        - microlens-platform < 0.4.4.0
+        - microlens-mtl < 0.2.1.0
+
     # end of Stackage upper bounds
 # end of packages
 

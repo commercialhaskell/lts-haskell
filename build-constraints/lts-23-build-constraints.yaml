@@ -4607,7 +4607,7 @@ packages:
         - json-spec ^>= 1.1.0.0
         - json-spec-elm ^>= 0.4.0.5
         - json-spec-openapi ^>= 1.0.0.0
-        - json-spec-elm-servant ^>= 0.4.2.2
+        - json-spec-elm-servant == 0.4.3.0 # 0.4.4.0 compile fail: missing Foldable methods
 
     "ALeX Kazik <alex@kazik.de> @alexkazik":
         - exomizer ^>= 1.0.0

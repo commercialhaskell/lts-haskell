@@ -8775,6 +8775,7 @@ expected-test-failures:
     - friday # https://github.com/RaphaelJ/friday/issues/37
     - fsnotify # Often runs out of inotify handles
     - grisette # 0.8.0.0 spec failed
+    - HasBigDecimal # spec failed randomly
     - hastache
     - hedn
     - idris # https://github.com/fpco/stackage/issues/1382
@@ -8997,6 +8998,7 @@ expected-test-failures:
     - mighty-metropolis # https://github.com/jtobin/mighty-metropolis/issues/6
     - mixpanel-client # https://github.com/domenkozar/mixpanel-client/issues/7
     - mockcat # https://github.com/commercialhaskell/stackage/issues/7519
+    - monoidmap # arithmetic underflow
     - morpheus-graphql-app
     - mwc-random
     - nri-observability # https://github.com/commercialhaskell/stackage/issues/6179

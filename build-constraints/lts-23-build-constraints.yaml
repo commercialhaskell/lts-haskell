@@ -4808,7 +4808,7 @@ packages:
         - graphql-client ^>= 1.2.4
         - hpc-lcov ^>= 1.1.2
         - http-api-data-qq ^>= 0.1.0.0
-        - persistent-mtl ^>= 0.5.1
+        - persistent-mtl < 0.5.2
         - tasty-autocollect ^>= 0.4.3
         - th-test-utils ^>= 1.2.1
         - toml-reader ^>= 0.2.1.0

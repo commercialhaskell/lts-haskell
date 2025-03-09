@@ -6,11 +6,12 @@ set -euxo pipefail
 
 cd `dirname $0`
 
+MAJOR=23
 LTS=$(curl -s https://www.stackage.org/download/snapshots.json | jq -r '.["lts"]')
 
 echo "$LTS"
 
-export GHCVER=$(sed -n "s/^ghc-version: \"\(.*\)\"/\1/p" "build-constraints.yaml")
+export GHCVER=$(sed -n "s/^ghc-version: \"\(.*\)\"/\1/p" "lts-$MAJOR-build-constraints.yaml")
 
 curator update &&
   curator constraints --no-download --target=$LTS &&

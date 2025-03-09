@@ -21,4 +21,4 @@ jobs:
           key: ${{ runner.os }}-stackage-nightly-${{ hashFiles('**/build-constraints.yaml') }}
           restore-keys: |
             ${{ runner.os }}-
-      - run: build-constraints/check-lts
+      - run: etc/check.sh

@@ -2509,10 +2509,10 @@ packages:
         - ghc-typelits-extra ^>= 0.4.7
         - ghc-typelits-knownnat ^>= 0.7.12
         - ghc-typelits-natnormalise == 0.7.10
-        - clash-prelude ^>= 1.8.1
-        - clash-lib < 0 # ghc-9.8.4 https://github.com/clash-lang/clash-compiler/issues/2852
-        - clash-ghc < 0
-        - clash-prelude-hedgehog < 0
+        - clash-prelude ^>= 1.8.2
+        - clash-lib ^>= 1.8.2
+        - clash-ghc ^>= 1.8.2
+        - clash-prelude-hedgehog ^>= 1.8.2
 
     "Martijn Bastiaan <martijn@hmbastiaan.nl> @martijnbastiaan":
         - aeson-pretty ^>= 0.8.10

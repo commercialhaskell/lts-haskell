@@ -1822,6 +1822,7 @@ packages:
         - dl-fedora ^>= 1.2.1
         - fbrnch < 0
         - fedora-haskell-tools < 0 # not yet updated to fedora-releases
+        - fedora-krb ^>= 0.1.0
         - fedora-releases ^>= 0.2.0
         - fedora-repoquery ^>= 0.7.1
         - HaXml ^>= 1.25.13
@@ -2507,7 +2508,7 @@ packages:
         - ghc-tcplugins-extra ^>= 0.4.6
         - ghc-typelits-extra ^>= 0.4.7
         - ghc-typelits-knownnat ^>= 0.7.12
-        - ghc-typelits-natnormalise ^>= 0.7.10
+        - ghc-typelits-natnormalise == 0.7.10
         - clash-prelude ^>= 1.8.2
         - clash-lib ^>= 1.8.2
         - clash-ghc ^>= 1.8.2
@@ -3575,7 +3576,8 @@ packages:
         - gi-gdk3 ^>= 3.0
         - gi-gdk4 ^>= 4.0
         - gi-gdkpixbuf ^>= 2.0.32
-        - gi-gdkx11 == 3.0.16
+        - gi-gdkx11 ^>= 3.0
+        - gi-gdkx113 ^>= 3.0
         - gi-gdkx114 ^>= 4.0
         - gi-gio ^>= 2.0.35
         - gi-glib ^>= 2.0.30
@@ -3590,12 +3592,14 @@ packages:
         - gi-pango ^>= 1.0.30
         - gi-xlib ^>= 2.0.14
         - gi-harfbuzz ^>= 0.0.10
-        - gi-gtksource == 3.0.29
+        - gi-gtksource ^>= 3.0.29
+        - gi-gtksource3 ^>= 3.0
         - gi-javascriptcore < 0 # 4.0.28 compile fail - Typelib file for namespace 'JavaScriptCore', version '4.0' not found (0)
         - gi-vte == 2.91.33
         - gi-webkit2 < 0
         - gi-freetype2 ^>= 2.0.5
-        - gi-soup == 2.4.29
+        - gi-soup ^>= 2.4.29
+        - gi-soup2 ^>= 2.4
 
     "Brandon Simmons <brandon.m.simmons@gmail.com> @jberryman":
         - directory-tree ^>= 0.12.1
@@ -4607,7 +4611,7 @@ packages:
         - json-spec ^>= 1.1.0.0
         - json-spec-elm ^>= 0.4.0.5
         - json-spec-openapi ^>= 1.0.0.0
-        - json-spec-elm-servant ^>= 0.4.2.2
+        - json-spec-elm-servant == 0.4.3.0 # 0.4.4.0 compile fail: missing Foldable methods
 
     "ALeX Kazik <alex@kazik.de> @alexkazik":
         - exomizer ^>= 1.0.0
@@ -4808,7 +4812,7 @@ packages:
         - graphql-client ^>= 1.2.4
         - hpc-lcov ^>= 1.1.2
         - http-api-data-qq ^>= 0.1.0.0
-        - persistent-mtl ^>= 0.5.1
+        - persistent-mtl < 0.5.2
         - tasty-autocollect ^>= 0.4.3
         - th-test-utils ^>= 1.2.1
         - toml-reader ^>= 0.2.1.0
@@ -5066,7 +5070,7 @@ packages:
     "James Cranch <cranch@cantab.net> @jcranch":
         - agreeing ^>= 0.2.2.0
         - mappings ^>= 0.3.1.0
-        - partialord ^>= 0.0.2
+        - partialord < 0.0.3
         - radix-tree ^>= 1.1.0.0
         - tophat ^>= 1.0.8.0
 
@@ -8050,6 +8054,12 @@ packages:
         # https://github.com/commercialhaskell/stackage/issues/7594
         - tagged ^>= 0.8.8 && <0.8.9
 
+        # https://github.com/commercialhaskell/stackage/issues/7694
+        - microlens < 0.4.14
+        - microlens-ghc < 0.4.15.0
+        - microlens-platform < 0.4.4.0
+        - microlens-mtl < 0.2.1.0
+
     # end of Stackage upper bounds
 # end of packages
 
@@ -8769,6 +8779,7 @@ expected-test-failures:
     - friday # https://github.com/RaphaelJ/friday/issues/37
     - fsnotify # Often runs out of inotify handles
     - grisette # 0.8.0.0 spec failed
+    - HasBigDecimal # spec failed randomly
     - hastache
     - hedn
     - idris # https://github.com/fpco/stackage/issues/1382
@@ -8991,6 +9002,7 @@ expected-test-failures:
     - mighty-metropolis # https://github.com/jtobin/mighty-metropolis/issues/6
     - mixpanel-client # https://github.com/domenkozar/mixpanel-client/issues/7
     - mockcat # https://github.com/commercialhaskell/stackage/issues/7519
+    - monoidmap # arithmetic underflow
     - morpheus-graphql-app
     - mwc-random
     - nri-observability # https://github.com/commercialhaskell/stackage/issues/6179

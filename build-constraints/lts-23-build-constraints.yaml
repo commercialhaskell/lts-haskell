@@ -10,6 +10,9 @@ cabal-format-version: "3.0"
 
 # Constraints for brand new builds
 packages:
+    "Ernesto Hernandez-Novich <haskell@iamemhn.link>":
+        - monad-logger-syslog ^>= 0.1.6.1
+
     "Taimoor Zaeem <mtaimoorzaeem@gmail.com @taimoorzaeem":
         - aeson-jsonpath ^>= 0.2.0.0
 

@@ -3575,7 +3575,8 @@ packages:
         - gi-gdk3 ^>= 3.0
         - gi-gdk4 ^>= 4.0
         - gi-gdkpixbuf ^>= 2.0.32
-        - gi-gdkx11 == 3.0.16
+        - gi-gdkx11 ^>= 3.0
+        - gi-gdkx113 ^>= 3.0
         - gi-gdkx114 ^>= 4.0
         - gi-gio ^>= 2.0.35
         - gi-glib ^>= 2.0.30
@@ -3590,12 +3591,14 @@ packages:
         - gi-pango ^>= 1.0.30
         - gi-xlib ^>= 2.0.14
         - gi-harfbuzz ^>= 0.0.10
-        - gi-gtksource == 3.0.29
+        - gi-gtksource ^>= 3.0.29
+        - gi-gtksource3 ^>= 3.0
         - gi-javascriptcore < 0 # 4.0.28 compile fail - Typelib file for namespace 'JavaScriptCore', version '4.0' not found (0)
         - gi-vte == 2.91.33
         - gi-webkit2 < 0
         - gi-freetype2 ^>= 2.0.5
-        - gi-soup == 2.4.29
+        - gi-soup ^>= 2.4.29
+        - gi-soup2 ^>= 2.4
 
     "Brandon Simmons <brandon.m.simmons@gmail.com> @jberryman":
         - directory-tree ^>= 0.12.1

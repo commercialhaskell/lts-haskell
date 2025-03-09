@@ -1822,6 +1822,7 @@ packages:
         - dl-fedora ^>= 1.2.1
         - fbrnch < 0
         - fedora-haskell-tools < 0 # not yet updated to fedora-releases
+        - fedora-krb ^>= 0.1.0
         - fedora-releases ^>= 0.2.0
         - fedora-repoquery ^>= 0.7.1
         - HaXml ^>= 1.25.13

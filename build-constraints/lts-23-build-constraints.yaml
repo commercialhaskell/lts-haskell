@@ -6614,6 +6614,7 @@ expected-test-failures:
     - conduit-connection # 0.1.0.5
     - cryptohash # 0.11.9 Stack builds test and benchmarks in one pass so benchmark could prevent tests from getting built
     - do-notation # 0.1.0.2
+    - ed25519 # The data constructor ‘Success’ should have 6 arguments, but has been given 3
     - fields-and-cases # 0.2.0.0 https://github.com/m-bock/fields-and-cases/issues/1
     - fortran-src # 0.16.3 https://github.com/camfort/fortran-src/issues/293
     - generic-arbitrary # 1.0.1 https://github.com/typeable/generic-arbitrary/issues/18
@@ -6634,6 +6635,7 @@ expected-test-failures:
     - protobuf # 0.2.1.4
     - record-wrangler # 0.1.1.0
     - secp256k1-haskell # #5948/closed
+    - serialise # Overlapping instances for Arbitrary (Vector.Primitive.Vector Int)
     - servant-static-th # 1.0.0.1 https://github.com/cdepillabout/servant-static-th/issues/21
     - snappy # Could not find module ‘Functions’
     - thread-supervisor # 0.2.0.0

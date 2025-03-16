@@ -2748,7 +2748,7 @@ packages:
         - range ^>= 0.3.0.2
 
     "Vladislav Zavialov <vlad.z.4096@gmail.com> @int-index":
-        - union ^>= 0.1.2
+        - union == 0.1.2
         - named ^>= 0.3.0.2
         - inj ^>= 1.0
         - shower < 0

@@ -577,7 +577,7 @@ packages:
         - boomwhacker ^>= 0.0.2
         - buffer-pipe ^>= 0.0
         - cabal-flatpak ^>= 0.1.2
-        - cabal-sort ^>= 0.1.2
+        - cabal-sort == 0.1.2.1
         - calendar-recycling ^>= 0.0.0.1
         - checksum ^>= 0.0.0.1
         - coinor-clp ^>= 0.0.0.2

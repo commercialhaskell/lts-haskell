@@ -7420,6 +7420,7 @@ no-revisions:
 - aura
 - hoogle # https://github.com/commercialhaskell/stackage/issues/7496
 - req # req-3.13.4-r2 requires data-default-class >= 0.2, but lts-23 is on data-default-class-0.1.*
+- http-client-tls
 
 # Note, this no longer actually does anything with curator2 unfortunately:
 # Do not build these packages in parallel with others. Useful for high memory

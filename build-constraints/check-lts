@@ -6,8 +6,8 @@ set -euxo pipefail
 
 cd `dirname $0`
 
-MAJOR=23
-LTS=$(curl -s https://www.stackage.org/download/snapshots.json | jq -r '.["lts"]')
+MAJOR=${1:-23}
+LTS=$(curl -s https://www.stackage.org/download/snapshots.json | jq -r '.["lts-'$MAJOR'"]')
 
 echo "$LTS"
 

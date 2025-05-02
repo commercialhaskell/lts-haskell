@@ -2966,7 +2966,7 @@ packages:
         - servant-checked-exceptions-core ^>= 2.2.0.1
         - servant-rawm ^>= 1.0.0.0
         - servant-static-th ^>= 1.0.0.0
-        - termonad ^>= 4.5.0.0
+        - termonad ^>= 4.6.0.0
         - world-peace ^>= 1.0.2.0
         - xml-html-qq ^>= 0.1.0.1
         - xml-indexed-cursor ^>= 0.1.1.0
@@ -3620,7 +3620,7 @@ packages:
         - gi-gobject ^>= 2.0.30
         - gi-graphene ^>= 1.0.7
         - gi-gsk
-        - gi-gtk >= 3.0.41 && < 3.0.44 # https://github.com/commercialhaskell/stackage/issues/6317
+        - gi-gtk ^>= 3.0.41 # https://github.com/commercialhaskell/stackage/issues/6317
         - gi-gtk3 ^>= 3.0.44
         - gi-gtk-hs ^>= 0.3.16
         - gi-gmodule ^>= 2.0.5
@@ -4869,7 +4869,7 @@ packages:
         - unboxing-vector ^>= 0.2.0.0
 
     "Brandon Chinn <brandonchinn178@gmail.com> @brandonchinn178":
-        - aeson-schemas ^>= 1.4.1.0
+        - aeson-schemas ^>= 1.4.1.0 && < 1.4.3
         - fourmolu ^>= 0.14.0.0
         - github-rest ^>= 1.1.4
         - graphql-client ^>= 1.2.2
@@ -5147,7 +5147,7 @@ packages:
 
     "James Cranch <cranch@cantab.net> @jcranch":
         - agreeing ^>= 0.2.2.0
-        - mappings ^>= 0.3.0.0
+        - mappings ^>= 0.3.0.0 && < 0.3.1
         - partialord ^>= 0.0.2
         - tophat ^>= 1.0.7.0
 
@@ -8942,6 +8942,7 @@ expected-test-failures:
     - sdl2 # "Failed to connect to the Mir Server"
     - sendgrid-v3 # Requires sendgrid API key in env #5951/closed
     - serialport # "The tests need two serial ports as command line arguments" https://github.com/jputcu/serialport/issues/30
+    - servant-auth-server # 0.4.9.0
     - servant-rate-limit # redis
     - serversession-backend-persistent # persistent, see https://github.com/commercialhaskell/stackage/pull/6655#issuecomment-1198868074
     - serversession-backend-redis # redis
@@ -9136,6 +9137,7 @@ expected-test-failures:
     - yesod-paginator
 
     # Misc. Please check if there is a better section before adding more packages here.
+    - http-io-streams # https://github.com/commercialhaskell/stackage/issues/7644
     - ghcid # Weird conflicts with sandboxingistributed/distributed-process-supervisor/issues/1
     - hw-kafka-client # missing exe https://github.com/commercialhaskell/stackage/pull/5542
     - pandoc # https://github.com/jgm/pandoc/issues/5582

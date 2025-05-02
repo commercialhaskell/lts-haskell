@@ -3574,8 +3574,8 @@ packages:
         - gi-atk ^>= 2.0.28
         - gi-cairo ^>= 1.0.30
         - gi-dbusmenu ^>= 0.4.14
-        - gi-dbusmenugtk3 == 0.4.15
-        - gi-gdk == 3.0.29
+        - gi-dbusmenugtk3 ^>= 0.4.15
+        - gi-gdk ^>= 3.0.29
         - gi-gdk3 ^>= 3.0
         - gi-gdk4 ^>= 4.0
         - gi-gdkpixbuf ^>= 2.0.32
@@ -3587,7 +3587,7 @@ packages:
         - gi-gobject ^>= 2.0.31
         - gi-graphene ^>= 1.0.8
         - gi-gsk
-        - gi-gtk == 3.0.43
+        - gi-gtk ^>= 3.0.43
         - gi-gtk3 ^>= 3.0
         - gi-gtk4 ^>= 4.0
         - gi-gtk-hs ^>= 0.3.17
@@ -3598,7 +3598,7 @@ packages:
         - gi-gtksource ^>= 3.0.29
         - gi-gtksource3 ^>= 3.0
         - gi-javascriptcore < 0 # 4.0.28 compile fail - Typelib file for namespace 'JavaScriptCore', version '4.0' not found (0)
-        - gi-vte == 2.91.33
+        - gi-vte ^>= 2.91.33
         - gi-webkit2 < 0
         - gi-freetype2 ^>= 2.0.5
         - gi-soup ^>= 2.4.29

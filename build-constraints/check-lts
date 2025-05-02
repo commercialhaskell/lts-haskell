@@ -2,14 +2,24 @@
 
 # Convenience script for checking constraints locally
 
-set -euxo pipefail
+set -euo pipefail +x
 
 cd `dirname $0`
 
 MAJOR=${1:-23}
-LTS=$(curl -s https://www.stackage.org/download/snapshots.json | jq -r '.["lts-'$MAJOR'"]')
+LTS=$(curl -f -s https://www.stackage.org/download/snapshots.json | jq -r '.["lts-'$MAJOR'"]')
 
-echo "$LTS"
+# sometimes http fails
+if [ -z "$LTS" ]; then
+    LTS=$(curl -f -s https://www.stackage.org/download/snapshots.json | jq -r '.["lts-'$MAJOR'"]')
+fi
+
+if [ -z "$LTS" ]; then
+    echo "failed to read lts minor version 2 times"
+    exit 1
+else
+    echo "$LTS"
+fi
 
 export GHCVER=$(sed -n "s/^ghc-version: \"\(.*\)\"/\1/p" "lts-$MAJOR-build-constraints.yaml")
 

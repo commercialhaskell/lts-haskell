@@ -5072,7 +5072,7 @@ packages:
 
     "James Cranch <cranch@cantab.net> @jcranch":
         - agreeing ^>= 0.2.2.0
-        - mappings ^>= 0.3.1.0
+        - mappings < 0.3.2.0
         - partialord < 0.0.3
         - radix-tree ^>= 1.1.0.0
         - tophat ^>= 1.0.8.0

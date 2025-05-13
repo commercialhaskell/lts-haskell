@@ -433,7 +433,7 @@ packages:
 
     "Travis Athougies <travis@athougies.net> @tathougies":
         - beam-core ^>= 0.10.3.0
-        - beam-migrate ^>= 0.5.3.1
+        - beam-migrate < 0.5.3.2
         - beam-mysql < 0
         - beam-postgres ^>= 0.5.4.1
         - beam-sqlite ^>= 0.5.3.0

@@ -3318,7 +3318,7 @@ packages:
     "John MacFarlane <jgm@berkeley.edu> @jgm":
         - hsb2hs < 0
         - cmark ^>= 0.6.1
-        - texmath ^>= 0.12.8.12
+        - texmath < 0.12.10.2
         - skylighting < 0.14.6
         - skylighting-core < 0.14.6
         - pandoc-types ^>= 1.23.1
@@ -3340,7 +3340,7 @@ packages:
         - skylighting-format-context ^>= 0.1.0.2
         - skylighting-format-latex ^>= 0.1
         - typst ^>= 0.6.1 && < 0.6.2
-        - typst-symbols ^>= 0.1.7
+        - typst-symbols ^>= 0.1.7 && < 0.1.8
 
     "Karun Ramakrishnan <karun012@gmail.com> @karun012":
         - doctest-discover ^>= 0.2.0.0

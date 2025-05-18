@@ -6708,6 +6708,7 @@ expected-test-failures:
     - texmath # https://github.com/jgm/texmath/issues/224
     - tree-diff # 0.3.0.1 https://github.com/haskellari/tree-diff/issues/79
     - typst # https://github.com/jgm/typst-hs/issues/11
+    - cryptocompare # HTTP requests - "Testing the library against the live CryptoCompare API performs basic example fetches"
 
     # Requires running servers, accounts, or a specific environment.
     #

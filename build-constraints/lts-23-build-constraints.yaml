@@ -4065,7 +4065,7 @@ packages:
         - lpeg ^>= 1.1.0
         - lua ^>= 2.3.3
         - lua-arbitrary ^>= 1.0.1.1
-        - pandoc-lua-engine ^>= 0.4
+        - pandoc-lua-engine ^>= 0.4 && < 0.4.2
         - pandoc-lua-marshal ^>= 0.3.0
         - tasty-hslua ^>= 1.1.1
         - tasty-lua ^>= 1.1.1

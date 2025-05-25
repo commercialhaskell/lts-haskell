@@ -7028,6 +7028,7 @@ expected-test-failures:
     - persistent-mongoDB # Requires a running server
     - persistent-mysql # https://github.com/commercialhaskell/stackage/issues/4764
     - persistent-postgresql # https://github.com/commercialhaskell/stackage/issues/4763
+    - persistent-sqlite
     - pg-transact # https://github.com/jfischoff/pg-transact/issues/2
     - poly
     - postgresql-simple-queue # same issue as before, see also https://github.com/fpco/stackage/issues/2592 as that will fix both

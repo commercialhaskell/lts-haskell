@@ -874,7 +874,7 @@ packages:
         - persistent ^>= 2.14.6.3
         - persistent-mysql ^>= 2.13.1.5
         - persistent-postgresql ^>= 2.13.6.2
-        - persistent-sqlite ^>= 2.13.3.0
+        - persistent-sqlite == 2.13.3.0
         - persistent-template ^>= 2.12.0.0
         - persistent-test ^>= 2.13.1.3
         - store

@@ -291,6 +291,9 @@ packages:
     "Tushar Adhatrao <tusharadhatrao@gmail.com> @tusharad":
         - ollama-haskell ^>= 0.1.2.0
 
+    "Matthew Kline <matt@bitbashing.io> @mrkline":
+        - hoare ^>= 0.1.1.0
+
     "Matthieu Monsch <mtth@apache.org> @mtth":
         - flags-applicative ^>= 0.1.0.3
         - more-containers ^>= 0.2.2.2

@@ -2683,7 +2683,7 @@ packages:
         - google-oauth2-jwt ^>= 0.3.3.1
         - IPv6DB ^>= 0.3.3.4
         - gothic < 0
-        - NanoID ^>= 3.4.0.2
+        - NanoID == 3.4.0.2
 
     "koral koral@mailoo.org @k0ral":
         - atom-conduit ^>= 0.9.0.1

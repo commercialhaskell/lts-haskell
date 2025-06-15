@@ -438,8 +438,8 @@ packages:
         - beam-core ^>= 0.10.3.0
         - beam-migrate < 0.5.3.2
         - beam-mysql < 0
-        - beam-postgres ^>= 0.5.4.1
-        - beam-sqlite ^>= 0.5.3.0
+        - beam-postgres < 0.5.4.3
+        - beam-sqlite < 0.5.4.1
 
     "Fraser Murray <fraser.m.murray@gmail.com @intolerable":
         - stitch ^>= 0.6.0.0

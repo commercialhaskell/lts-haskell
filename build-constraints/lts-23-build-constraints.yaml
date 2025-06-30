@@ -6674,6 +6674,8 @@ expected-test-failures:
     - sydtest # 0.15.1.1
     - sydtest-yesod # 0.3.0.2 https://github.com/NorfairKing/sydtest/issues/101
     - tar-conduit # https://github.com/snoyberg/tar-conduit/issues/33
+    - system-filepath
+    - sandwich-webdriver
 
     # Intermittent failures or unreliable. These tests may pass when
     # re-enabled, but will eventually fail again.

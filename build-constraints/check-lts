@@ -6,7 +6,7 @@ set -euo pipefail +x
 
 cd `dirname $0`
 
-MAJOR=${1:-23}
+MAJOR=${1:-24}
 LTS=$(curl -f -s https://www.stackage.org/download/snapshots.json | jq -r '.["lts-'$MAJOR'"]')
 
 # sometimes http fails

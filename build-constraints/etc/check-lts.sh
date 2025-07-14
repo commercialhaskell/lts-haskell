@@ -3,7 +3,7 @@
 set -euxo pipefail
 
 ETC=$(cd $(dirname $0) ; pwd)
-export GHCVER=$(sed -n "s/^ghc-version: \"\(.*\)\"/\1/p" "$ETC/../lts-23-build-constraints.yaml")
+export GHCVER=$(sed -n "s/^ghc-version: \"\(.*\)\"/\1/p" "$ETC/../lts-24-build-constraints.yaml")
 
 # Download and unpack the stack executable
 mkdir -p ~/.local/bin

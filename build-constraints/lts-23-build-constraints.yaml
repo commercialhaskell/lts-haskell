@@ -6253,9 +6253,6 @@ package-flags:
     cabal-add:
       cabal-syntax: true
 
-    aws-sns-verify:
-      development: true
-
     optics-operators:
       build-readme: false
 
@@ -6664,6 +6661,7 @@ expected-test-failures:
     - SpatialMath # 0.2.7.1 https://github.com/ghorn/spatial-math/issues/10
     - ap-normalize # 0.1.0.1 ghc-9.6
     - astro # 0.4.3.0 https://github.com/aligusnet/astro/issues/8
+    - aws-sns-verify # https://github.com/commercialhaskell/stackage/issues/7438
     - box # 0.9.3.2 doctests
     - coinor-clp # 0.0.0.2
     - generics-eot # 0.4.0.1 ghc-9.6

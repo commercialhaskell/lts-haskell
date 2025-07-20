@@ -7,6 +7,7 @@ export GHCVER=$(sed -n "s/^ghc-version: \"\(.*\)\"/\1/p" "$ETC/../lts-24-build-c
 
 # bootstrap pantry db since GH action keeps fails to generate fresh one
 if [ ! -e ~/.stack/pantry/pantry.sqlite3 ]; then
+    mkdir -p ~/.stack/pantry
     curl -L https://petersen.fedorapeople.org/pantry.sqlite3.gz | gunzip > ~/.stack/pantry/pantry.sqlite3
 fi
 

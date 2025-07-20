@@ -5,6 +5,11 @@ set -euxo pipefail
 ETC=$(cd $(dirname $0) ; pwd)
 export GHCVER=$(sed -n "s/^ghc-version: \"\(.*\)\"/\1/p" "$ETC/../lts-24-build-constraints.yaml")
 
+# bootstrap pantry db since GH action keeps fails to generate fresh one
+if [ ! -e ~/.stack/pantry/pantry.sqlite3 ]; then
+    curl -L https://petersen.fedorapeople.org/pantry.sqlite3.gz | gunzip > ~/.stack/pantry/pantry.sqlite3
+fi
+
 # Download and unpack the stack executable
 mkdir -p ~/.local/bin
 export PATH=$HOME/.local/bin:$PATH

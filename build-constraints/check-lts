@@ -2,7 +2,7 @@
 
 # Convenience script for checking constraints locally
 
-set -euo pipefail +x
+set -euo pipefail -x
 
 cd `dirname $0`
 

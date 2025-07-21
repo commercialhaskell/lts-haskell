@@ -5,6 +5,12 @@ set -euxo pipefail
 ETC=$(cd $(dirname $0) ; pwd)
 export GHCVER=$(sed -n "s/^ghc-version: \"\(.*\)\"/\1/p" "$ETC/../lts-24-build-constraints.yaml")
 
+# bootstrap hackage since GH action keeps failing
+if [ ! -e ~/.stack/pantry/hackage/00-index.tar.gz ]; then
+    mkdir -p ~/.stack/pantry/hackage
+    curl -L http://hackage.haskell.org/01-index.tar.gz > ~/.stack/pantry/hackage/00-index.tar.gz
+fi
+
 # bootstrap pantry db since GH action keeps fails to generate fresh one
 if [ ! -e ~/.stack/pantry/pantry.sqlite3 ]; then
     mkdir -p ~/.stack/pantry

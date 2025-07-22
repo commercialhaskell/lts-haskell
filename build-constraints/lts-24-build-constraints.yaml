@@ -512,7 +512,7 @@ packages:
 # Stack's ability to override the specified compiler easily. See:
 # https://github.com/commercialhaskell/stackage/issues/7357 and
 # https://github.com/commercialhaskell/stackage/issues/7458.
-        - cabal-install < 0
+        - cabal-install ^>= 3.12
         - cabal-install-solver ^>= 3.12.1.0
         - sdl2-ttf ^>= 2.1.3
         - enummapset ^>= 0.7.3.0
@@ -6131,8 +6131,8 @@ packages:
 
     "Stackage upper bounds":
         # https://github.com/commercialhaskell/stackage/issues/7467
-        - cabal-install
-        - cabal-install-solver ^>= 3.12.1.0 && <3.14
+        - cabal-install ^>= 3.12
+        - cabal-install-solver ^>= 3.12.1.0
         - cabal-install-parsers ^>= 0.6.2 && <0.6.3
 
         # https://github.com/commercialhaskell/stackage/issues/7610

@@ -6748,6 +6748,7 @@ skipped-tests:
 expected-test-failures:
 
     # Compilation failures
+    - ANum
     - Spock # 0.14.0.0
     - blake2
     - brick

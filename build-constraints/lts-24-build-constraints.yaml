@@ -3421,7 +3421,7 @@ packages:
         - simplest-sqlite < 0
         - warp-tls-uid < 0 # 0.2.0.6 https://github.com/YoshikuniJujo/warp-tls-uid/issues/1
         - nowdoc ^>= 0.1.1.0
-        - typecheck-plugin-nat-simple ^>= 0.1.0.11
+        - typecheck-plugin-nat-simple < 0.1.0.12 # requires ghc >=9.12 && < 10
         - ranged-list ^>= 0.1.2.3
         - c-enum ^>= 0.1.1.3
         - c-struct ^>= 0.1.3.0

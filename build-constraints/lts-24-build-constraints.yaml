@@ -3096,7 +3096,7 @@ packages:
         - http-api-data ^>= 0.6.2
         - swagger2 ^>= 2.8.10
         - telegram-bot-simple ^>= 0.14.4
-        - rzk ^>= 0.7.5 && < 0 # https://github.com/rzk-lang/rzk/issues/200
+        - rzk ^>= 0.7.5
         - free-foil ^>= 0.2.0
 
     "Jared Tobin <jared@jtobin.ca> @jtobin":

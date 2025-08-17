@@ -5241,6 +5241,7 @@ packages:
     "Kazu Yamamoto <kazu@iij.ad.jp> @kazu-yamamoto":
         - crypton ^>= 1.0.1
         - crypton-connection ^>= 0.4.3
+        - crypton-socks ^>= 0.6
         - crypton-x509 ^>= 1.7.7
         - crypton-x509-store ^>= 1.6.9
         - crypton-x509-system ^>= 1.6.7

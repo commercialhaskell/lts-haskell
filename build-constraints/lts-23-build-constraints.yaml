@@ -6607,6 +6607,7 @@ skipped-tests:
 expected-test-failures:
 
     # Compilation failures
+    - ANum # https://github.com/DanBurton/ANum/issues/6
     - Spock # 0.14.0.0
     - blake2
     - brick

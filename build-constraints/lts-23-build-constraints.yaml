@@ -3817,7 +3817,7 @@ packages:
         - harpie ^>= 0.1.1.0
         - harpie-numhask ^>= 0.1.0.1
         - markup-parse ^>= 0.1.1.1
-        - mealy ^>= 0.5.0.0
+        - mealy ^>= 0.5.0.0 && < 0.5.0.1
         - numhask ^>= 0.12.1.0
         - numhask-array ^>= 0.11.1.0
         - numhask-space ^>= 0.11.1.0

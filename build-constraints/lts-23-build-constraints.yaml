@@ -1283,7 +1283,7 @@ packages:
         - aws-xray-client-persistent ^>= 0.1.0.5
         - aws-xray-client-wai ^>= 0.1.0.2
         - bcp47 ^>= 0.2.0.6
-        - bcp47-orphans ^>= 0.1.0.6
+        - bcp47-orphans ^>= 0.1.0.6 && < 0.1.1
         - faktory ^>= 1.1.3.0
         - graphula ^>= 2.1.0.0
         - hspec-expectations-json ^>= 1.0.2.1

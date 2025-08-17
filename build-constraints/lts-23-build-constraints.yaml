@@ -2701,7 +2701,7 @@ packages:
         - country ^>= 0.2.4.2
         - semirings ^>= 0.7
         - torsor ^>= 0.1.0.1
-        - chronos ^>= 1.1.6.1
+        - chronos ^>= 1.1.6.1 && < 1.1.7
         - refined ^>= 0.8.2
         - these-skinny ^>= 0.7.6
         - hedgehog-classes ^>= 0.2.5.4

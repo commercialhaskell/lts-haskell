@@ -5825,7 +5825,7 @@ packages:
         - stringbuilder ^>= 0.5.1
         - structured < 0
         - sundown ^>= 0.6
-        - syb ^>= 0.7.2.4
+        - syb ^>= 0.7.2.4 && <0.7.3
         - table-layout ^>= 1.0.0.2
         - tabular ^>= 0.2.2.8
         - tar ^>= 0.6.4.0

@@ -5312,7 +5312,7 @@ packages:
         - fits-parse ^>= 0.4.2
 
     "Chris Hackett <chris.h.hackett@gmail.com> @chhackett":
-        - vty-windows ^>= 0.2.0.4
+        - vty-windows == 0.2.0.3 # Win32 https://github.com/commercialhaskell/stackage/issues/7832
 
     "funnycat <pujoheadsoft@gmail.com> @pujoheadsoft":
         - mockcat ^>= 0.5.2.0

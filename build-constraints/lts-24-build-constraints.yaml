@@ -2798,7 +2798,7 @@ packages:
         - chaselev-deque < 0
         - code-page ^>= 0.2.1
         - constraint-tuples ^>= 0.2
-        - criterion ^>= 1.6.4.0
+        - criterion < 1.6.4.1 # dataframe-0.2.0.2
         - criterion-measurement ^>= 0.2.3.0
         - data-reify ^>= 0.6.4
         - deriving-compat ^>= 0.6.7
@@ -3324,7 +3324,7 @@ packages:
         - emojis ^>= 0.1.4.1
         - pandoc ^>= 3.7.0.2
         - pandoc-cli ^>= 3.7.0.2
-        - pandoc-server ^>= 0.1.0.11
+        - pandoc-server < 0.1.1
         - citeproc ^>= 0.9.0.1
         - commonmark ^>= 0.2.6.1
         - commonmark-extensions ^>= 0.2.6

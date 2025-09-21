@@ -6913,7 +6913,6 @@ expected-test-failures:
     - gitson # https://github.com/myfreeweb/gitson/issues/1
     - happy # Needs mtl in the user package DB
     - haskell-neo4j-client # neo4j with auth disabled
-    - hasql # PostgreSQL
     - hasql-dynamic-statements # PostgreSQL
     - hasql-notifications # PostgreSQL
     - hasql-queue

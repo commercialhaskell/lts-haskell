@@ -1,7 +1,7 @@
 ghc-major-version: "9.10"
 
 # new curator is supposed to use exact GHC version
-ghc-version: "9.10.2"
+ghc-version: "9.10.3"
 
 # This affects which version of the Cabal file format we allow. We
 # should ensure that this is always no greater than the version
@@ -5273,7 +5273,7 @@ packages:
         - consumers ^>= 2.3.3.1
         - crdt-event-fold ^>= 1.8.1.2
         - data-prometheus ^>= 0.1.0.0
-        - dataframe ^>= 0.2.0.2
+        - dataframe ^>= 0.2.0.2 && < 0 # https://github.com/mchav/dataframe/issues/61
         - delta-types ^>= 1.0.0.0
         - diagrams-braille ^>= 0.1.2
         - digraph ^>= 0.3.2

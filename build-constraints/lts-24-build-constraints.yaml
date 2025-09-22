@@ -2877,11 +2877,11 @@ packages:
 
     "Steven Fontanella <steven.fontanella@gmail.com> @stevenfontanella":
         - microlens ^>= 0.4.14.0
-        - microlens-platform ^>= 0.4.4.1
-        - microlens-mtl ^>= 0.2.1.0
-        - microlens-th ^>= 0.4.3.17
-        - microlens-ghc ^>= 0.4.15.1
-        - microlens-contra ^>= 0.1.0.3
+        - microlens-platform ^>= 0.4.4.1 && < 0.4.4.2
+        - microlens-mtl ^>= 0.2.1.0 && < 0.2.1.1
+        - microlens-th ^>= 0.4.3.17 && < 0.4.3.18
+        - microlens-ghc ^>= 0.4.15.1 && < 0.4.15.2
+        - microlens-contra ^>= 0.1.0.3 && < 0.1.0.4
 
     "Takano Akio tak@anoak.io @takano-akio":
         - fast-builder ^>= 0.1.5.0

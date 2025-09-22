@@ -6854,6 +6854,7 @@ expected-test-failures:
     - fsnotify # Often runs out of inotify handles
     - hastache
     - hedn
+    - http-api-data-qq
     - ihaskell # https://github.com/gibiansky/IHaskell/issues/551
     - kdt # 0.2.6 https://github.com/giogadi/kdt/issues/7
     - lapack

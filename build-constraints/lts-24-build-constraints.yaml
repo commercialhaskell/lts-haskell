@@ -6840,6 +6840,7 @@ expected-test-failures:
     - capataz # https://github.com/roman/Haskell-capataz/issues/6
     - cardano-coin-selection # 1.0.1 https://github.com/input-output-hk/cardano-coin-selection/issues/93
     - comfort-glpk # 0.1 https://github.com/commercialhaskell/stackage/issues/7482
+    - componentm
     - concurrent-extra # https://github.com/basvandijk/concurrent-extra/issues/12
     - crypto-numbers
     - cryptocompare # live api request can time out

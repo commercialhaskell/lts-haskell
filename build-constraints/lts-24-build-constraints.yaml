@@ -7079,6 +7079,7 @@ expected-test-failures:
     - openssl-streams # 1.2.3.0 asn1 encoding wrong tag
     - opentelemetry-extra # 0.8.0 negative quickcheck resize
     - optics # 0.4.2.1
+    - pandoc # 3.8 https://github.com/jgm/pandoc/issues/11172
     - pcre-heavy
     - persistent-mtl # cannot run tests with persistent > 2.14
     - pkgtreediff # 0.6.0

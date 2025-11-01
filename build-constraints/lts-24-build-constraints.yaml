@@ -6135,7 +6135,7 @@ packages:
     # End of Library and exe bounds failures
 
     "Stackage upper bounds":
-       []
+       - typst-symbols < 0.1.9
     # end of Stackage upper bounds
 # end of packages
 

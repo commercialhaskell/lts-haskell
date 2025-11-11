@@ -1275,6 +1275,7 @@ packages:
         - bugsnag-yesod ^>= 1.0.1.0
         - gravatar ^>= 0.8.1
         - load-env ^>= 0.2.1.0
+        - network-uri-template ^>= 0.1.1.2
         - shellwords ^>= 0.1.4.3
         - yesod-markdown ^>= 0.12.6.14
         - yesod-paginator ^>= 1.1.2.2

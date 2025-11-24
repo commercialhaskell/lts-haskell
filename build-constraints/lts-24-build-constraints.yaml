@@ -5246,8 +5246,8 @@ packages:
         - crypton-x509-validation ^>= 1.6.14
         - ech-config ^>= 0.0.1
         - hpke ^>= 0.0.0
-        - http-semantics ^>= 0.3.0
-        - http2 ^>= 5.3.10
+        - http-semantics < 0.3.1
+        - http2 < 5.3.11
         - network-control ^>= 0.1.7
         - tls ^>= 2.1.8 && <2.1.9
 
@@ -5907,7 +5907,7 @@ packages:
         - wai-handler-launch ^>= 3.0.3.1
         - wai-logger ^>= 2.5.0
         - wai-session ^>= 0.3.3
-        - warp ^>= 3.4.8
+        - warp < 3.4.10
         - wcwidth ^>= 0.0.2
         - wizards ^>= 1.0.3
         - word-wrap ^>= 0.5

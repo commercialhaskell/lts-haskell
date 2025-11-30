@@ -5271,7 +5271,7 @@ packages:
         - cauldron ^>= 0.9.0.1
         - clash-shake < 0
         - constrained-categories ^>= 0.4.2.0
-        - consumers ^>= 2.3.3.1
+        - consumers ^>= 2.3.3.1 && < 2.3.4.0
         - crdt-event-fold ^>= 1.8.1.2
         - data-prometheus ^>= 0.1.0.0
         - dataframe ^>= 0.2.0.2 && < 0 # https://github.com/mchav/dataframe/issues/61

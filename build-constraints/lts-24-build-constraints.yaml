@@ -6136,7 +6136,7 @@ packages:
     # End of Library and exe bounds failures
 
     "Stackage upper bounds":
-       - []
+       []
     # end of Stackage upper bounds
 # end of packages
 

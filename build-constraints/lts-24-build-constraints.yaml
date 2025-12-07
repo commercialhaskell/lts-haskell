@@ -3337,7 +3337,7 @@ packages:
         - skylighting-format-context ^>= 0.1.0.2
         - skylighting-format-latex ^>= 0.1
         - skylighting-format-typst ^>= 0.1
-        - typst ^>= 0.8.0.1
+        - typst ^>= 0.8.0.1 && <0.8.0.2
         - typst-symbols ^>= 0.1.8.1 && <0.1.9
 
     "Karun Ramakrishnan <karun012@gmail.com> @karun012":

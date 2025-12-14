@@ -7242,6 +7242,7 @@ expected-benchmark-failures:
     - ua-parser # 0.7.7.0 compile fail against aeson 2
     - universum
     - xmlgen # https://github.com/skogsbaer/xmlgen/issues/6
+    - fine-grained # 0.2.21
 
 # end of expected-benchmark-failures
 

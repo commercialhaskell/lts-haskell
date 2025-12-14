@@ -1199,7 +1199,7 @@ packages:
         - speculation < 0
         - streams ^>= 3.3.3
         - structs ^>= 0.1.9
-        - tagged ^>= 0.8.9
+        - tagged ^>= 0.8.9 && < 0.8.10
         - tagged-transformer ^>= 0.8.3
         - transformers-compat ^>= 0.7.2
         - trifecta ^>= 2.1.4

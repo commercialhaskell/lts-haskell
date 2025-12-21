@@ -4854,7 +4854,7 @@ packages:
         - egison < 0
         - mini-egison < 0
         - sweet-egison < 0
-        - egison-pattern-src ^>= 0.2.1.2
+        - egison-pattern-src < 0.2.2
         - egison-pattern-src-th-mode < 0
 
     "Travis Cardwell <travis.cardwell@extrema.is> @TravisCardwell":

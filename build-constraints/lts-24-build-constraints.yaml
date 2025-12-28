@@ -3849,7 +3849,7 @@ packages:
         - bech32 ^>= 1.1.9
         - bech32-th ^>= 1.1.9
         - cardano-coin-selection ^>= 1.0.1
-        - monoidmap ^>= 0.0.4.4
+        - monoidmap >= 0.0.4.4 && <0.0.5 # 0.0.5 requires monoidmap-internal-0.1.*
         - monoidmap-aeson ^>= 0.0.0.6
         - monoidmap-examples ^>= 0.0.0.1
         - monoidmap-internal ^>= 0.0.0.1

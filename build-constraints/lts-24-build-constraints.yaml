@@ -1687,8 +1687,8 @@ packages:
         - stm-containers ^>= 1.2.1.1
         - stm-hamt ^>= 1.2.1.1
         - template-haskell-compat-v0208 ^>= 0.1.9.5
-        - text-builder ^>= 1.0.0.4
-        - text-builder-core ^>= 0.1.1.1
+        - text-builder ^>= 1.0.0.4 && < 1.0.0.5
+        - text-builder-core ^>= 0.1.1.1 && < 0.1.1.2
         - text-builder-dev ^>= 0.4
         - th-lego ^>= 0.3.0.3
         - vector-builder ^>= 0.3.8.6

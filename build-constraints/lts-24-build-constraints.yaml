@@ -6963,6 +6963,7 @@ expected-test-failures:
     # these if we want them fixed: missing executable, etc
     - ListLike # listlike-tests:  executable not found
     - domain-optics # `demo`: executable not found
+    - fast-logger # 3.2.6 spec:  executable not found
     - genvalidity-text # Suddenly not able to find the executable
     - ghci-hexcalc # https://github.com/takenobu-hs/ghci-hexcalc/issues/2
     - isocline # segfault https://github.com/daanx/isocline/issues/1

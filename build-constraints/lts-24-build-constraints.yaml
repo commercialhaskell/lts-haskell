@@ -4058,7 +4058,7 @@ packages:
         - hslua-core ^>= 2.3.2
         - hslua-list ^>= 1.1.4
         - hslua-marshalling ^>= 2.3.1
-        - hslua-module-doclayout ^>= 1.2.0.1
+        - hslua-module-doclayout ^>= 1.2.0.1 && < 1.2.1
         - hslua-module-path ^>= 1.1.1
         - hslua-module-system ^>= 1.1.3
         - hslua-module-text ^>= 1.1.1

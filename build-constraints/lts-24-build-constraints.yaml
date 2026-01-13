@@ -1173,7 +1173,7 @@ packages:
         - kan-extensions ^>= 5.2.7
         - keys ^>= 3.12.4
         - lca ^>= 0.4
-        - lens ^>= 5.3.5 && < 5.3.6 # https://github.com/commercialhaskell/lts-haskell/issues/406
+        - lens ^>= 5.3.5
         - lens-action ^>= 0.2.6
         - lens-aeson ^>= 1.2.3
         - lens-properties ^>= 4.11.1

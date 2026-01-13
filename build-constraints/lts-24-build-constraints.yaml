@@ -3823,7 +3823,7 @@ packages:
         - mealy ^>= 0.5.0.1 && (< 0.5.1.0 || > 0.5.1.0) # https://github.com/tonyday567/mealy/issues/10
         - numhask ^>= 0.13.0.0
         - numhask-space ^>= 0.13.0.1
-        - perf ^>= 0.14.0.3
+        - perf ^>= 0.14.0.3 && < 0.14.2 # https://github.com/tonyday567/mealy/issues/10
         - prettychart ^>= 0.3.0.2
         - web-rep ^>= 0.14.0.0
 

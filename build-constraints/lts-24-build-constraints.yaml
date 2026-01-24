@@ -3062,7 +3062,7 @@ packages:
         - flac ^>= 0.2.1
         - flac-picture ^>= 0.1.3
         - forma ^>= 1.2.0
-        - ghc-syntax-highlighter ^>= 0.0.13.0
+        - ghc-syntax-highlighter == 0.0.13.0
         - hspec-megaparsec ^>= 2.2.1
         - htaglib ^>= 1.2.1
         - html-entity-map ^>= 0.1.0.0

@@ -976,7 +976,7 @@ packages:
 
     "Neil Mitchell <ndmitchell@gmail.com> @ndmitchell":
         - hlint ^>= 3.10
-        - hoogle ^>= 5.0.18.4
+        - hoogle == 5.0.18.4
         - shake ^>= 0.19.8
         - tagsoup ^>= 0.14.8
         - cmdargs ^>= 0.10.22

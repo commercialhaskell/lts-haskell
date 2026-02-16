@@ -10,6 +10,18 @@ cabal-format-version: "3.0"
 
 # Constraints for brand new builds
 packages:
+    "Krupenkin Alexandr <mail@akru.me> @akru":
+        - web3 ^>= 1.1.0.0
+        - web3-solidity ^>= 1.1.0.0
+        - web3-provider ^>= 1.1.0.0
+        - web3-polkadot ^>= 1.1.0.0
+        - web3-ethereum ^>= 1.1.0.0
+        - web3-crypto ^>= 1.1.0.0
+        - web3-bignum ^>= 1.1.0.0
+        - memory-hexstring ^>= 1.1.0.0
+        - jsonrpc-tinyclient ^>= 1.1.0.0
+        - scale ^>= 1.1.0.0 
+    
     "Daniel Brice <danielbrice@gmail.com> @friedbrice":
         - generic-lexicographic-order ^>= 0.1.0.1
         - text-convert ^>= 0.1.0.1

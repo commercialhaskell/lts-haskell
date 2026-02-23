@@ -1830,7 +1830,7 @@ packages:
         - bodhi ^>= 0.1.0
         - bugzilla-redhat ^>= 1.0.1.1
         - cabal-file ^>= 0.1.1
-        - cabal-rpm ^>= 2.3.0
+        - cabal-rpm ^>= 2.3.0 && < 2.3.2
         - cached-json-file ^>= 0.1.1
         - copr-api ^>= 0.2.0
         - dl-fedora ^>= 2.0.1

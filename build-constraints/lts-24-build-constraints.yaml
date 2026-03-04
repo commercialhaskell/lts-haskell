@@ -7413,6 +7413,7 @@ hide:
 #
 # This only supports pinning to the initial release (revision 0), not to an arbitrary revision.
 no-revisions:
+- cassava
 - mime-mail
 - basement
 - cryptonite

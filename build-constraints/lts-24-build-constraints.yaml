@@ -2980,7 +2980,7 @@ packages:
         - tasty-focus ^>= 1.0.1
 
     "Spencer Janssen <spencerjanssen@gmail.com> @spencerjanssen":
-        - smtp-mail ^>= 0.5.0.0
+        - smtp-mail == 0.5.0.0
         - Xauth ^>= 0.1
 
     "Sebastian de Bellefon <arnaudpourseb@gmail.com> @Helkafen":

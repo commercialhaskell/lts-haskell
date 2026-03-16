@@ -3179,7 +3179,7 @@ packages:
 
     "Will Sewell <me@willsewell.com> @willsewell":
         - benchpress ^>= 0.2.2.25
-        - pusher-http-haskell ^>= 2.1.0.20
+        - pusher-http-haskell ^>= 2.1.0.20 && <2.1.0.22
 
     "Yorick Laupa yo.eight@gmail.com @YoEight":
         - dotnet-timespan ^>= 0.0.1.0

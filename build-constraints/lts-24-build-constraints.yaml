@@ -163,7 +163,7 @@ packages:
         - http-io-streams ^>= 0.1.7.0
         - github ^>= 0.30
         - microaeson ^>= 0.1.0.2
-        - cassava ^>= 0.5.4.0 && <0.5.5.0 # deprecated
+        - cassava ^>= 0.5.4.0
         - ini ^>= 0.4.2
         - cryptohash-md5 ^>= 0.11.101.0
         - cryptohash-sha1 ^>= 0.11.101.0
@@ -7413,6 +7413,7 @@ hide:
 #
 # This only supports pinning to the initial release (revision 0), not to an arbitrary revision.
 no-revisions:
+- cassava
 - mime-mail
 - basement
 - cryptonite

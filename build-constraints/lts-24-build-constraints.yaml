@@ -1219,7 +1219,7 @@ packages:
         - vector-instances ^>= 3.4.3
         - void ^>= 0.7.3
         - wl-pprint-extras < 0
-        - wreq ^>= 0.5.4.3
+        - wreq ^>= 0.5.4.3 && < 0.5.4.5
         - wl-pprint-terminfo < 0
         - zippers ^>= 0.3.2
         - zlib-lens < 0

@@ -4366,7 +4366,7 @@ packages:
         - opt-env-conf ^>= 0.9.0.0
         - pretty-relative-time ^>= 0.3.0.0
         - safe-coloured-text ^>= 0.3.0.2
-        - safe-coloured-text-gen ^>= 0.0.0.3
+        - safe-coloured-text-gen ^>= 0.0.0.3 && < 0.0.0.4
         - safe-coloured-text-layout ^>= 0.2.0.1
         - safe-coloured-text-layout-gen ^>= 0.0.0.1
         - safe-coloured-text-terminfo ^>= 0.3.0.0

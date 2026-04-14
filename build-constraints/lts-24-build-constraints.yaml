@@ -1668,7 +1668,7 @@ packages:
         - cases ^>= 0.1.4.4
         - cereal-unordered-containers ^>= 0.1.0.1
         - deferred-folds ^>= 0.9.18.7
-        - deque ^>= 0.4.4.2
+        - deque ^>= 0.4.4.2 && < 0.4.4.3
         - domain ^>= 0.1.1.5
         - domain-aeson ^>= 0.1.1.2
         - domain-cereal ^>= 0.1.0.1
@@ -5758,7 +5758,7 @@ packages:
         - process-extras ^>= 0.7.4
         - project-template ^>= 0.2.1.0
         - protobuf ^>= 0.2.1.3 && (<0.2.1.4 || >0.2.1.4) # deprecated version
-        - ptr ^>= 0.16.8.7
+        - ptr ^>= 0.16.8.7 && < 0.16.8.8
         - pureMD5 ^>= 2.1.4
         - puresat ^>= 0.1
         - quickcheck-instances ^>= 0.3.33

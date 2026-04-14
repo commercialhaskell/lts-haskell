@@ -7014,6 +7014,7 @@ expected-test-failures:
     - makefile # Doctests require hidden Glob package
     - model
     - multiset # Doctests require hidden Glob package
+    - range # https://github.com/robertmassaioli/range/issues/1
     - servant-openapi3
     - xml-indexed-cursor
     - yesod-paginator

@@ -5286,7 +5286,7 @@ packages:
         - consumers ^>= 2.3.3.1 && < 2.3.4.0
         - crdt-event-fold ^>= 1.8.1.2
         - data-prometheus ^>= 0.1.0.0
-        - dataframe ^>= 0.2.0.2 && < 0 # https://github.com/mchav/dataframe/issues/61
+        - dataframe ^>= 0.3 && < 0.3.5 # https://github.com/mchav/dataframe/issues/61
         - delta-types ^>= 1.0.0.0
         - diagrams-braille ^>= 0.1.2
         - digraph ^>= 0.3.2
@@ -5594,6 +5594,7 @@ packages:
         - gitlib < 0 # 3.1.3 https://github.com/jwiegley/gitlib/issues/112
         - gitlib-libgit2 < 0
         - gitlib-test < 0
+        - granite ^>= 0.3
         - groom ^>= 0.1.2.1
         - groups ^>= 0.5.3
         - gtk ^>= 0.15.10
@@ -5813,6 +5814,7 @@ packages:
         - smtlib-backends-tests
         - snap-core ^>= 1.0.5.1
         - snappy ^>= 0.2.0.4
+        - snappy-hs ^>= 0.1 && <0.1.1
         - some ^>= 1.0.6
         - spdx ^>= 1.1
         - special-values ^>= 0.1.0.0

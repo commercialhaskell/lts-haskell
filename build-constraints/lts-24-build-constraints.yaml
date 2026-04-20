@@ -3862,13 +3862,13 @@ packages:
         - bech32-th ^>= 1.1.9
         - cardano-coin-selection ^>= 1.0.1
         - monoidmap >= 0.0.4.4 && <0.0.5 # 0.0.5 requires monoidmap-internal-0.1.*
-        - monoidmap-aeson ^>= 0.0.0.6
+        - monoidmap-aeson ^>= 0.0.0.6 && < 0.0.0.7
         - monoidmap-examples ^>= 0.0.0.1
         - monoidmap-internal ^>= 0.0.0.1
         - monoidmap-quickcheck ^>= 0.0.0.3
-        - quickcheck-groups ^>= 0.0.1.5
-        - quickcheck-monoid-subclasses ^>= 0.3.0.6
-        - quickcheck-quid ^>= 0.0.1.8
+        - quickcheck-groups ^>= 0.0.1.5 && < 0.0.1.6
+        - quickcheck-monoid-subclasses ^>= 0.3.0.6 && < 0.3.0.7
+        - quickcheck-quid ^>= 0.0.1.8 && < 0.0.1.9
         - quiet ^>= 0.2
         - roc-id ^>= 0.2.0.5
 

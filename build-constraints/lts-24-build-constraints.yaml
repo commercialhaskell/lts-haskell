@@ -3696,7 +3696,7 @@ packages:
         - snap-server ^>= 1.1.2.1
         - cabal-add ^>= 0.2
         - cabal-install-parsers ^>= 0.6.2 && <0.6.3
-        - alfred-margaret ^>= 2.1.0.2
+        - alfred-margaret == 2.1.0.2
         - hackage-revdeps ^>= 0.1 && <0.1.1 # missing cabal-install
 
     "Ashley Yakeley <ashley@semantic.org> @AshleyYakeley":

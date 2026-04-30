@@ -1781,7 +1781,7 @@ packages:
         - servant-multipart-api ^>= 0.12.1
         - servant-pipes ^>= 0.16.1
         - servant-server ^>= 0.20.3.0
-        - servant-swagger == 1.2.2
+        - servant-swagger == 1.2.1
         - servant-swagger-ui ^>= 0.3.5.5.0.1
         - servant-swagger-ui-core ^>= 0.3.5
 

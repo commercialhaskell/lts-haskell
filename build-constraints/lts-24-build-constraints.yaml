@@ -3082,8 +3082,8 @@ packages:
         - html-entity-map ^>= 0.1.0.0
         - identicon ^>= 0.2.3
         - lame ^>= 0.2.2
-        - megaparsec ^>= 9.7.0
-        - megaparsec-tests ^>= 9.7.0
+        - megaparsec ^>= 9.7.0 && < 9.7.1
+        - megaparsec-tests ^>= 9.7.0 && < 9.7.1
         - mmark ^>= 0.0.8.0
         - mmark-cli ^>= 0.0.5.2
         - mmark-ext ^>= 0.2.1.5

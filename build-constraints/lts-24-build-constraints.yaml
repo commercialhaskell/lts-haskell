@@ -2476,7 +2476,7 @@ packages:
         - linux-namespaces ^>= 0.2.0.1
 
     "Will Coster <willcoster@gmail.com> @fimad":
-        - prometheus-client ^>= 1.1.1
+        - prometheus-client ^>= 1.1.1 && <1.1.2
         - prometheus-metrics-ghc ^>= 1.0.1.2
         - scalpel ^>= 0.6.2.2
         - scalpel-core ^>= 0.6.2.2

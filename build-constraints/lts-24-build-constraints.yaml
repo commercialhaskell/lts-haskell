@@ -1514,7 +1514,7 @@ packages:
         - monad-chronicle ^>= 1.1
 
     "Joey Hess <id@joeyh.name> @joeyh":
-        - git-annex ^>= 10.20250416 && <10.20250520 # https://github.com/commercialhaskell/stackage/issues/7760
+        - git-annex ^>= 10.20260115
         - concurrent-output ^>= 1.10.21
         - mountpoints ^>= 1.0.2
         - disk-free-space ^>= 0.1.0.1

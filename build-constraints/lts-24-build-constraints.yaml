@@ -3031,7 +3031,7 @@ packages:
 
     "Peter Simons <simons@cryp.to> @peti":
         - cabal2spec ^>= 2.7.1
-        - cgi ^>= 3001.5.1.0
+        - cgi == 3001.5.1.0
         - distribution-nixpkgs ^>= 1.7.1.1
         - distribution-opensuse ^>= 1.1.4
         - flexible-defaults ^>= 0.0.3

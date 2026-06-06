@@ -4559,7 +4559,7 @@ packages:
         - mixpanel-client < 0 # 0.3.0 aeson 2, https://github.com/commercialhaskell/stackage/issues/6443
         - pretty-sop ^>= 0.2.0.3
         - servant-auth ^>= 0.4.2.0
-        - servant-auth-server ^>= 0.4.9.1
+        - servant-auth-server == 0.4.9.2
         - servant-auth-client ^>= 0.4.2.0
         - servant-auth-swagger ^>= 0.2.11.0
         - servant-auth-docs ^>= 0.2.11.0

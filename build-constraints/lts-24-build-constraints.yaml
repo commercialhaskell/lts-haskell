@@ -2701,7 +2701,7 @@ packages:
 
     "Michel Boucey <michel.boucey@gmail.com> @MichelBoucey":
         - IPv6Addr ^>= 2.0.6.1
-        - ip6addr ^>= 2.0.0.1
+        - ip6addr == 2.0.0.1
         - cayley-client ^>= 0.4.19.4
         - Spintax ^>= 0.3.7.0
         - glabrous ^>= 2.0.6.4

@@ -5141,7 +5141,7 @@ packages:
         - keyed-vals ^>= 0.2.3.2
         - keyed-vals-hspec-tests ^>= 0.2.3.2
         - keyed-vals-mem ^>= 0.2.3.2
-        - keyed-vals-redis ^>= 0.2.3.2 && < 0.2.5
+        - keyed-vals-redis ^>= 0.2.3.2 && < 0.2.3.6
         - mem-info ^>= 0.4.1.1
         - redis-glob ^>= 0.1.0.11
         - test-certs ^>= 0.1.1.1

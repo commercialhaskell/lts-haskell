@@ -5793,6 +5793,7 @@ packages:
         - readable ^>= 0.3.1
         - readline < 0 # 1.0.3.0 setup fail
         - recv ^>= 0.1.1
+        - reflex-vty ^>= 1.0
         - regex-applicative-text < 0
         - regex-tdfa-text < 0
         - relapse ^>= 1.0.0.1

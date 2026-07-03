@@ -6601,6 +6601,7 @@ skipped-tests:
     - servant-auth-server # spec: executable not found
     - streamt # executable not found
     - sandwich-contexts # assumes nix is present
+    - store # compile failure for 0.7.22
 
 # end of skipped-tests
 

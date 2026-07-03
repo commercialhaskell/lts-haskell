@@ -3698,7 +3698,7 @@ packages:
         - tasty-rerun ^>= 1.1.20
         - integer-roots ^>= 1.0.2.0
         - smallcheck ^>= 1.2.1.1
-        - quote-quot ^>= 0.2.1.0
+        - quote-quot == 0.2.1.0
         - tasty-bench ^>= 0.4.1
         - tasty-inspection-testing ^>= 0.2.1
         - text-rope ^>= 0.3

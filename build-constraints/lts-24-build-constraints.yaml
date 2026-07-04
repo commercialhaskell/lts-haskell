@@ -969,7 +969,7 @@ packages:
         - githash ^>= 0.1.7.0
 
         - time-manager ^>= 0.2.3
-        - http-download ^>= 0.2.1.0
+        - http-download < 0.2.2
         - hi-file-parser ^>= 0.1.7.0
         - rio-prettyprint ^>= 0.1.8.0
         - packdeps < 0
@@ -3710,7 +3710,7 @@ packages:
         - alex-tools ^>= 0.6.1
         - language-lua ^>= 0.11.0.2
         - snap-server ^>= 1.1.2.1
-        - cabal-add ^>= 0.2
+        - cabal-add < 0.2.1
         - cabal-install-parsers ^>= 0.6.2 && <0.6.3
         - alfred-margaret == 2.1.0.2
         - hackage-revdeps ^>= 0.1 && <0.1.1 # missing cabal-install

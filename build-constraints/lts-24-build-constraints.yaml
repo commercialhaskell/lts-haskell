@@ -5228,7 +5228,7 @@ packages:
     "Teo Camarasu <teofilcamarasu@gmail.com> @TeofilC":
         - bank-holidays-england ^>= 0.2.0.11
         - statistics-linreg ^>= 0.3
-        - trie-simple ^>= 0.4.4
+        - trie-simple ^>= 0.4.4 && < 0.4.5
         - PSQueue ^>= 1.2.1
         - matchable ^>= 0.2
         - wherefrom-compat ^>= 0.1.1.1 && <0.2.0.0 # https://github.com/commercialhaskell/stackage/issues/7430

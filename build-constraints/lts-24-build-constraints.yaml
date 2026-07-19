@@ -1518,6 +1518,7 @@ packages:
         - concurrent-output ^>= 1.10.21
         - mountpoints ^>= 1.0.2
         - disk-free-space ^>= 0.1.0.1
+        - shell-monad ^>= 0.6.10
 
     "Colin Woodbury <colin@fosskers.ca> @fosskers":
         - aur < 0

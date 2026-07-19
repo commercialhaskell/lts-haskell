@@ -4923,7 +4923,7 @@ packages:
         - sized ^>= 1.1.0.2
 
     "Frank Doepper <stackage@woffs.de> @woffs":
-        - amqp-utils ^>= 0.6.6.0
+        - amqp-utils ^>= 0.6.6.0 && < 0.6.9
         - magic ^>= 1.1
 
     "Ziyang Liu <free@cofree.io> @zliu41":

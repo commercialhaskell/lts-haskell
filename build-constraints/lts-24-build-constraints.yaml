@@ -1837,7 +1837,7 @@ packages:
         - cached-json-file ^>= 0.1.1
         - copr-api ^>= 0.2.0
         - dl-fedora ^>= 2.0.1
-        - fbrnch ^>= 1.7.1 && >1.5
+        - fbrnch ^>= 1.7.1 && < 0 # fails with simple-cmd-0.2.8
         - fedora-haskell-tools < 0 # 1.1 not yet updated to fedora-releases
         - fedora-krb ^>= 0.1.0
         - fedora-releases ^>= 0.3.0

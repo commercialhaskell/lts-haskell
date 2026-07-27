@@ -4384,7 +4384,7 @@ packages:
         - pretty-relative-time ^>= 0.3.0.0
         - safe-coloured-text ^>= 0.3.0.2
         - safe-coloured-text-gen ^>= 0.0.0.3 && < 0.0.0.4
-        - safe-coloured-text-layout ^>= 0.2.0.1
+        - safe-coloured-text-layout ^>= 0.2.0.1 && < 0.2.0.2
         - safe-coloured-text-layout-gen ^>= 0.0.0.1
         - safe-coloured-text-terminfo ^>= 0.3.0.0
         - sydtest ^>= 0.20.0.0
@@ -4998,7 +4998,7 @@ packages:
         - zenacy-unicode ^>= 1.0.3
 
     "Maxim Koltsov <kolmax94@gmail.com> @maksbotan":
-        - openapi3 ^>= 3.2.4
+        - openapi3 ^>= 3.2.4 && < 3.2.5
         - servant-openapi3 ^>= 2.0.1.6
 
     "Song Zhang <HaskellZhangSong@hotmail.com> @HaskellZhangSong":

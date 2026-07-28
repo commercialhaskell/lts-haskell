@@ -4998,7 +4998,7 @@ packages:
         - zenacy-unicode ^>= 1.0.3
 
     "Maxim Koltsov <kolmax94@gmail.com> @maksbotan":
-        - openapi3 ^>= 3.2.4 && < 3.2.5
+        - openapi3 ^>= 3.2.4 && < 3.2.5 # https://github.com/commercialhaskell/lts-haskell/issues/414
         - servant-openapi3 ^>= 2.0.1.6
 
     "Song Zhang <HaskellZhangSong@hotmail.com> @HaskellZhangSong":

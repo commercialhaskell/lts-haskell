@@ -5469,7 +5469,6 @@ packages:
         - attoparsec-aeson ^>= 2.2.2.0
         - auto-update ^>= 0.2.6
         - aws ^>= 0.24.4
-        - aws-lambda-haskell-runtime-wai ^>= 2.0.2
         - base-noprelude < 0
         - base64-bytestring ^>= 1.2.1.0
         - base64-bytestring-type ^>= 1.0.1

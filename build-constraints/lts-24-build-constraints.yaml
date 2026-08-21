@@ -6717,6 +6717,7 @@ expected-test-failures:
     - crypto-numbers
     - cryptocompare # live api request can time out
     - css-text # https://github.com/yesodweb/css-text/issues/10
+    - distributed-process
     - distributed-process-execution # https://github.com/haskell-distributed/distributed-process-execution/issues/2
     - distributed-process-task
     - dl-fedora # status 404 on http download

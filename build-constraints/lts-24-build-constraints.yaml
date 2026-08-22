@@ -1260,7 +1260,7 @@ packages:
         - diagrams-builder ^>= 0.8.0.6
         - diagrams-cairo ^>= 1.5
         - diagrams-canvas ^>= 1.4.2
-        - diagrams-contrib ^>= 1.4.6
+        - diagrams-contrib == 1.4.6
         - diagrams-core ^>= 1.5.1.1
         - diagrams-gtk ^>= 1.4
         - diagrams-html5 < 0

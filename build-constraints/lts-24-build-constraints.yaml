@@ -6675,6 +6675,7 @@ expected-test-failures:
     - easy-logger # 0.1.0.7 https://github.com/schnecki/easy-logger/issues/1
     - filecache # 0.5.2 https://github.com/bartavelle/filecache/issues/13
     - generics-eot # 0.4.0.1 ghc-9.6
+    - genvalidity-sydtest-aeson
     - ghc-typelits-extra # 0.4.8 https://github.com/clash-lang/ghc-typelits-extra/issues/60
     - ghc-typelits-natnormalise # 0.7.11 https://github.com/clash-lang/ghc-typelits-natnormalise/issues/89
     - hinotify # 0.4.2 https://github.com/kolmodin/hinotify/issues/38

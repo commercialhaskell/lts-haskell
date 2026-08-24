@@ -3984,7 +3984,7 @@ packages:
         - influxdb ^>= 1.9.3.2
 
     "Dylan Simon <dylan-stack@dylex.net> @dylex":
-        - postgresql-typed ^>= 0.6.2.5
+        - postgresql-typed ^>= 0.6.2.5 && < 0.6.2.7
         - invertible ^>= 0.2.0.8
         - ztail < 0
         - zip-stream ^>= 0.2.2.0

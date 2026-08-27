@@ -714,7 +714,7 @@ packages:
         - resistor-cube < 0
         - linear-circuit < 0
         # Not a maintainer
-        - cabal-plan ^>= 0.7.6.0
+        - cabal-plan == 0.7.6.1
         - topograph ^>= 1.0.1
         - ix-shapable ^>= 0.1.0
         - hyper < 0

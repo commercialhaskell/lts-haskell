@@ -3356,7 +3356,7 @@ packages:
         - pandoc-cli ^>= 3.7.0.2
         - pandoc-server < 0.1.1
         - citeproc ^>= 0.9.0.1
-        - commonmark ^>= 0.2.6.1
+        - commonmark == 0.2.6.1
         - commonmark-extensions ^>= 0.2.6
         - commonmark-pandoc ^>= 0.2.3
         - unicode-collation ^>= 0.1.3.6

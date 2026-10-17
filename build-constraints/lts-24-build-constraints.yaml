@@ -3883,7 +3883,7 @@ packages:
         - monoidmap-aeson ^>= 0.0.0.6 && < 0.0.0.7
         - monoidmap-examples ^>= 0.0.0.1
         - monoidmap-internal ^>= 0.0.0.1
-        - monoidmap-quickcheck ^>= 0.0.0.3
+        - monoidmap-quickcheck == 0.0.0.6
         - quickcheck-groups ^>= 0.0.1.5 && < 0.0.1.6
         - quickcheck-monoid-subclasses ^>= 0.3.0.6 && < 0.3.0.7
         - quickcheck-quid ^>= 0.0.1.8 && < 0.0.1.9

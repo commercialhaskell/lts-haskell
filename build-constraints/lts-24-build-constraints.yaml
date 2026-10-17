@@ -6188,6 +6188,9 @@ package-flags:
         simplelocalnet: true
         p2p: true
 
+    distributed-process-tests:
+        quic: false
+
     curl:
         new-base: true
 

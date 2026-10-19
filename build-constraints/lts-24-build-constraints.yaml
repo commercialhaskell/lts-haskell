@@ -6338,6 +6338,7 @@ skipped-tests:
     - hie-bios # hangs
     - hpc-codecov # timeouts? https://github.com/commercialhaskell/stackage/issues/5976
     - ihaskell # Never finishes https://github.com/IHaskell/IHaskell/issues/1413
+    - isocline # Interactive REPL example; blocks waiting on stdin
     - jsaddle # Never finishes without framebuffer https://github.com/ghcjs/jsaddle/issues/9
     - json-rpc  # flaky
     - network-attoparsec
@@ -7015,7 +7016,6 @@ expected-test-failures:
     - fast-logger # 3.2.6 spec:  executable not found
     - genvalidity-text # Suddenly not able to find the executable
     - ghci-hexcalc # https://github.com/takenobu-hs/ghci-hexcalc/issues/2
-    - isocline # segfault https://github.com/daanx/isocline/issues/1
     - rounded # segfault
     - safe-coloured-text-layout # Golden output not found
     - shake-language-c # Cannot reproduce locally, looks like it may be a bug in Stack or curator

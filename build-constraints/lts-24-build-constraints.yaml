@@ -6683,6 +6683,7 @@ expected-test-failures:
     - genvalidity-sydtest-aeson
     - ghc-typelits-extra # 0.4.8 https://github.com/clash-lang/ghc-typelits-extra/issues/60
     - ghc-typelits-natnormalise # 0.7.11 https://github.com/clash-lang/ghc-typelits-natnormalise/issues/89
+    - grisette # https://github.com/lsrcz/grisette/issues/310
     - hinotify # 0.4.2 https://github.com/kolmodin/hinotify/issues/38
     - hsexif # 0.6.1.10 Missing test file
     - katip # 0.8.8.2 https://github.com/Soostone/katip/issues/155

@@ -237,7 +237,7 @@ packages:
     "Jappie Klooster <hi@jappie.me> @jappeace":
         - yesod-middleware-csp < 0
         - persistent-lens ^>= 1.0.0
-        - mail-pool ^>= 2.3.1
+        - mail-pool < 0
         - keter ^>= 2.1.9
         - zxcvbn-hs < 0
 
@@ -1824,8 +1824,8 @@ packages:
         - snowflake ^>= 0.1.1.1
 
     "Leza M. Lutonda <lemol-c@hotmail.com> @lemol":
-        - HaskellNet ^>= 0.6.2
-        - HaskellNet-SSL ^>= 0.4.0.2
+        - HaskellNet < 0
+        - HaskellNet-SSL < 0
 
     "Tristan de Cacqueray <tdecacqu@redhat.com> @tristanC":
         - linux-capabilities ^>= 0.1.1.0
